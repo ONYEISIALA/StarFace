@@ -1,0 +1,15 @@
+Assistant checkpoint: Added waiting room with quit button for multiplayer games
+
+Assistant generated file changes:
+- StarFace-1/WaitingRoom.tsx: Create waiting room component for multiplayer games
+- StarFace-1/StarPlay.tsx: Add waiting room functionality and fix game flow, Add waiting room state and game started state, Update game selection to go to waiting room, Add quit game and game start handlers, Update render logic to include waiting room, Add waiting room and game started conditions, Add quit button to game interface, Add new styles for game actions
+- StarFace-1/WaitingRoom.css: Add CSS animations for waiting room
+
+---
+
+User prompt:
+
+make a waiting room after choosing a game and and put a quit game button and there is an error shown in the image
+
+Replit-Commit-Author: Assistant
+Replit-Commit-Session-Id: 9bdaffeb-79fa-4e62-9800-17edb50b4971

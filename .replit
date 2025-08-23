@@ -1,0 +1,24 @@
+modules = ["nodejs-20", "web", "bash"]
+
+[deployment]
+run = "cd StarFace-1 && npm install && npx vite --host 0.0.0.0 --port $PORT"
+deploymentTarget = "cloudrun"
+
+[workflows]
+runButton = "Start React App"
+
+[[workflows.workflow]]
+name = "Start React App"
+author = 23842524
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd StarFace-1 && npm install && npx vite --host 0.0.0.0 --port 5173"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
+
+[nix]
+channel = "stable-25_05"
