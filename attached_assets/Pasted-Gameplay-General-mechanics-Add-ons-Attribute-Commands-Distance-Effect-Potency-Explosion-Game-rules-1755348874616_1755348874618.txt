@@ -1,0 +1,33 @@
+Gameplay
+General mechanics	Add-ons Attribute Commands  Distance Effect Potency Explosion Game rules Interaction range Inventory Creative inventory Saved Hotbars Generated loot Hitbox Multiplayer  Server Server list Realms Splitscreen Oxidation Rarity Legacy Redstone circuits Conductivity Renewability Renewable Non-renewable  Rotation Snowlogging South-east rule Spawn protection Tiers Waterlogging
+Technical mechanics	Anvil mechanics Legacy Enchanting mechanics Redstone mechanics Village mechanics Legacy
+Survival	Achievements Advancements Archaeology Armor materials Bartering Breaking Instant mining Breeding Brewing Cooking Crafting 2×2 grid Recipe book Dual wield ❤️ Difficulty Durability Enchanting Experience Farming Fishing Health Healing Hunger Item repair Mob spawning Ominous Event Ominous Trial Raid Patrol Raid captain Smelting Smithing World Spawn Taming Trading Workstations Zombie siege
+Combat	Melee attack Ranged attack Blocking Damage Attack cooldown Critical hit Knockback Sprint-knockback Drops Monster infighting Geared mobs
+Environment	Biomes Daylight cycle Dimensions Seeds Structures Weather World generation
+More
+
+Movement	Crawling Flying Gliding Jumping Lying Riding Sitting Sneaking Sprinting Swimming Walking
+User interface	Action bar Bossbar Chat Death messages Game mode switcher 🛡 Heads-up display Narrator  Locator Bar Scoreboard Toasts Tutorial hints Tooltip
+Visuals	Color Block colors Item colors Effect colors Miscellaneous colors Emotes Enchantment glint Error Light Resource pack Screen effects Skins Character Skin pack Third-person view Vibrant Visuals
+Removed	Sword blocking Materials
+Unintended	Update Suppression Duplication
+[]
+v t e
+Enchantments
+Durability	Mending Unbreaking
+Block breaking	Efficiency Fortune Silk Touch
+Armor	Blast Protection Fire Protection Projectile Protection Protection Thorns
+Helmet	Aqua Affinity Respiration
+Leggings	Swift Sneak
+Boots	Depth Strider Feather Falling Frost Walker Soul Speed
+Melee weapons	Bane of Arthropods Smite
+Sword	Fire Aspect Knockback Looting Sharpness Sweeping Edge‌[JE only]
+Axe	Cleaving​[upcoming JE Combat Tests] Sharpness
+Mace	Breach Density Fire Aspect Wind Burst
+Trident	Channeling Impaling Loyalty Riptide
+Bow	Flame Infinity Power Punch
+Crossbow	Multishot Piercing Quick Charge
+Fishing Rod	Luck of the Sea Lure
+Curse	Curse of Binding Curse of Vanishing
+Joke	Potatofication
+Categories: GameplayEnchantments

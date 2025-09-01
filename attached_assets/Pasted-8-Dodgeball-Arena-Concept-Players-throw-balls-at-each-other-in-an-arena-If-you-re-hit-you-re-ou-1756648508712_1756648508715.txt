@@ -1,0 +1,155 @@
+8. Dodgeball Arena
+
+Concept: Players throw balls at each other in an arena. If you’re hit, you’re out.
+
+Goal: Be the last player standing or the team with survivors.
+
+Core Mechanics:
+
+Pick up and throw balls.
+
+Dodge, jump, or hide behind objects.
+
+Power-ups: “triple throw,” “shield,” or “slow-motion dodge.”
+
+9. Zombie Survival
+
+Concept: Some players start as humans, others as zombies. Eliminated humans turn into zombies.
+
+Goal: Humans survive until the timer ends, zombies infect everyone.
+
+Core Mechanics:
+
+Timer counts down.
+
+Zombies get faster with time.
+
+Last human standing = winner.
+
+10. King of the Hill
+
+Concept: A small area (hill) must be controlled.
+
+Goal: Stay on the hill the longest.
+
+Core Mechanics:
+
+Timer counts how long each player stays on the hill.
+
+Push or knock others off.
+
+First to reach X seconds wins.
+
+11. Freeze Tag
+
+Concept: One player is “it” and must tag others. Tagged players are frozen.
+
+Goal:
+
+If “it” freezes everyone, they win.
+
+If time runs out with unfrozen players, others win.
+
+Core Mechanics:
+
+Players can “unfreeze” each other.
+
+Multiple “it” roles for faster rounds.
+
+12. Bomb Pass / Hot Potato
+
+Concept: A bomb is passed around players. When timer hits 0, the holder is eliminated.
+
+Goal: Don’t be holding the bomb when it explodes.
+
+Core Mechanics:
+
+Tap to pass bomb to nearby player.
+
+Timer speeds up over time.
+
+Last player alive wins.
+
+13. Obstacle Course (Wipeout Style)
+
+Concept: Players race through a funny, exaggerated obstacle course.
+
+Goal: First to finish.
+
+Core Mechanics:
+
+Moving platforms, swinging hammers, slime pits.
+
+Respawn at checkpoints.
+
+Great for chaotic fun.
+
+14. Hide and Seek
+
+Concept: One or two players are seekers, others are hiders.
+
+Goal: Hiders survive without being found before timer ends.
+
+Core Mechanics:
+
+Hiders can disguise as objects.
+
+Seekers get hints as time runs out.
+
+Multiplayer chat makes it more fun.
+
+15. Battle Arena (Mini Brawls)
+
+Concept: All players spawn in a small arena with simple weapons.
+
+Goal: Knock out as many players as possible.
+
+Core Mechanics:
+
+Simple attacks: punch, kick, push.
+
+Items appear randomly (hammer, shield).
+
+Scoreboard counts KOs.
+
+16. Escape Room Challenge
+
+Concept: Teams solve puzzles to escape a locked room.
+
+Goal: First team to solve all puzzles and escape wins.
+
+Core Mechanics:
+
+Memory codes, matching symbols, hidden keys.
+
+Each round has a time limit.
+
+Works well for small 2–5 player groups.
+
+17. Musical Chairs (Digital Version)
+
+Concept: Virtual chairs are fewer than players. When music stops, players scramble for a seat.
+
+Goal: Don’t be left standing.
+
+Core Mechanics:
+
+Chairs reduce every round.
+
+Eliminations until 1 winner remains.
+
+Can use fun sound effects for engagement.
+
+18. Trivia Battle
+
+Concept: Players answer quick-fire questions. Wrong answers eliminate you.
+
+Goal: Last player or team standing wins.
+
+Core Mechanics:
+
+Multiple choice or true/false.
+
+Difficulty increases every round.
+
+Power-ups: skip question, freeze others.

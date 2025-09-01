@@ -1,0 +1,211 @@
+51. Trap Room
+
+Players enter a room full of traps (spikes, arrows, falling floors).
+
+Goal: Survive longest or reach the safe door.
+
+52. Shark Waters
+
+Players on rafts in the ocean.
+
+Sharks attack at random.
+
+Collect wood to rebuild raft. Last survivor wins.
+
+53. Mirror Run
+
+Players run through a mirrored world.
+
+Sometimes controls flip (left = right).
+
+Winner = first to finish.
+
+54. Rocket Dodge
+
+Missiles rain down.
+
+Players must dodge explosions.
+
+Last one alive wins.
+
+55. Rope Swing Race
+
+Players swing from ropes to cross gaps.
+
+If you fall, respawn behind.
+
+First to finish wins.
+
+56. Sandstorm Survival
+
+Arena fills with moving sandstorms that reduce visibility.
+
+Hide, dodge, or push others out.
+
+Last survivor wins.
+
+57. Magnet Madness
+
+Map has giant magnets pulling and pushing players.
+
+Avoid being dragged into traps.
+
+Winner = last standing.
+
+58. Emoji Quiz
+
+Guess the word/sentence from emoji hints.
+
+Multiplayer = fastest correct wins.
+
+59. Rocket Soccer
+
+Like football, but with rocket-powered cars/avatars.
+
+Score goals before timer ends.
+
+60. Spider Web Escape
+
+Players stuck in a giant web.
+
+Must untangle (mini puzzles) before spider arrives.
+
+61. Minefield
+
+Map covered in hidden mines.
+
+Step wrong = explosion.
+
+Goal: Find safe path.
+
+62. Wind Blaster
+
+Arena with giant fans blowing players around.
+
+Avoid falling off.
+
+63. Banana Slip Race
+
+Slippery race track full of bananas and soap.
+
+Winner = first across finish line.
+
+64. Meteor Shower
+
+Meteors randomly fall on the map.
+
+Survive longest.
+
+Can push others into impact zones.
+
+65. Camouflage
+
+Players hide among AI clones.
+
+Hunter must find the real players before timer ends.
+
+66. Boomerang Battle
+
+Each player has a boomerang.
+
+Throw and catch to hit enemies.
+
+Risk: boomerang can hit YOU if mistimed.
+
+67. Rope Tug Climb
+
+Players climb a rope mountain.
+
+Can pull others down.
+
+First to the top wins.
+
+68. Fake Platform
+
+Platforms disappear when stepped on.
+
+Only 1 path is correct.
+
+First across wins.
+
+69. Energy Drain
+
+Each player has a battery bar.
+
+Moving drains energy. Collect energy orbs to survive.
+
+Last player with power wins.
+
+70. Balloon War
+
+Each player tied to balloons.
+
+Shoot others’ balloons while protecting yours.
+
+Last balloon = winner.
+
+71. Sling Shot Arena
+
+Players fling themselves with slingshots.
+
+Knock others off platforms.
+
+72. Dice Duel
+
+Players roll dice. Higher roll can attack.
+
+Strategy: choose attack, block, or heal.
+
+73. Bridge Collapse
+
+Players run across a bridge.
+
+Sections collapse randomly.
+
+First across wins.
+
+74. Sand Timer Race
+
+Each player carries a timer of “sand.”
+
+Must refill at stations.
+
+If sand runs out, you lose.
+
+75. Alien Abduction
+
+UFO beams randomly abduct players.
+
+Avoid the beams until timer ends.
+
+76. Boom Box Dance
+
+Music plays, and players must copy moves.
+
+Miss move = eliminated.
+
+77. Ice Slide Race
+
+Slippery slope race.
+
+Players must slide, jump, and dodge.
+
+First to finish wins.
+
+78. Magic Portal
+
+Players teleport randomly through portals.
+
+Must find the real exit.
+
+79. Cannon Chaos
+
+Arena with cannons shooting balls everywhere.
+
+Dodge or use balls to hit others.
+
+80. Color Switch
+
+Floor changes color. Only one safe color remains.
+
+Stand on the right one or fall.

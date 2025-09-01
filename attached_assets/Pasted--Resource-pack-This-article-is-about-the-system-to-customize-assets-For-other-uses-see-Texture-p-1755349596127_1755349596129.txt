@@ -1,0 +1,488 @@
+
+Resource pack
+This article is about the system to customize assets. For other uses, see Texture pack (disambiguation).
+ There are related tutorial pages for this topic! 
+See Tutorial:Creating a resource pack and Tutorial:Loading a resource pack.
+
+The default textures on the left side, and a custom resource pack (Rodrigo's Pack 8x8) on the right.
+The resource pack system provides a way for players to customize textures, models, music, sounds, languages, texts such as the End Poem, splashes, credits, and fonts without any code modification. They are often used together with data packs to add new content to the game.
+
+
+Contents
+1	Java Edition
+1.1	Behavior
+1.1.1	Built-in resource packs
+1.1.2	Preloaded resource packs
+1.2	Directory structure
+1.3	Contents
+1.3.1	Language
+1.3.2	Textures
+1.3.3	Texture animation
+1.3.4	Villagers
+1.3.5	GUI
+1.3.6	Colormaps
+1.3.7	Properties
+1.3.8	Texts
+1.3.9	Texture sheets
+1.3.10	Regional compliancies warnings
+1.4	Default resource pack
+1.4.1	Asset object store
+2	Bedrock Edition
+2.1	Behavior
+2.1.1	Default packs
+2.2	Folder Structure
+3	History
+4	Trivia
+4.1	pack.png
+5	Gallery
+5.1	Resource pack icons
+5.2	pack.png
+5.3	Historical screenshots
+6	See also
+7	External links
+8	References
+9	Navigation
+Java Edition
+Behavior
+
+The default resource pack settings.
+Each resource pack is either a directory or a ZIP archive (with .zip extension). Resource packs can be added by placing them in the File directory.png: Sprite image for directory in Minecraft resourcepacks directory within File directory.png: Sprite image for directory in Minecraft .minecraft, or by dragging and dropping onto the "Select Resource Packs" screen, which copies them there automatically. Resource packs present in the directory can then be managed from the options, where they can be moved between "Available" (disabled) and "Selected" (enabled), and reordered.
+
+Resource packs load their assets based on the order they appear in on the "Selected" list. The bottom-most pack loads first, then each pack above it replaces or merges loaded assets with ones it contains.
+
+Built-in resource packs
+There are currently three resource packs that are included as part of the game.
+
+Pack name	Pack description	Description
+ Default	The default look and feel of Minecraft (built-in)	Selected by default, can't be unselected. Contains essential files.
+ Programmer Art	The classic look of Minecraft (built-in)	The old (pre-1.14) textures. They are typically not updated when the game receives new textures and are only modified to account for formatting changes.
+ High Contrast	Enhances the UI contrast of Minecraft (built-in)	Increases the contrast of menu GUIs.
+Preloaded resource packs
+A ZIP archive resource pack can be bundled with a world by placing it in the world directory under the name resources.zip. When playing the world, that resource pack appears as the default right above the default resource pack.
+
+A resource pack can be set on a server by setting resource-pack to an HTTP(S) URL pointing to a ZIP archive resource pack in server.properties. Players then can choose if they want to download the resource pack or not when joining. Players can also be forced to accept the resource pack by setting resource-pack-required=true. Rejecting the resource pack disconnects the player from the server.
+
+There is no way to force the use of a resource pack in a realm.[needs testing]
+
+Directory structure
+Resource packs in Java Edition have the following directory structure:
+
+File directory.png: Sprite image for directory in Minecraft name or File archive.png: Sprite image for archive in Minecraft name.zip
+File file.png: Sprite image for file in Minecraft pack.mcmeta: Metadata of the resource pack. This is the only mandatory file.
+File file.png: Sprite image for file in Minecraft pack.png: The picture to display next to the resource pack in the "Select Resource Packs" screen.
+File directory.png: Sprite image for directory in Minecraft assets
+File directory.png: Sprite image for directory in Minecraft <namespace>: Folder of the namespace to use, see Resource location § Namespaces. More than one directory for different namespaces may exist under the assets directory. The minecraft namespace is used for vanilla files and can be used to override them.
+File directory.png: Sprite image for directory in Minecraft atlases: .json files controlling which textures are included in atlases.
+File directory.png: Sprite image for directory in Minecraft blockstates: .json files defining the models for each block state of blocks.
+File directory.png: Sprite image for directory in Minecraft equipment: .json files controlling the appearance of worn equipment.
+File directory.png: Sprite image for directory in Minecraft font: .json files defining font providers.
+File directory.png: Sprite image for directory in Minecraft items: .json files controlling the rendering of items.
+File directory.png: Sprite image for directory in Minecraft lang: <language code>.json files containing translations of text.
+File directory.png: Sprite image for directory in Minecraft models: .json files defining three-dimensional shapes used to render blocks and items.
+File directory.png: Sprite image for directory in Minecraft particles: .json files specifying the textures to use for particles.
+File directory.png: Sprite image for directory in Minecraft post_effect: .json files controlling the use of shaders for post-processing effects.
+File directory.png: Sprite image for directory in Minecraft shaders
+File directory.png: Sprite image for directory in Minecraft core: .fsh and .vsh files controlling the rendering of the game.
+File directory.png: Sprite image for directory in Minecraft include: .glsl files that can be included in core and post shaders.
+File directory.png: Sprite image for directory in Minecraft post: .fsh files controlling post-processing effects.
+File directory.png: Sprite image for directory in Minecraft sounds: .ogg files that provide audio such as music and sound effects for the game.
+File directory.png: Sprite image for directory in Minecraft texts: .txt file containing specific untranslated text.
+File directory.png: Sprite image for directory in Minecraft textures: .png files used as textures for blocks, items, mobs, etc. 
+File directory.png: Sprite image for directory in Minecraft waypoint_style: .json files controlling the appearance of waypoints on the locator_bar.
+File file.png: Sprite image for file in Minecraft gpu_warnlist.json
+File file.png: Sprite image for file in Minecraft regional_compliancies.json: Warnings displayed based on region of the player.
+File file.png: Sprite image for file in Minecraft sounds.json: Used to tell the sound system what sound files to play when a sound event is triggered by one or more in-game events.
+File file.png: Sprite image for file in Minecraft .mcassetsroot: Empty file identifying the vanilla resource pack.
+Contents
+A resource pack is identified by Minecraft based on the presence of File file.png: Sprite image for file in Minecraft pack.mcmeta in the root directory.
+
+The root directory also contains an optional PNG image called File file.png: Sprite image for file in Minecraft pack.png, which appears as the thumbnail for the pack on the resource pack selection menu.
+
+Language
+Language files are JSON files, which contain text data translated to different languages. They are located in File directory.png: Sprite image for directory in Minecraft assets/namespace/lang and named File file.png: Sprite image for file in Minecraft language code.json. Languages other than default can be defined in File file.png: Sprite image for file in Minecraft pack.mcmeta.
+
+[NBT Compound / JSON Object] The root object.
+[String] ID: Displayed translation for the text ID.
+A language file consists of an object containing ID and translation pairs. The ID uniquely identifies any translatable text in the game, and the translation is displayed as that text when the language is selected. For example, block.minecraft.stone is the ID of the text used for the name of the stone block, and it's translation in the en_us language is Stone.
+
+Language files are merged with other selected packs, so any names that are not present are loaded from packs of lesser priority.
+
+In language key values, you can also use placeholder to be replaced by other text or numbers later, for example using the with of a translatable text component.
+
+Placeholders are defined using %s as a short form, or %<number>$s to specify the index explicitly. Placeholder indices start at 1. When not specifying the index explicitly, Minecraft will pick the next available index in sequential order, and placeholders are assigned an index in the order they are encountered in the string. If translators need to swap the order of placeholders for grammatical reasons, they can swap a %s placeholder with an indexed one.
+
+To have a literal % character which should render as such in the text shown by Minecraft and is not part of a translation placeholder, you need to escape it by using %%, otherwise Minecraft may fail to parse other placeholders within that string.
+
+Textures
+
+The "missing model" for invalid or missing models, prominently using the black and magenta "missing texture".
+Textures are image files in PNG format, which provide images to be used as textures for models such as items, blocks and mobs.
+
+Before 1.13 for block or item textures to function, they must have equal width and height (or height that is a multiple of the width if animated); otherwise it appears as a magenta and black checkerboard. For most other textures, the file is stretched to fit the required dimensions. As of 1.13 non-square textures can be used for blocks and items just fine (although they will look stretched/squashed on default models).
+
+Most solid blocks turn any transparent area fully opaque. Some other blocks, which have "cutout" transparency (like glass) turn all pixels that are less than 10% opaque fully transparent and all other pixels completely opaque. Every other block renders textures with semi-transparency as-is. All items, blocks or entities that are semi-transparent by default support semi-transparency. All items that do not have a corresponding block do support semi-transparency.
+
+If a texture does not exist in any resource pack, including the default, the missing texture appears in its place. As of 1.19.1, six such cases exist in the vanilla resource pack, all particle-related.
+
+Texture animation
+All textures that get stitched to an atlas support animation. This includes:
+
+Block and item textures
+Banner and shield textures
+Some block entities including: bed, chest, conduit, decorated pot, enchanting table book, bell, shulker box and sign textures
+Item frame and painting textures
+GUI sprites (all textures in the File directory.png: Sprite image for directory in Minecraft assets/<namespace>/textures/gui/sprites/ directory)
+Mob effect icon textures
+Map decoration textures
+Particle textures
+Armor trim textures. This doesn't work with the paletted_permutations atlas source type so textures must be added to the atlas using either the directory or single source types to be animated
+An animated texture is created by placing additional frames either vertically below the first, or horizontally to the right of the first. Alternatively, the frames can be arranged in a table by defining a width and height in the animation properties; in this case they are ordered row by row, top to bottom, left to right.
+
+Each frame of the animation must be the same size, and the total dimensions of the image must be divisible by the width and height in the animation properties; otherwise a missing texture is shown. If a width and height are not specified, the game assumes each frame is square and the size of the smallest dimension of the image.
+
+The animation properties are specified with a JSON file, named like the texture (including the extension), but with .mcmeta suffix appended. For example, the animation properties for stone.png would be stone.png.mcmeta.
+
+Texture animation properties format
+[NBT Compound / JSON Object] The root tag
+[NBT Compound / JSON Object] animation: Contains the animation properties
+[Boolean] interpolate: If true, the game generates additional frames between frames if the frametime is greater than 1 between them. Defaults to false.
+[Int] width: The width of a single frame in pixels. Defaults to the image's width if height is defined, or the smaller of the image's dimensions if it isn't.
+[Int] height: The height of a single frame, in pixels. Defaults to the image's height if width is defined, or the smaller of the image's dimensions if it isn't.
+[Int] frametime: Sets the default time for each frame in increments of one game tick. Defaults to 1.
+[NBT List / JSON Array] frames: Contains a list of frames. Defaults to displaying all the frames from first to last.
+[Int] The index of a frame, with the first frame being 0.
+[NBT Compound / JSON Object] An object containing additional data about a frame
+[Int] index: The index of a frame, with the first frame being 0.
+[Int] time: The time in ticks to show this frame, overriding frametime above.
+If the animation properties file does not exist in the pack and the texture does, the game assumes it isn't animated and displays the entire texture at once.
+
+Villagers
+Textures from assets/minecraft/textures/entity/villager and assets/minecraft/textures/entity/zombie_villager support a .mcmeta file in JSON format containing additional effects to apply to the hat layer. The file is contained in the same directory as the texture, and has the same name as the texture, except appended with .mcmeta. For example, the file profession/farmer.png can have a properties file called profession/farmer.png.mcmeta
+
+[NBT Compound / JSON Object] The root tag
+[NBT Compound / JSON Object] villager: Contains data for the texture
+[String] hat: Can be full, partial, or default (no .mcmeta file). Determines whether the villager's 'profession' hat layer should allow the 'type' hat layer to render or not. ​[more information needed]
+If the .mcmeta file does not exist in the pack and the texture does, the game loads the default settings, rather than loading a .mcmeta file from a pack below that pack.
+
+GUI
+Textures from assets/minecraft/textures/gui/sprites support a .mcmeta file in JSON format containing scaling behavior of the texture. For example, the file button.png can have a properties file called button.png.mcmeta
+
+[NBT Compound / JSON Object] The root tag
+[NBT Compound / JSON Object] gui: Contains data for the texture
+[NBT Compound / JSON Object] scaling: Scaling behavior of the texture.
+[String] type: Can be stretch (default), tile, or nine_slice. Determines the type of scaling method of the texture.
+When tile, the sprite is repeated across the desired space, starting from the top-left.
+When nine_slice, the sprite is sliced into 4 corners, 4 edges, and 1 center slice, which is tiled across the desired space.[1]
+[Int] width: Number of pixels for this sprite to cover on-screen across its width. Required if [String] type is set to tile or nine_slice.
+[Int] height: Number of pixels for this sprite to cover on-screen across its height. Required if [String] type is set to tile or nine_slice.
+[Boolean] stretch_inner: If true, the inner parts of the texture is stretched instead of tiled. Defaults to false. Required if [String] type is set to nine_slice.
+[Int] border: The size in pixels that the border slices should cover on-screen. Required if [String] type is set to nine_slice.
+[NBT Compound / JSON Object] border: The size in pixels that the border slices should cover on-screen, respectively. Required if [String] type is set to nine_slice.
+[Int] left: Number of pixels of the left border.
+[Int] top: Number of pixels of the top border.
+[Int] right: Number of pixels of the right border.
+[Int] bottom: Number of pixels of the bottom border.
+Colormaps
+Colormaps are 256×256 pixel images that tell the game which color to use in each biome. They are located in assets/minecraft/textures/colormap. The game contains three colormaps: foliage.png colors plants such as leaves (except birch and spruce) and vines, grass.png colors grass and grass blocks, and dry_foliage.png colors leaf litter. Colormaps can be disabled on individual blocks by removing the tintindex tag from the block model.
+
+Birch leaves, spruce leaves, swamp grass, mangrove swamp grass and midlands grass is not controlled by colormaps in Java Edition unlike is with the case in Bedrock Edition.
+
+Properties
+Textures from assets/minecraft/textures/misc[verify] support a .mcmeta file in JSON format containing additional effects to apply to the texture. The file is contained in the same directory as the texture, and has the same name as the texture, except appended with .mcmeta. For example, the file pumpkinblur.png can have a properties file called pumpkinblur.png.mcmeta
+
+[NBT Compound / JSON Object] The root tag
+[NBT Compound / JSON Object] texture: Contains data for the texture
+[Boolean] blur: Causes the texture to blur when viewed from close up. Defaults to false
+[Boolean] clamp: Causes the texture to stretch instead of tiling in cases where it otherwise would, such as on the shadow. Defaults to false
+[Int Array] mipmaps: Custom mipmap values for the texture
+If the .mcmeta file does not exist in the pack and the texture does, the game loads the default settings, rather than loading a .mcmeta file from a pack below that pack.
+
+Texts
+Two text files in UTF-8 format and one JSON file exist in File directory.png: Sprite image for directory in Minecraft assets/minecraft/texts. They are used to display specific untranslated text.
+
+The file File file.png: Sprite image for file in Minecraft end.txt contains the text of the end poem, using formatting codes to apply the colors to the two speakers, and with the text PLAYERNAME being replaced with the player's name. After that file is shown, credits based on contents of File file.png: Sprite image for file in Minecraft credits.json are shown.
+
+The following JSON format is used for File file.png: Sprite image for file in Minecraft credits.json:
+
+[NBT List / JSON Array] The root list
+[String] section: Title of this section
+[NBT List / JSON Array] disciplines: List of disciplines in this section
+[String] discipline: Name of this discipline
+[NBT List / JSON Array] titles: List of titles(roles) credit given to
+[String] title: Name of title
+[NBT List / JSON Array] names: List of people's names in this title
+The file File file.png: Sprite image for file in Minecraft splashes.txt contains texts separated by LF line breaks used as splashes.
+
+Texture sheets
+Main article: Texture atlas/Predefined
+Minecraft generally does not store multiple different textures in combined sheets and instead stores them in separate files. The only current exceptions are experience orbs and moon phases.[2]
+
+Regional compliancies warnings
+Regional compliancies warnings can be customized in File file.png: Sprite image for file in Minecraft assets/namespace/regional_compliancies.json.
+
+[NBT Compound / JSON Object] The root tag
+[NBT List / JSON Array] Region: Contains a list of warnings. Note that the key itself is an ISO 3166-1 alpha-3 region code determined by the device's locale setting.
+[NBT Compound / JSON Object] An individual warning message
+[Int] delay: Optional. Defines how long should the game wait until showing this message in minutes. This can not be zero.
+[Int] period: The time interval this message should be shown in minutes. This can not be zero.
+[String] title: The translation identifier of the title of the message. A slot is provided for the translation string, containing how many times this warning has been shown.
+[String] message: The translation identifier of the message. A slot is provided for the translation string, how many times this warning has been shown.
+The game includes a compliancy warning for South Korea (KOR) about excessive playing, shown every hour and telling the exact number of hours the game is open for. An additional warning is shown if the game is open for a day or more.
+
+Default resource pack
+The default resource pack is special, as it does not exist in the same form as other resource packs. It combines assets from two sources: the File directory.png: Sprite image for directory in Minecraft assets directory in client.jar and the asset object store.
+
+The default resource pack also provides the other built-in resource packs, as regular resource pack ZIP files.
+
+Asset object store
+The asset object store is a system used to efficiently download, store and retrieve assets across multiple versions. It resides in File directory.png: Sprite image for directory in Minecraft assets inside the launcher File directory.png: Sprite image for directory in Minecraft .minecraft directory.
+
+The path to the directory of the store is provided to the game with the --assetsDir command line parameter. The ID of the asset index, describing asset metadata for a specific version, is provided with the --assetIndex command line parameter.
+
+Asset files for all versions are stored inside File directory.png: Sprite image for directory in Minecraft objects, in subdirectories named with two hexadecimal digits (0-f), for example File directory.png: Sprite image for directory in Minecraft 7f. The names correspond to the first two digits of the SHA1 hashes of the asset files stored inside. The asset files inside are named with their full SHA1 hash, which is 40 hexadecimal digits (without a filename extension), for example File file.png: Sprite image for file in Minecraft 7f7777e5d5b163c5d64201fd53e5682599548a49.
+
+For the game to find assets, the asset index corresponding to the version is required. Indexes are stored in File directory.png: Sprite image for directory in Minecraft indexes. An index is a JSON file named File file.png: Sprite image for file in Minecraft id.json, where id is the index ID. The file structure is as follows:
+
+[NBT Compound / JSON Object]: The root object
+[NBT Compound / JSON Object] objects
+[NBT Compound / JSON Object] id: Asset (object) data, where id is the asset ID
+[String] hash: SHA1 hash of the asset, which allows to find the asset in the File directory.png: Sprite image for directory in Minecraft objects directory
+[Double] size: Size of the asset, in bytes
+The mapping of versions to asset index IDs is as follows:
+
+Version	Asset index ID
+1.21.6	26
+1.21.5	24
+1.21.4	19
+1.21.2	18
+1.21	17
+1.20.5	16
+1.20.3	12
+1.20.2	8
+1.20	5
+1.19.3	2
+1.13	1.13
+1.12	1.12
+Bedrock Edition
+
+WARNING: Ore UI is hard-coded and cannot be modified by resource packs.[3][4][5]
+
+This section needs expansion. 
+You can help by expanding it.
+Behavior
+Similarly to skins, resource packs can be bought or made in Bedrock Edition. Users can download resource packs on the system itself with the .mcpack file names, if the game platform allows file importation. When these files are opened (Selecting the file in the file manager and opening with Minecraft), they are automatically imported into the game without any need for file system access. Resource packs can also be put manually in the resource_packs or development_resource_packs folder in the com.mojang folder. Each resource pack must either be a sub-folder or a .zip file.
+
+Resource packs can be applied on the Global Resources option from the settings menu from the main menu screen. Resource packs can be moved between "Active" and "My Packs". "Active" also contains the default assets at the bottom, and cannot be removed.
+
+Resource packs load their assets based on the order of the packs on the list. The bottom-most pack loads first, then each pack placed above it replaces assets of the same name with its assets.
+
+Resource packs cannot be edited unless put into the development_resource_packs folder, and will update themselves when joining a world or changing your active resource packs.
+
+Default packs
+One or more resource packs can be bundled with a world in the world settings. When playing the world, that resource pack appears as the default right above the default resource pack. A resource pack can be set on a server by bundling the resource pack in the world, and then re-uploading the world folder to the server. Users then have an option whether to use the resource pack or not if the texturepack-required option is disabled in the server settings and if the world has the "Require players to accept resource packs to join" option disabled. Resource packs can also be forced on a server by using the texturepack-required=true property on the server settings.
+
+Folder Structure
+Resource packs in Bedrock Edition use the following folder structure:
+
+(resource pack name)
+biomes_client.json
+blocks.json
+manifest.json
+pack_icon.png
+sounds.json
+animation_controllers
+<entity>.animation_controllers.json
+animations
+<entity>.animation.json
+attachables
+<attachable>.json
+entities
+<entity>.entity.json
+fogs
+<biome>_fog_settings.json
+models
+mobs.json
+<model>.geo.json[a]
+particles
+<particle>.json
+render_controllers
+<entity>.render_controllers.json
+sounds
+music_definitions.json
+sound_definitions.json
+<sound>.fsb[a]
+<sound>.ogg[a]
+<sound>.wav[a]
+<sound>.mp3[a][b]
+texts
+languages.json
+language_names.json
+<languagecode>_<COUNTRYCODE>.lang
+<languagecode>_<COUNTRYCODE>[c]
+font[d]
+ascii_sga.png[e]
+default8.png[f]
+font_metadata.json[g]
+glyph_<code>.png
+texture_sets[h]
+textures
+flipbook_textures.json
+item_texture.json
+terrain_texture.json
+<texture>.png[a]
+<texture>.tga[a]
+ui
+<ui>.json[a]
+ File may be inside a folder.
+ .mp3 files aren't fully supported.
+ For languages using a different font.
+ Folder may be at the root of the resoursepack instead of in the texts folder
+ Deprecated?(needs confirmation)
+ Deprecated?(needs confirmation)
+ Existence confirmed, purpose unknown
+ Unused.
+History
+
+This section needs cleanup to comply with the style guide. [discuss]
+Please help improve this page. The talk page may contain suggestions.
+Reason: Should we remove the pack number changes since we have a dedicated page for that now?
+For the history of resource pack format numbers specifically, see Pack format § List of resource pack formats.
+[]Java Edition
+1.6.1	13w24a	Added resource packs, replacing the functionality of texture packs.
+Minecraft Texture Ender is available from Mojang to automatically convert 1.5 compatible texture packs to resource packs. See Java Edition 1.6.1/Resource pack changes for the list of file names changed.
+1.6.2	reupload	Fixed distorted font when HD font is used.[6]
+1.7.2	13w36a	Added the ability to apply multiple resource packs at once.
+Servers can now recommend a default resource pack via the server-side resource packs system.[7][8]
+13w42a	Moved files from assets/minecraft/music to assets/minecraft/sounds/music and files from assets/minecraft/sound to assets/minecraft/sounds.
+1.7.4	13w47a	The description value of pack.mcmeta can now be raw JSON text format.
+13w48a	Removed the ability to change the Mojang logo.
+1.8	14w06a	Added the ability to change the block models.
+14w07a	Resource packs can now be bundled with a map.
+14w25a	The model format now supports custom item models.
+Textures can now be specified for blocks and items.
+Added the interpolate tag for animations.
+1.8.8	pre	Resource packs now display an error if the format number is wrong. At this time, it requires a format number of 1.
+1.9	15w31a	Changed format number to 2, due to changes in the model system, such as item tags, multipart, and changes to display tags.
+Using resource packs with outdated display tags causes the models to seem abnormally up-scaled and the wielded block cannot be rotated in the hand, along with blocks in the inventory replaced with a 2D texture. This is similar to what happens when a model has no display tags. See here for an example.
+1.11	16w32a	Resource packs version number changed to 3, due to the change that all files should have lowercase letters.
+1.13	17w43a	The default resource pack can now be moved up and down, just like other resource packs.
+17w48a	Changed format number to 4, due to The Flattening. See Java Edition 1.13/Resource pack changes for the list of file names changed.
+pre7	Several punctuation characters in ascii.png were shortened by one pixel, either vertically or horizontally. A stray pixel on the Ø character was also removed.
+pre8	Several more punctuation characters in ascii.png were shortened and the @ was lowered by one pixel.
+1.14	18w45a	Added "Programmer Art – The classic look of Minecraft" to the resource pack menu, due to the old textures being replaced by new ones in the Texture Update.
+19w06a	Significantly improved resource pack loading speed.[9]
+Particles textures are now split into individual files.
+19w07a	Painting textures are now split into individual files.
+19w08a	Status effect textures are now split into individual files.
+19w09a	Particles are now configurable.
+1.15	Pre-release 1	Changed format number to 5, due to texture mechanic changes in earlier snapshots.
+1.16.2	Release Candidate 1	Changed format number to 6, due to changes to wall blocks made in 1.16 according to MC-197275.
+1.17	20w45a	Changed format number to 7.
+21w05a	Improved performance when using many overrides on an item model.
+toasts.png GUI texture has a new icon for the bundle tutorial.
+pre1	The file credits.txt in assets/minecraft/texts was changed to credits.json, and the format also changed from plain text to structured JSON format.
+1.18	21w37a	Added illageralt, the rune-like font from Minecraft Dungeons (currently usable only via commands).
+21w39a	Changed format number to 8, because inventory.png now contains an extra sprite for a thin-layout version of the effect list in the inventory.
+1.18.2	22w06a	Added assets/minecraft/regional_compliancies.json to control the gameplay timer and in-game notice strings as to respect the compliance requirements in South Korea. For South Korea only by default.
+1.19	22w11a	Changed format number to 9, due to new filter section in pack.mcmeta.
+1.19.3	22w42a	Changed format number to 11, due to the removal of "fixers" for resource packs with format numbers 3 and 4.
+22w45a	Changed format number to 12.
+1.19.4	23w07a	The vanilla resource pack en_us language file is now sorted alphanumerically by key.
+pre1	Added a built-in "High Contrast" resource pack that enhances the contrast of UI elements.
+Changed format number to 13, due to the enchantment glint now being separate between entities and items.
+1.20	23w14a	Changed format number to 14 due to updates to the layout of minecraft.png and invite_icon.png.
+23w17a	Changed format number to 15 due to updates to the font and the credits.
+uniform font has been updated to use Unifont 15.0.01.
+Pre-release 5	uniform font has been updated to use Unifont 15.0.03.
+1.20.2	23w31a	Changed format number to 16.
+The process of upgrading a pack can now be assisted by using an automated Slicer tool.[10]
+23w32a	Changed format number to 17.
+The text field background is now a nine-sliced sprite at widget/text_field and widget/text_field_highlighted.
+The scroll bar in lists and text fields is now a nine-sliced sprite at widget/scroller.
+1.20.2 Pre-release 2	Changed format number to 18.
+1.20.3	23w42a	Changed format number to 19.
+Added block model, item model and block state definitions for crafter.
+Added GUI container texture and sprites for crafter.
+Added white_smoke particle definition.
+23w43a	Changed format number to 20.
+bat.png has been updated for the new bat model.
+Added block models, items models, block state definitions and unique sprites for new blocks.
+23w45a	Changed format number to 21.
+uniform font has been updated to use Unifont 15.1.04 (from 15.0.06).
+The only supported texture format is now .png.
+Added entity models and textures for experimental breeze mob breeze, wind_charge.
+Added shader breeze_wind.
+Pre-Release 1	Changed format number to 22.
+Changes to downloaded/world resource pack handling.
+UI Download screen has been replaced with a toast.
+World resource pack application starts together with chunk loading.
+Downloaded packs are now stored in downloads directory (with different file organization than old server-resource-packs).
+Downloaded packs now have unique id (GUID/UUID) that can be used to differentiate them.
+1.20.5	24w03a	Changed format number to 24.
+24w05a	Changed format number to 25.
+24w06a	Added font variant filters to font providers.
+Changed format number to 26.
+24w09a	Changed format number to 28 due to menu GUI changes.
+24w11a	Changed format number to 29 due to menu GUI changes.
+24w12a	Changed format number to 30 due to changes to map_icons.png.
+24w13a	Changed format number to 31.
+1.20.5-pre4	Changed format number to 32.
+1.21	Changed format number to 34.
+1.21.2	24w33a	Changed format number to 35.
+24w34a	Changed format number to 36.
+24w36a	Changed format number to 37.
+24w37a	Changed format number to 38.
+24w38a	Changed format number to 39.
+24w40a	Changed format number to 40.
+1.21.2-pre1	Changed format number to 41.
+1.21.2-pre3	Changed format number to 42.
+1.21.4	24w44a	Changed format number to 43.
+24w45a	Changed format number to 44.
+Added support for items model definitions in the assets/minecraft/items folder.
+24w46a	Changed format number to 45.
+All blocks that previously rendered only block entity will now also render normal block model over it .
+Pre-Release 1	Changed format number to 46.
+1.21.5	25w02a	Changed format number to 47.
+25w03a	Changed format number to 48.
+25w04a	Changed format number to 49.
+25w05a	Changed format number to 50.
+25w06a	Changed format number to 51.
+25w07a	Changed format number to 52.
+25w08a	Changed format number to 53.
+25w10a	Changed format number to 54.
+"Global" uniforms may now be defined in any shader, and the game will attempt to fill it.
+Pre-Release 1	Changed format number to 55.
+1.21.6	25w15a	Changed format number to 56.
+25w16a	Changed format number to 57.
+All core shader uniforms are now uniform blocks.
+25w17a	Changed format number to 58.
+25w18a	Changed format number to 59.
+All JSON files are now parsed in strict mode.
+The hud/locator_bar_arrow_up and hud/locator_bar_arrow_down sprites are now animated with a standard animation definition in the corresponding .mcmeta files.
+25w19a	Changed format number to 60.
+Panorama textures must now all be the same size, and square.
+25w20a	Changed format number to 61.
+25w21a	Changed format number to 62.
+pre1	Changed format number to 63.
+Added oversized_in_gui item model field.
+Introduced new player head special model type.Minecraft.
+1.21.7	Release Candidate 2	Changed format number to 64.
+[]Upcoming Java Edition
+1.21.9	25w31a	Changed format number to 65.
+25w32a	Changed format number to 65.1.
+25w33a	Changed format number to 65.2.
+[]Pocket Edition Alpha
+v0.15.0	release	Added the first custom in-game resource packs, Plastic and City.
+[]Pocket Edition
+v1.0.4	?	/modules in a pack manifest file is now mandatory.
+[]Bedrock Edition
+1.10.0	beta 1.10.0.3	Resource packs are now separate from world templates and can be updated independently in existing worlds.
+Trivia
+pack.png
+
+The world that the pack.png screenshot was taken in, loaded in Alpha v1.2.2.
+The File file.png: Sprite image for file in Minecraft pack.png was an image file used for the default resource pack icon before Java Edition 1.14, and still used for the server icon fallback (as a grayscaled version of it). The file shows a screenshot taken in Java Edition Alpha v1.2.2, in a world generated with the seed 3257840388504953787.[11] It was taken approximately at X=49.16, Z=0.72, with view angle facing RX=-119.23, RY=-8.297. This image has been referenced officially multiple times in the "One Trillion Minecraft Views on YouTube and Counting" video and Unpacked painting in the game.
+
+The seed can be used in versions Alpha 1.2.0 through Beta 1.7.3, with minor population differences between versions.
+It's possible to generate an identical world and take an identical screenshot, a guide on how to do that can be found here: https://pastebin.com/CmsEKDev.[12]
+The image is displayed as a placeholder when no seed is entered in the Bedrock "Advanced" world creation screen

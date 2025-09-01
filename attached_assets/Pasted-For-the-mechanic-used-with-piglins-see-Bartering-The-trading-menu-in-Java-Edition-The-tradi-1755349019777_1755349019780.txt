@@ -1,0 +1,825 @@
+For the mechanic used with piglins, see Bartering.
+
+The trading menu in Java Edition.
+
+The trading menu in Bedrock Edition.
+Trading is a gameplay mechanic that allows players to exchange emeralds for items, and vice versa, with villagers and wandering traders.
+
+
+A reference chart for trading and bartering as of Java Edition 1.21.4. Offers may differ in Bedrock Edition.
+
+Contents
+1	Mechanics
+1.1	Level
+1.2	Trades
+1.3	Sale prices
+2	Non-trading villagers
+2.1	Nitwit
+2.2	Unemployed villager
+2.3	Baby villagers
+3	Trade offers
+3.1	Armorer
+3.2	Butcher
+3.3	Cartographer
+3.4	Cleric
+3.5	Farmer
+3.6	Fisherman
+3.7	Fletcher
+3.8	Leatherworker
+3.9	Librarian
+3.9.1	Villager Trade Rebalance
+3.10	Mason
+3.11	Shepherd
+3.12	Toolsmith
+3.13	Weaponsmith
+4	Wandering trader offers
+5	Notes
+6	Achievements
+7	Advancements
+8	Video
+9	History
+9.1	Java Edition
+9.2	Bedrock Edition
+9.3	Legacy Console Edition
+10	Issues
+11	Trivia
+12	Gallery
+12.1	Renders
+12.2	Screenshots
+12.3	Development images
+13	References
+14	Navigation
+Mechanics
+Pressing use on an adult villager with a profession, or on a wandering trader, opens a menu, allowing a player to trade with that merchant. This action pauses any pathfinding the merchant was doing and makes it face you. If the merchant takes damage while trading, the trading menu closes. The same thing happens if they walk or are transported far enough away.
+
+All transactions involve emeralds. Trading is the only method of acquiring the globe banner pattern, woodland explorer map, trial explorer map, and ocean explorer map in Survival mode. It is also the only renewable way to obtain bells, diamond gear,[note 1] lapis lazuli‌[BE only], bottles o' enchanting, glass, sand, red sand, coral blocks, arrow of decay,‌[BE only] and small dripleaves.
+
+
+The rest of this section describes mechanics that only apply to villagers. For wandering trader mechanics, see § Wandering Trader.
+Level
+Villagers have five career levels that can be increased by trading with them. Each villager starts at the novice level. A villager's level can be seen in the trading menu. The badge that a villager wears can also be identified: stone for a novice, iron for an apprentice, gold for a journeyman, emerald for an expert, and diamond for a master. Trading until the villager's trading bar gets full unlocks the next level of trades. When a player trades with a villager, both the villager and the player gain experience. All villager trades reward the player with 3–6 experience plus an additional 5 experience if the villager levels up with the trade. Trading with a wandering trader also rewards the player with some experience, although the trader does not have experience levels to gain. A villager levels up when its experience bar becomes full and gains up to two‌[JE only] or three‌[BE only] new trades and retains its existing trades. Additionally, a villager receives a Regeneration effect and becomes surrounded by purple particles for ten seconds.
+
+Trades from the master level would still reward the villager with experience, but it has no actual effect as the villager can't level up any further.
+
+Each badge is 2x3 pixels except the novice (stone) badge, which is 4x4 pixels.
+
+Level	Badge	Name	Total villager experience required
+1		Novice	0
+2		Apprentice	10
+3		Journeyman	70
+4		Expert	150
+5		Master	250
+In Java Edition, villagers have a maximum of 10 trades. Each level unlocks a maximum of two new trades. If a level has a pool of more than two trades, the two offered trades are chosen randomly from the set.
+
+In Bedrock Edition, villagers have 7–10 trade slots. A slot with multiple possible trades will display only one trade; for example, farmer villagers have 4 potential trades in their first trade slot, so each trade has a 1⁄4 chance to be chosen.[until Villager Trade Rebalancing][verify]
+
+A villager's profession dictates the trading pool used to determine its trades. For example, villagers wearing straw hats are farmers, so their trades are based on the Farmer trade pool. Each profession unlocks a predefined and finite set of offers. Different professions are assigned to each villager based on their job-site block. This profession is indicated by their appearance and in the trading interface. Novice villagers who have not traded can lose their profession and change back into unemployed villagers if their claimed job site block is removed. Removing and then replacing a job site block can alter the trades offered, and a villager with no experience resets its trades every so often. Once a player trades with a villager, the villager keeps its profession forever and subsequently locks in the offered trades.
+
+Trades
+Each trade can be used a maximum number of times, after which the villager runs out of stock and trade becomes disabled. The exact number is different for each item and referenced in the tables below. When villagers work at their job site blocks, they activate their offers again, up to twice per day. In Bedrock Edition, villagers need to be linked to a bed to restock their trades (it is not necessary for them to sleep, but require a bed nearby). When an offer is disabled, a red "X" appears in the trading interface in Java Edition, or the trading slot becomes red in Bedrock Edition, and the villager displays the same particle effect as an offer being created.
+
+When buying items from players, villagers ignore additional item data; this allows, for example, selling renamed or enchanted items, as well as lodestone compasses instead of regular compasses in Java Edition. When the Villager Trade Rebalance experiment is enabled, taiga armorers can also accept damaged armor.
+
+Sale prices
+
+For the default sale price of a specific trade, find the trade in the tables below.
+"Discount" redirects here. For the mechanic that influences trading prices and iron golem hostility, see Gossiping.
+The price of an item rises and falls depending on three factors. Items with a high price multiplier (0.2) are affected by these changes more than items with a low multiplier (0.05). All price fluctuations affect only the first item involved in trade; for example, for an initial trade of 32 sticks for 1 emerald, the price might be driven down to 1 stick or up to 64 sticks for 1 emerald, but never for 2 emeralds. Additionally, no quantity can go lower than 1 or higher than the stack size.
+
+The first factor is demand. An item that was sold out gets a price increase for all players when resupplied. If a player does not trade for a higher-priced item, the price is reduced the next time the villager resupplies. Demand is tracked per item, not per villager, so a villager can offer a higher-priced trade for a single item while other items are cheaper. Trades that have a price multiplier of 0 are not affected by demand.
+
+The second way to affect prices is the Hero of the Village effect, gained from successfully completing a raid, which temporarily reduces prices for the affected player depending on the level of the effect.
+
+Finally, players get personal discounts or penalties‌[Java Edition only] based on their reputation with a particular villager. A positive reputation is gained by curing zombie villagers (the cured villager gives a much larger permanent discount than the temporary discount given by nearby villagers). Giving a zombie villager the Weakness effect and then feeding it a golden apple starts the curing process. After five minutes, it transforms into a villager. The permanent discount is capped at one cure, while the temporary discount is capped at eight cures[needs testing]. Players can also gain negative reputation by hitting or killing villagers, and positive reputation by trading. In Bedrock Edition, negative reputation can reduce or eliminate discounts but does not result in penalties.
+
+Non-trading villagers
+If the player attempts to trade with a non-trading villager in Java Edition, it grunts and bobs its head, but if the player tries to do the same thing in Bedrock Edition, nothing happens.
+
+Nitwit
+
+A nitwit bobbing its head.‌[Java Edition only]
+Nitwits are green-coated villagers. They cannot gain a profession.
+
+While they can be used for breeding, it is not possible to get a baby nitwit by breeding adult nitwits.
+
+Unemployed villager
+
+An unemployed villager bobbing its head.‌[Java Edition only]
+Villagers without a job cannot trade. They only wear their biome outfits. An unemployed villager gains a profession by claiming an unclaimed job site block. For example, an unclaimed cartography table converts an unemployed villager into a cartographer when the villager claims it, and both the villager and the table emit green particles. An inaccessible (or destroyed) job site block causes the connected villager to lose its profession, but that does not affect the player's popularity in the village.
+
+Baby villagers
+The appearance of baby villagers is the same as that of the corresponding adult unemployed villagers, but their bodies are smaller. They can't get a job and trade.
+
+Trade offers
+For the trades before 1.8, see Trading/Before Java Edition 1.8.
+For the trades before 1.14, see Trading/Before Village & Pillage.
+For the experimental rebalanced trades, see Villager Trade Rebalance.
+
+This section is a work in progress. 
+Please help expand and improve it. The talk page may contain suggestions.
+The villager pictured on the right is from the plains biome. To see villager professions dressed for other biomes, see Villagers § Professions.
+
+In Java Edition, starting from Novice, at each level two additional trades become available, unless there is only one trade within that level. If there are more than two possible trades, two are randomly selected.
+
+In Bedrock Edition, one trade is chosen randomly from each slot available. For example, if there are two items on the same slot, then only one of them will show up in the trade.
+
+Armorer
+Job site block: Blast Furnace
+
+
+An armorer.
+Armorer
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	40%	15 × Coal	Emerald	16	Low	2
+2	25%	40%	5 × Emerald	Iron Helmet	12	High	1
+25%	40%	9 × Emerald	Iron Chestplate	12	High	1
+25%	40%	7 × Emerald	Iron Leggings	12	High	1
+25%	40%	4 × Emerald	Iron Boots	12	High	1
+Apprentice	3	100%	50%	4 × Iron Ingot	Emerald	12	Low	10
+4	33%	50%	36 × Emerald	Bell	12	High	5
+33%	50%	3 × Emerald	Chainmail Leggings	12	High	5
+33%	50%	Emerald	Chainmail Boots	12	High	5
+Journeyman	5	100%	40%	Lava Bucket	Emerald	12	Low	20
+6	100%	40%	Diamond	Emerald	12	Low	20
+7	33%	40%	Emerald	Chainmail Helmet	12	High	10
+33%	40%	4 × Emerald	Chainmail Chestplate	12	High	10
+33%	40%	5 × Emerald	Shield	12	High	10
+Expert	8	50%	100%	19–33 × Emerald	 Enchanted Diamond Leggings[t 1]	3	High	15
+50%	100%	13–27 × Emerald	 Enchanted Diamond Boots[t 1]	3	High	15
+Master	9	50%	100%	13–27 × Emerald	 Enchanted Diamond Helmet[t 1]	3	High	30
+50%	100%	21–35 × Emerald	 Enchanted Diamond Chestplate[t 1]	3	High	30
+ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments.
+Butcher
+Job site block: Smoker
+
+
+A butcher.
+Butcher
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	33%	50%	14 × Raw Chicken	Emerald	16	Low	2
+33%	50%	4 × Raw Rabbit	Emerald	16	Low	2
+33%	50%	7 × Raw Porkchop	Emerald	16	Low	2
+2	100%	50%	Emerald	Rabbit Stew	12	Low	1
+Apprentice	3	100%	67%	15 × Coal	Emerald	16	Low	2
+4	50%	67%	Emerald	8 × Cooked Chicken	16	Low	5
+50%	67%	Emerald	5 × Cooked Porkchop	16	Low	5
+Journeyman	5	50%	100%	10 × Raw Beef	Emerald	16	Low	20
+50%	100%	7 × Raw Mutton	Emerald	16	Low	20
+Expert	6	100%	100%	10 × Dried Kelp Block	Emerald	12	Low	30
+Master	7	100%	100%	10 × Sweet Berries	Emerald	12	Low	30
+Cartographer
+
+This section is a work in progress. 
+Please help expand and improve it. The talk page may contain suggestions.
+Job site block: Cartography Table
+
+
+A cartographer.
+
+A graph showing where each type of cartographer's maps leads to
+
+Explorer map sold at apprentice level
+Desert	Jungle	Plains	Savanna	Snow	Swamp	Taiga
+Group 1	Savanna Village Map	Savanna Village Map	Savanna Village Map	Desert Village Map	Plains Village Map	Snowy Village Map	Plains Village Map
+Group 2	Plains Village Map	Desert Village Map	Taiga Village Map	Plains Village Map	Taiga Village Map	Taiga Village Map	Snowy Village Map
+Group 3	Jungle Explorer Map	Swamp Explorer Map	–	Jungle Explorer Map	Swamp Explorer Map	Jungle Explorer Map	Swamp Explorer Map
+Cartographer
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	100%	24 × Paper	Emerald	12	Low	2
+2	100%	100%	7 × Emerald	Empty Map	12	Low	1
+Apprentice	3	100%	50%	11 × Glass Pane	Emerald	12	Low	10
+4	100%	100%	8 × Emerald
++ Compass	Explorer Map[t 1]	12	High	5
+Journeyman	5	50%	67%	Compass	Emerald	12	Low	10
+50%	67%	13 × Emerald
++ Compass	Ocean Explorer Map[t 2]	12	High	10
+6	100%	67%	12 × Emerald
++ Compass	Trial Explorer Map[t 2]	12	High	10
+Expert	7	100%	12%	7 × Emerald	Item Frame	12	Low	15
+8	100%	100%	3 × Emerald	Invicon White Banner.png: Sprite image for White Banner in MinecraftInvicon Light Gray Banner.png: Sprite image for Light Gray Banner in MinecraftInvicon Gray Banner.png: Sprite image for Gray Banner in MinecraftInvicon Black Banner.png: Sprite image for Black Banner in MinecraftInvicon Brown Banner.png: Sprite image for Brown Banner in MinecraftInvicon Red Banner.png: Sprite image for Red Banner in MinecraftInvicon Orange Banner.png: Sprite image for Orange Banner in MinecraftInvicon Yellow Banner.png: Sprite image for Yellow Banner in Minecraft
+Invicon Lime Banner.png: Sprite image for Lime Banner in MinecraftInvicon Green Banner.png: Sprite image for Green Banner in MinecraftInvicon Cyan Banner.png: Sprite image for Cyan Banner in MinecraftInvicon Light Blue Banner.png: Sprite image for Light Blue Banner in MinecraftInvicon Blue Banner.png: Sprite image for Blue Banner in MinecraftInvicon Purple Banner.png: Sprite image for Purple Banner in MinecraftInvicon Magenta Banner.png: Sprite image for Magenta Banner in MinecraftInvicon Pink Banner.png: Sprite image for Pink Banner in Minecraft
+Any color Banner[t 3]	12	Low	15
+Master	9	100%	100%	8 × Emerald	Globe Banner Pattern	12	Low	30
+10	100%	100%	14 × Emerald
++ Compass	Woodland Explorer Map	12	High	30
+ The structure that the map leads to depends on the biome the villager is from. See the table above for more details. Each of the three possible maps are counted as independent trades, so a villager trading multiple maps is possible.
+ In Java Edition, all copies of the map traded by a particular villager lead to the same structure. In worlds that do not have the structure, this trade is not offered. In Bedrock Edition, Cartographers adopting the profession in the Nether or the End do not offer explorer maps.
+ The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
+Cleric
+Job site block: Brewing Stand
+
+
+A cleric.
+Cleric
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	100%	32 × Rotten Flesh	Emerald	16	Low	2
+2	100%	100%	Emerald	2 × Redstone Dust	12	Low	1
+Apprentice	3	100%	100%	3 × Gold Ingot	Emerald	12	Low	10
+4	100%	100%	Emerald	Lapis Lazuli	12	Low	5
+Journeyman	5	100%	100%	2 × Rabbit's Foot	Emerald	12	Low	20
+6	100%	100%	4 × Emerald	Glowstone	12	Low	10
+Expert	7	50%	67%	4 × Turtle Scute	Emerald	12	Low	30
+50%	67%	9 × Glass Bottle	Emerald	12	Low	30
+8	100%	67%	5 × Emerald	Ender Pearl	12	Low	15
+Master	9	100%	100%	22 × Nether Wart	Emerald	12	Low	30
+10	100%	100%	3 × Emerald	Bottle o' Enchanting	12	Low	30
+Farmer
+Job site block: Composter
+
+
+A farmer.
+Farmer
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	25%	40%	20 × Wheat	Emerald	16	Low	2
+25%	40%	26 × Potato	Emerald	16	Low	2
+25%	40%	22 × Carrot	Emerald	16	Low	2
+25%	40%	15 × Beetroot	Emerald	16	Low	2
+2	100%	40%	Emerald	6 × Bread	16	Low	1
+Apprentice	3	100%	67%	6 × Pumpkin	Emerald	12	Low	10
+4	50%	67%	Emerald	4 × Pumpkin Pie	12	Low	5
+50%	67%	Emerald	4 × Apple	16	Low	5
+Journeyman	5	100%	100%	4 × Melon	Emerald	12	Low	20
+6	100%	100%	3 × Emerald	18 × Cookie	12	Low	10
+Expert	7	17%	29%	Emerald	Suspicious Stew[t 1]	12	Low	15
+17%	29%	Emerald	Suspicious Stew[t 2]	12	Low	15
+17%	29%	Emerald	Suspicious Stew[t 3]	12	Low	15
+17%	29%	Emerald	Suspicious Stew[t 4]	12	Low	15
+17%	29%	Emerald	Suspicious Stew[t 5]	12	Low	15
+17%	29%	Emerald	Suspicious Stew[t 6]	12	Low	15
+8	100%	29%	Emerald	Cake	12	Low	15
+Master	9	50%	100%	3 × Emerald	3 × Golden Carrot	12	Low	30
+50%	100%	4 × Emerald	3 × Glistering Melon Slice	12	Low	30
+ The stew gives 6 seconds of Blindness in Java Edition and 5-7 seconds in Bedrock Edition
+ The stew gives 8 seconds of Jump Boost in Java Edition and 7-10 seconds in Bedrock Edition
+ The stew gives 5 seconds of Night Vision in Java Edition and 7-10 seconds in Bedrock Edition
+ The stew gives 14 seconds of Poison in Java Edition and 10-20 seconds in Bedrock Edition
+ The stew gives 0.35 seconds of Saturation in Java Edition and 0.3-0.35 seconds in Bedrock Edition
+ The stew gives 7 seconds of Weakness in Java Edition and 6-8 seconds in Bedrock Edition
+Fisherman
+Job site block: Barrel
+
+
+A fisherman.
+Fisherman
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	50%	50%	20 × String	Emerald	16	Low	2
+50%	50%	10 × Coal	Emerald	16	Low	2
+2	50%	50%	3 × Emerald	Bucket of Cod	16	Low	1
+50%	50%	6 × Raw Cod
++ Emerald	6 × Cooked Cod	16	Low	1
+Apprentice	3	100%	67%	15 × Raw Cod	Emerald	16	Low	10
+4	50%	67%	2 × Emerald	Campfire	12	Low	5
+50%	67%	6 × Raw Salmon
++ Emerald	6 × Cooked Salmon	16	Low	5
+Journeyman	5	100%	100%	13 × Raw Salmon	Emerald	16	Low	20
+6	100%	100%	8–22 × Emerald	 Enchanted Fishing Rod[t 1]	3	High	10
+Expert	7	100%	100%	6 × Tropical Fish	Emerald	12	Low	30
+Master	8	100%	100%	4 × Pufferfish	Emerald	12	Low	30
+9	100%	100%	Boat[t 2]	Emerald	12	Low	30
+ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments.
+ The type of boat trade depends on the biome outfit of the villager. Plains villagers buy oak boats, taiga and snowy villagers buy spruce boats, desert and jungle villagers buy jungle boats, savanna villagers buy acacia boats, and swamp villagers buy dark oak boats.
+Fletcher
+Job site block: Fletching Table
+
+
+A fletcher.
+Fletcher
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	67%	32 × Stick	Emerald	16	Low	2
+2	50%	67%	Emerald	16 × Arrow	12	Low	1
+50%	67%	10 × Gravel
++ Emerald	10 × Flint	12	Low	1
+Apprentice	3	100%	100%	26 × Flint	Emerald	12	Low	10
+4	100%	100%	2 × Emerald	Bow	12	Low	5
+Journeyman	5	100%	100%	14 × String	Emerald	16	Low	20
+6	100%	100%	3 × Emerald	Crossbow	12	Low	10
+Expert	7	100%	100%	24 × Feather	Emerald	16	Low	30
+8	100%	100%	7–21 × Emerald	 Enchanted Bow[t 1]	3	Low	15
+Master	9	100%	67%	8 × Tripwire Hook	Emerald	12	Low	30
+10	50%	67%	8–22 × Emerald	 Enchanted Crossbow[t 1]	3	Low	15
+50%	67%	2 × Emerald
++ 5 × Arrow	5 × Tipped Arrow[t 2]	12	Low	30
+ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments.
+ In Java Edition, the type of arrow is chosen randomly from all possible brewable potions with effects, including extended and strengthened versions.
+In Bedrock Edition, the type of arrow is randomly chosen from 15 options: Night Vision, Invisibility, Leaping, Fire Resistance, Swiftness, Slowness, Water Breathing, Healing, Harming, Poison, Regeneration, Strength, Weakness, Turtle Master, or Decay (Level 2).
+Leatherworker
+Job site block: Cauldron
+
+
+A leatherworker.
+Leatherworker
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	67%	6 × Leather	Emerald	16	Low	2
+2	50%	67%	3 × Emerald	Leather Pants[t 1]	12	High	1
+50%	67%	7 × Emerald	Leather Tunic[t 1]	12	High	1
+Apprentice	3	100%	67%	26 × Flint	Emerald	12	Low	10
+4	50%	67%	5 × Emerald	Leather Cap[t 1]	12	High	5
+50%	67%	4 × Emerald	Leather Boots[t 1]	12	High	5
+Journeyman	5	100%	100%	9 × Rabbit Hide	Emerald	12	Low	20
+6	100%	100%	7 × Emerald	Leather Tunic[t 1]	12	High	10
+Expert	7	100%	100%	4 × Turtle Scute	Emerald	12	Low	30
+8	100%	100%	6 × Emerald	Leather Horse Armor[t 1]	12	High	15
+Master	9	50%	100%	5 × Emerald	Leather Cap[t 1]	12	High	30
+50%	100%	6 × Emerald	Saddle	12	High	30
+ The leather armor has a random color created by two dyes (possibly the same dye twice.)
+Librarian
+
+A librarian.
+Job site block: Lectern
+
+Librarian
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	67%	24 × Paper	Emerald	16	Low	2
+2	50%	67%	9 × Emerald	Bookshelf	12	Low	1
+50%	67%	5–64 × Emerald
++ Book	 Enchanted Book[t 1]	12	High	1
+Apprentice	3	100%	67%	4 × Book	Emerald	12	Low	10
+4	50%	67%	Emerald	Lantern	12	Low	5
+50%	67%	5–64 × Emerald
++ Book	 Enchanted Book[t 1]	12	High	5
+Journeyman	5	100%	67%	5 × Ink Sac	Emerald	12	Low	20
+6	50%	67%	Emerald	4 × Glass	12	Low	10
+50%	67%	5–64 × Emerald
++ Book	 Enchanted Book[t 1]	12	High	10
+Expert	7	100%	50%	Book and Quill
++ Book and Quill[t 2]	Emerald	12	Low	30
+8	33%	50%	4 × Emerald	Compass	12	Low	15
+33%	50%	5 × Emerald	Clock	12	Low	15
+33%	50%	5–64 × Emerald
++ Book	 Enchanted Book[t 1]	12	High	15
+Master	9	100%	100%	20 × Emerald	Name Tag	12	Low	30
+ The enchantment is chosen randomly with equal chance of any enchantment type occurring (except for Soul Speed, Swift Sneak, and Wind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once. The price in emeralds depends on the enchantment level and "treasure" status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5–19 emeralds for Lvl I, 8–32 for Lvl II, 11–45 for Lvl III, 14–58 for Lvl IV, and 17–71 for Lvl V. For treasure enchantments the price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable.
+ In Java Edition only one is requested per trade because of MC-248042 — Librarian's book and quill trade is always discounted to 1 since books are unstackable. In Bedrock Edition, the second book is placed in another slot instead.
+Villager Trade Rebalance
+
+This section describes an experimental feature in Java Edition and Bedrock Edition. 
+This feature is not enabled in-game by default and requires enabling the "Villager Trade Rebalance" experimental data pack in Java Edition or the "Villager Trade Rebalancing" setting in the "Experiments" section in Bedrock Edition.
+If the Villager Trade Rebalance experiment is turned on, librarians offer specific enchanted books depending on which biome they come from. Enchantments for the Novice, Apprentice, and Journeyman book trades are randomly selected from the "Common" pool, with a randomized level. At Master level, librarians are guaranteed to sell an enchanted book with a specific enchantment.
+
+Biome	"Common" enchantments	Guaranteed book at Master
+EntitySprite villager-desert-librarian.png: Sprite image for villager-desert-librarian in Minecraft Desert	Fire Protection
+Thorns
+Infinity	Efficiency III
+EntitySprite villager-plains-librarian.png: Sprite image for villager-plains-librarian in Minecraft Plains	Punch
+Smite
+Bane of Arthropods	Protection III
+EntitySprite villager-savanna-librarian.png: Sprite image for villager-savanna-librarian in Minecraft Savanna	Knockback
+Curse of Binding
+Sweeping Edge	Sharpness III
+EntitySprite villager-snowy-librarian.png: Sprite image for villager-snowy-librarian in Minecraft Snowy	Aqua Affinity
+Looting
+Frost Walker	Silk Touch
+EntitySprite villager-taiga-librarian.png: Sprite image for villager-taiga-librarian in Minecraft Taiga	Blast Protection
+Fire Aspect
+Flame	Fortune II
+EntitySprite villager-jungle-librarian.png: Sprite image for villager-jungle-librarian in Minecraft Jungle	Feather Falling
+Projectile Protection
+Power	Unbreaking II
+EntitySprite villager-swamp-librarian.png: Sprite image for villager-swamp-librarian in Minecraft Swamp	Depth Strider
+Respiration
+Curse of Vanishing	Mending
+Mason
+Job site block: Stonecutter
+
+
+A mason.
+Mason
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	100%	10 × Clay Ball	Emerald	16	Low	2
+2	100%	100%	Emerald	10 × Brick	16	Low	1
+Apprentice	3	100%	100%	20 × Stone	Emerald	16	Low	10
+4	100%	100%	Emerald	4 × Chiseled Stone Bricks	16	Low	5
+Journeyman	5	33%	29%	16 × Granite	Emerald	16	Low	20
+33%	29%	16 × Andesite	Emerald	16	Low	20
+33%	29%	16 × Diorite	Emerald	16	Low	20
+6	25%	29%	Emerald	4 × Dripstone Block	16	Low	10
+25%	29%	Emerald	4 × Polished Andesite	16	Low	10
+25%	29%	Emerald	4 × Polished Diorite	16	Low	10
+25%	29%	Emerald	4 × Polished Granite	16	Low	10
+Expert	7	100%	6%	12 × Nether Quartz	Emerald	12	Low	30
+8	50%	74%	Emerald	Invicon White Terracotta.png: Sprite image for White Terracotta in MinecraftInvicon Light Gray Terracotta.png: Sprite image for Light Gray Terracotta in MinecraftInvicon Gray Terracotta.png: Sprite image for Gray Terracotta in MinecraftInvicon Black Terracotta.png: Sprite image for Black Terracotta in MinecraftInvicon Brown Terracotta.png: Sprite image for Brown Terracotta in MinecraftInvicon Red Terracotta.png: Sprite image for Red Terracotta in MinecraftInvicon Orange Terracotta.png: Sprite image for Orange Terracotta in MinecraftInvicon Yellow Terracotta.png: Sprite image for Yellow Terracotta in Minecraft
+Invicon Lime Terracotta.png: Sprite image for Lime Terracotta in MinecraftInvicon Green Terracotta.png: Sprite image for Green Terracotta in MinecraftInvicon Cyan Terracotta.png: Sprite image for Cyan Terracotta in MinecraftInvicon Light Blue Terracotta.png: Sprite image for Light Blue Terracotta in MinecraftInvicon Blue Terracotta.png: Sprite image for Blue Terracotta in MinecraftInvicon Purple Terracotta.png: Sprite image for Purple Terracotta in MinecraftInvicon Magenta Terracotta.png: Sprite image for Magenta Terracotta in MinecraftInvicon Pink Terracotta.png: Sprite image for Pink Terracotta in Minecraft
+Any color Stained Terracotta[t 1]	12	Low	15
+50%	74%	Emerald	Invicon White Glazed Terracotta.png: Sprite image for White Glazed Terracotta in MinecraftInvicon Light Gray Glazed Terracotta.png: Sprite image for Light Gray Glazed Terracotta in MinecraftInvicon Gray Glazed Terracotta.png: Sprite image for Gray Glazed Terracotta in MinecraftInvicon Black Glazed Terracotta.png: Sprite image for Black Glazed Terracotta in MinecraftInvicon Brown Glazed Terracotta.png: Sprite image for Brown Glazed Terracotta in MinecraftInvicon Red Glazed Terracotta.png: Sprite image for Red Glazed Terracotta in MinecraftInvicon Orange Glazed Terracotta.png: Sprite image for Orange Glazed Terracotta in MinecraftInvicon Yellow Glazed Terracotta.png: Sprite image for Yellow Glazed Terracotta in Minecraft
+Invicon Lime Glazed Terracotta.png: Sprite image for Lime Glazed Terracotta in MinecraftInvicon Green Glazed Terracotta.png: Sprite image for Green Glazed Terracotta in MinecraftInvicon Cyan Glazed Terracotta.png: Sprite image for Cyan Glazed Terracotta in MinecraftInvicon Light Blue Glazed Terracotta.png: Sprite image for Light Blue Glazed Terracotta in MinecraftInvicon Blue Glazed Terracotta.png: Sprite image for Blue Glazed Terracotta in MinecraftInvicon Purple Glazed Terracotta.png: Sprite image for Purple Glazed Terracotta in MinecraftInvicon Magenta Glazed Terracotta.png: Sprite image for Magenta Glazed Terracotta in MinecraftInvicon Pink Glazed Terracotta.png: Sprite image for Pink Glazed Terracotta in Minecraft
+Any color Glazed Terracotta[t 1]	12	Low	15
+Master	9	50%	100%	Emerald	Quartz Pillar	12	Low	30
+50%	100%	Emerald	Block of Quartz	12	Low	30
+ The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
+Shepherd
+Job site block: Loom
+
+
+A shepherd.
+Shepherd
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	25%	40%	18 × White Wool	Emerald	16	Low	2
+25%	40%	18 × Brown Wool	Emerald	16	Low	2
+25%	40%	18 × Black Wool	Emerald	16	Low	2
+25%	40%	18 × Gray Wool	Emerald	16	Low	2
+2	100%	40%	2 × Emerald	Shears	12	Low	1
+Apprentice	3	20%	5%	12 × White Dye	Emerald	16	Low	10
+20%	5%	12 × Gray Dye	Emerald	16	Low	10
+20%	5%	12 × Black Dye	Emerald	16	Low	10
+20%	5%	12 × Light Blue Dye	Emerald	16	Low	10
+20%	5%	12 × Lime Dye	Emerald	16	Low	10
+4	50%	68%	Emerald	Invicon White Wool.png: Sprite image for White Wool in MinecraftInvicon Light Gray Wool.png: Sprite image for Light Gray Wool in MinecraftInvicon Gray Wool.png: Sprite image for Gray Wool in MinecraftInvicon Black Wool.png: Sprite image for Black Wool in MinecraftInvicon Brown Wool.png: Sprite image for Brown Wool in MinecraftInvicon Red Wool.png: Sprite image for Red Wool in MinecraftInvicon Orange Wool.png: Sprite image for Orange Wool in MinecraftInvicon Yellow Wool.png: Sprite image for Yellow Wool in Minecraft
+Invicon Lime Wool.png: Sprite image for Lime Wool in MinecraftInvicon Green Wool.png: Sprite image for Green Wool in MinecraftInvicon Cyan Wool.png: Sprite image for Cyan Wool in MinecraftInvicon Light Blue Wool.png: Sprite image for Light Blue Wool in MinecraftInvicon Blue Wool.png: Sprite image for Blue Wool in MinecraftInvicon Purple Wool.png: Sprite image for Purple Wool in MinecraftInvicon Magenta Wool.png: Sprite image for Magenta Wool in MinecraftInvicon Pink Wool.png: Sprite image for Pink Wool in Minecraft
+Any color Wool[t 1]	16	Low	5
+50%	68%	Emerald	Invicon White Carpet.png: Sprite image for White Carpet in MinecraftInvicon Light Gray Carpet.png: Sprite image for Light Gray Carpet in MinecraftInvicon Gray Carpet.png: Sprite image for Gray Carpet in MinecraftInvicon Black Carpet.png: Sprite image for Black Carpet in MinecraftInvicon Brown Carpet.png: Sprite image for Brown Carpet in MinecraftInvicon Red Carpet.png: Sprite image for Red Carpet in MinecraftInvicon Orange Carpet.png: Sprite image for Orange Carpet in MinecraftInvicon Yellow Carpet.png: Sprite image for Yellow Carpet in Minecraft
+Invicon Lime Carpet.png: Sprite image for Lime Carpet in MinecraftInvicon Green Carpet.png: Sprite image for Green Carpet in MinecraftInvicon Cyan Carpet.png: Sprite image for Cyan Carpet in MinecraftInvicon Light Blue Carpet.png: Sprite image for Light Blue Carpet in MinecraftInvicon Blue Carpet.png: Sprite image for Blue Carpet in MinecraftInvicon Purple Carpet.png: Sprite image for Purple Carpet in MinecraftInvicon Magenta Carpet.png: Sprite image for Magenta Carpet in MinecraftInvicon Pink Carpet.png: Sprite image for Pink Carpet in Minecraft
+4 × Any color Carpet[t 1]	16	Low	5
+Journeyman	5	20%	10%	12 × Yellow Dye	Emerald	16	Low	20
+20%	10%	12 × Light Gray Dye	Emerald	16	Low	20
+20%	10%	12 × Orange Dye	Emerald	16	Low	20
+20%	10%	12 × Red Dye	Emerald	16	Low	20
+20%	10%	12 × Pink Dye	Emerald	16	Low	20
+6	100%	95%	3 × Emerald	Invicon White Bed.png: Sprite image for White Bed in MinecraftInvicon Light Gray Bed.png: Sprite image for Light Gray Bed in MinecraftInvicon Gray Bed.png: Sprite image for Gray Bed in MinecraftInvicon Black Bed.png: Sprite image for Black Bed in MinecraftInvicon Brown Bed.png: Sprite image for Brown Bed in MinecraftInvicon Red Bed.png: Sprite image for Red Bed in MinecraftInvicon Orange Bed.png: Sprite image for Orange Bed in MinecraftInvicon Yellow Bed.png: Sprite image for Yellow Bed in Minecraft
+Invicon Lime Bed.png: Sprite image for Lime Bed in MinecraftInvicon Green Bed.png: Sprite image for Green Bed in MinecraftInvicon Cyan Bed.png: Sprite image for Cyan Bed in MinecraftInvicon Light Blue Bed.png: Sprite image for Light Blue Bed in MinecraftInvicon Blue Bed.png: Sprite image for Blue Bed in MinecraftInvicon Purple Bed.png: Sprite image for Purple Bed in MinecraftInvicon Magenta Bed.png: Sprite image for Magenta Bed in MinecraftInvicon Pink Bed.png: Sprite image for Pink Bed in Minecraft
+Any color Bed[t 1]	12	Low	10
+Expert	7	17%	9%	12 × Brown Dye	Emerald	16	Low	30
+17%	9%	12 × Purple Dye	Emerald	16	Low	30
+17%	9%	12 × Blue Dye	Emerald	16	Low	30
+17%	9%	12 × Green Dye	Emerald	16	Low	30
+17%	9%	12 × Magenta Dye	Emerald	16	Low	30
+17%	9%	12 × Cyan Dye	Emerald	16	Low	30
+8	100%	94%	3 × Emerald	Invicon White Banner.png: Sprite image for White Banner in MinecraftInvicon Light Gray Banner.png: Sprite image for Light Gray Banner in MinecraftInvicon Gray Banner.png: Sprite image for Gray Banner in MinecraftInvicon Black Banner.png: Sprite image for Black Banner in MinecraftInvicon Brown Banner.png: Sprite image for Brown Banner in MinecraftInvicon Red Banner.png: Sprite image for Red Banner in MinecraftInvicon Orange Banner.png: Sprite image for Orange Banner in MinecraftInvicon Yellow Banner.png: Sprite image for Yellow Banner in Minecraft
+Invicon Lime Banner.png: Sprite image for Lime Banner in MinecraftInvicon Green Banner.png: Sprite image for Green Banner in MinecraftInvicon Cyan Banner.png: Sprite image for Cyan Banner in MinecraftInvicon Light Blue Banner.png: Sprite image for Light Blue Banner in MinecraftInvicon Blue Banner.png: Sprite image for Blue Banner in MinecraftInvicon Purple Banner.png: Sprite image for Purple Banner in MinecraftInvicon Magenta Banner.png: Sprite image for Magenta Banner in MinecraftInvicon Pink Banner.png: Sprite image for Pink Banner in Minecraft
+Any color Banner[t 1]	12	Low	15
+Master	9	100%	100%	2 × Emerald	3 × Painting	12	Low	30
+ The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
+Toolsmith
+Job site block: Smithing Table
+
+
+A toolsmith.
+Toolsmith
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	40%	15 × Coal	Emerald	16	Low	2
+2	25%	40%	Emerald	Stone Axe	12	High	1
+25%	40%	Emerald	Stone Shovel	12	High	1
+25%	40%	Emerald	Stone Pickaxe	12	High	1
+25%	40%	Emerald	Stone Hoe	12	High	1
+Apprentice	3	100%	100%	4 × Iron Ingot	Emerald	12	Low	10
+4	100%	100%	36 × Emerald	Bell	12	High	5
+Journeyman	5	100%	40%	30 × Flint	Emerald	12	Low	20
+6	25%	40%	6–20 × Emerald	 Enchanted Iron Axe[t 1]	3	High	10
+25%	40%	7–21 × Emerald	 Enchanted Iron Shovel[t 1]	3	High	10
+25%	40%	8–22 × Emerald	 Enchanted Iron Pickaxe[t 1]	3	High	10
+25%	40%	4 × Emerald	Diamond Hoe	3	High	10
+Expert	7	100%	67%	Diamond	Emerald	12	Low	30
+8	50%	67%	17–31 × Emerald	 Enchanted Diamond Axe[t 1]	3	High	15
+50%	67%	10–24 × Emerald	 Enchanted Diamond Shovel[t 1]	3	High	15
+Master	9	100%	100%	18–32 × Emerald	 Enchanted Diamond Pickaxe[t 1]	3	High	30
+ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments.
+Weaponsmith
+Job site block: Grindstone
+
+
+A weaponsmith.
+Weaponsmith
+Level	Bedrock Edition	Java Edition	Item wanted	Item given	Trades in
+stock	Price multiplier	Villager XP
+Slot	Probability	Probability
+Novice	1	100%	67%	15 × Coal	Emerald	16	Low	2
+2	100%	67%	3 × Emerald	Iron Axe	12	High	1
+3	100%	67%	7–21 × Emerald	 Enchanted Iron Sword[t 1]	3	Low	1
+Apprentice	4	100%	100%	4 × Iron Ingot	Emerald	12	Low	10
+5	100%	100%	36 × Emerald	Bell	12	High	5
+Journeyman	6	100%	100%	24 × Flint	Emerald	12	Low	20
+Expert	7	100%	100%	Diamond	Emerald	12	Low	30
+8	100%	100%	17–31 × Emerald	 Enchanted Diamond Axe[t 1]	3	High	15
+Master	9	100%	100%	13–27 × Emerald	 Enchanted Diamond Sword[t 1]	3	High	30
+ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments.
+Wandering trader offers
+
+
+Wandering Trader
+The wandering trader offers nine trades in total: two random trades from purchasing table, two random trades from special selling table, and five random trades from ordinary selling table. These trades are not divided into categories; for example, a single wandering trader can sell 2 different saplings. Each individual trade is equally likely.[verify]
+
+In the trading GUI, the trade offers are always listed in this order:
+
+2 purchasing trades
+2 special selling trades
+5 ordinary selling trades
+[]Purchasing table
+Item wanted	Quantity	Price	Trades until
+disabled
+Hay Bale	1	ItemSprite emerald.png: Sprite image for emerald in Minecraft1	2
+Water Bottle	1	ItemSprite emerald.png: Sprite image for emerald in Minecraft1	2
+Baked Potato	4	ItemSprite emerald.png: Sprite image for emerald in Minecraft1	2
+Milk Bucket	1	ItemSprite emerald.png: Sprite image for emerald in Minecraft2	2
+Water Bucket	1	ItemSprite emerald.png: Sprite image for emerald in Minecraft2	2
+Fermented Spider Eye	1	ItemSprite emerald.png: Sprite image for emerald in Minecraft3	2
+[]Selling table (special)
+Price	Item	Count	Trades until
+disabled
+ItemSprite emerald.png: Sprite image for emerald in Minecraft1	Packed Ice	1	6
+Gunpowder	4	2
+BlockSprite acacia-log.png: Sprite image for acacia-log in Minecraft BlockSprite birch-log.png: Sprite image for birch-log in Minecraft BlockSprite cherry-log.png: Sprite image for cherry-log in Minecraft BlockSprite dark-oak-log.png: Sprite image for dark-oak-log in Minecraft BlockSprite jungle-log.png: Sprite image for jungle-log in Minecraft BlockSprite mangrove-log.png: Sprite image for mangrove-log in Minecraft BlockSprite oak-log.png: Sprite image for oak-log in Minecraft BlockSprite pale-oak-log.png: Sprite image for pale-oak-log in Minecraft BlockSprite spruce-log.png: Sprite image for spruce-log in Minecraft
+One of 9 Logs	8	4
+ItemSprite emerald.png: Sprite image for emerald in Minecraft3	Podzol	3	6
+ItemSprite emerald.png: Sprite image for emerald in Minecraft5	Potion of Invisibility
+Duration: 8:00	1	1
+ItemSprite emerald.png: Sprite image for emerald in Minecraft6	Blue Ice	1	6
+ItemSprite emerald.png: Sprite image for emerald in Minecraft6-20	Enchanted[note 2]
+Iron Pickaxe	1	1
+[]Selling table (ordinary)
+Price	Item	Count	Trades until
+disabled
+ItemSprite emerald.png: Sprite image for emerald in Minecraft1	Fern	1	12
+Sugar Cane	1	8
+Pumpkin	1	4
+Dandelion
+Poppy
+Allium
+Azure Bluet
+Red Tulip
+Orange Tulip
+White Tulip
+Pink Tulip
+Oxeye Daisy
+Cornflower	1	12
+Blue Orchid	1	8
+Lily of the Valley	1	7
+Open Eyeblossom	1	7
+Wheat Seeds
+Beetroot Seeds
+Pumpkin Seeds
+Melon Seeds	1	12
+ItemSprite red-dye.png: Sprite image for red-dye in MinecraftItemSprite white-dye.png: Sprite image for white-dye in MinecraftItemSprite blue-dye.png: Sprite image for blue-dye in MinecraftItemSprite pink-dye.png: Sprite image for pink-dye in MinecraftItemSprite black-dye.png: Sprite image for black-dye in MinecraftItemSprite green-dye.png: Sprite image for green-dye in MinecraftItemSprite light-gray-dye.png: Sprite image for light-gray-dye in MinecraftItemSprite magenta-dye.png: Sprite image for magenta-dye in Minecraft
+ItemSprite yellow-dye.png: Sprite image for yellow-dye in MinecraftItemSprite gray-dye.png: Sprite image for gray-dye in MinecraftItemSprite purple-dye.png: Sprite image for purple-dye in MinecraftItemSprite light-blue-dye.png: Sprite image for light-blue-dye in MinecraftItemSprite lime-dye.png: Sprite image for lime-dye in MinecraftItemSprite orange-dye.png: Sprite image for orange-dye in MinecraftItemSprite brown-dye.png: Sprite image for brown-dye in MinecraftItemSprite cyan-dye.png: Sprite image for cyan-dye in Minecraft
+One of 16 dyes	3	12
+Vines	3	4
+Pale Hanging Moss	3	4
+Brown Mushroom
+Red Mushroom	3	4
+Lily Pad	5	2
+Small Dripleaf	2	5
+Sand	8	8
+Red Sand	4	6
+Pointed Dripstone	2	5
+Rooted Dirt	2	5
+Moss Block	2	5
+Pale Moss Block	2	5
+Wildflowers	1	12
+Tall Dry Grass	1	12
+ItemSprite emerald.png: Sprite image for emerald in Minecraft2	Sea Pickle	1	5
+Glowstone	1	5
+ItemSprite emerald.png: Sprite image for emerald in Minecraft3
+
+Tropical Fish Bucket
+Pufferfish Bucket	1	4
+Kelp	1	12
+Cactus	1	8
+Brain Coral Block
+Bubble Coral Block
+Fire Coral Block
+Horn Coral Block
+Tube Coral Block	1	8
+Firefly Bush	1	12
+ItemSprite emerald.png: Sprite image for emerald in Minecraft4	Slimeball	1	5
+ItemSprite emerald.png: Sprite image for emerald in Minecraft5	BlockSprite acacia-sapling.png: Sprite image for acacia-sapling in MinecraftBlockSprite birch-sapling.png: Sprite image for birch-sapling in MinecraftBlockSprite cherry-sapling.png: Sprite image for cherry-sapling in MinecraftBlockSprite dark-oak-sapling.png: Sprite image for dark-oak-sapling in MinecraftBlockSprite jungle-sapling.png: Sprite image for jungle-sapling in MinecraftBlockSprite oak-sapling.png: Sprite image for oak-sapling in MinecraftBlockSprite pale-oak-sapling.png: Sprite image for pale-oak-sapling in MinecraftBlockSprite spruce-sapling.png: Sprite image for spruce-sapling in MinecraftBlockSprite mangrove-propagule.png: Sprite image for mangrove-propagule in Minecraft
+One of 8 saplings or mangrove propagule	1	8
+Nautilus Shell	1	5
+Notes
+ Technically, diamond armor (not other types of diamond gear) can also be obtained renewably from zombies and skeletons; however, these mobs only have a 0.04% (1⁄25,000) chance to spawn with diamond armor, rendering this an extremely impractical way to obtain such armor.
+ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments.
+
+
+Achievements
+[]
+Icon	Achievement	In-game description	Actual requirements (if different)	Gamerscore earned	Trophy type (PS)
+PS4	Other
+		Buy Low, Sell High	Trade for the best possible price.	Buy something for 1 emerald, or when the Hero of the Village effect is applied.	50	Gold
+		Master Trader	Trade for 1,000 emeralds.	Obtain 1,000 emeralds from trading with villagers.	30	Silver
+		Star trader	Trade with a villager at the build height limit.	—	20	Silver
+		The Haggler	Acquire or spend 30 Emeralds by trading with villagers or with wandering trader. [sic]	—	30	Silver
+		Treasure Hunter	Acquire a map from a cartographer villager, then enter the revealed structure	Visit the structure indicated while the purchased map is in your main hand (hotbar).	40	Silver
+Advancements
+Icon	Advancement	In-game description	Actual requirements (if different)
+	Cover Me with Diamonds	Diamond armor saves lives	Have any type of diamond armor in the inventory.
+	Getting an Upgrade	Construct a better Pickaxe	Have a stone pickaxe in the inventory.
+	Isn't It Iron Pick	Upgrade your Pickaxe	Have an iron pickaxe in the inventory.
+	Star Trader	Trade with a Villager at the build height limit	Stand on any block that is higher than 318 and trade with a villager or wandering trader.
+	Suit Up	Protect yourself with a piece of iron armor	Have any type of iron armor in the inventory.
+	What a Deal!	Successfully trade with a Villager	Take an item from a villager or wandering trader's trading output slot.
+Video
+Note: This Video is from Java Edition 1.5, so Trading/Before 1.8 appears.
+
+ 
+
+History
+See also: Trading/Before Village & Pillage and Trading/Before Java Edition 1.8
+[]Java Edition Beta
+August 31, 2010	The first time Notch hinted at plans for a possible future trading system was in an interview during MinecraftCon. The implementation of villages themselves and their inhabitants wasn't even confirmed at this point, but Notch still had a couple of ideas: "If you treat the villagers well, they become friendly to you and might start throwing things at you as gifts. If you treat them badly though by attacking and killing them they hate you and might chase you."
+Notch also mentioned a meter of how much "villagers like you."
+Java Edition
+[]Java Edition
+May 21, 2012	Jeb released a screenshot of himself testing the trading system. The image showed buying and selling areas.
+An ore block can be seen in the background later revealed in snapshot 12w21a to be ruby ore, it was changed to emerald ore before 12w21a because Dinnerbone is colorblind. [1]
+1.3.1	12w21a	Added villager trading.
+12w22a	Eyes of ender are now sold by priests instead of bought, and rotten flesh is no longer bought.
+Added the enchanted item trades to clerics.
+Farmers now sell 2-3 flint gor 10 gravel + 1 emerald.
+Added the 1 emerald for 5 arrows trade.
+The trading UI has been changed where an extra input space has been added where tools can be placed for buying enchantments and/or repair.
+12w23a	Before this snapshot, the librarian defaulted to written books instead of gold ingots, since the written books had a potential offer of 1.3.
+1.4.2	12w32a	The librarian's paper offer was adjusted to 24–35 paper per emerald from 19-29 paper
+The farmer's arrow offer was fixed to sell 9-12 arrows from only 5 before. The original 1 emerald for 5 arrows trade was a result of a bug in the code where the minimum and maximum values of the arrow trade were swapped.
+The librarian's buy book offer was adjusted to 11-12 books from 12-14.
+The farmer's gravel to flint trade now produces 4-5 flint from 2-3.
+The offer probability mechanic was changed: as more offers exist for a villager, the probability of all offers rise. When an offer's probability goes beyond a certain limit, its probability goes down. The net effect is that rarer offers become more common when a villager has many offers, and common offers become rarer.
+The offer removal mechanic has been replaced with an offer disabling mechanic.
+All offers begin with 7 uses, allowing the offer to be traded up to seven times.
+After this, even if the player has not left the trading menu, the offer is disabled.
+If a player trades the last offer on the list and closes the menu, waiting for particles to appear around the villager, all disabled offers are renewed with 2–12 additional uses added to them.
+It is possible for the final offer slot to be disabled, at which point no new offers can be generated and no existing offers can be renewed.
+Trading with the last offer slot available increases the player's popularity with the village by one point. Popularity applies to the village as a whole; other players are not affected.
+1.4.6	12w50a	Librarians now can sell enchanted books.
+1.5	13w04a	A villager spawned from a renamed spawn egg shows its name in the trading interface in place of "Villager".
+1.8	14w02a	Villager trading has been revamped. See here for offers before 1.8.
+Trading now gives the player experience.
+14w03a	Clerics no longer buy ender pearls, as they did in 14w02a.
+14w31a	Clerics now can sell bottles o' enchanting, prices range from 3 to 11 emeralds each.
+1.9	15w41a	Clerics no longer sell eyes of ender.
+Clerics now can sell ender pearls. Prices range from 4 to 7 emeralds each.
+15w43a	Librarians charge double for books with treasure enchantments.
+1.11	16w33a	Farmers now sell 5 to 7 apples and 6 to 10 cookies for an emerald instead of just 5 and 6 respectively.
+16w39a	Added new trades through the cartographer career.
+1.14	19w05a	Added wandering traders, which can trade with the player.
+19w11a	Revamped the trading system, adding many new trades for each villager profession.
+Villager profession now depends on their job site block, rather than randomly assigned at birth.
+Villager trading prices now depend on the player's popularity in the village.
+Villagers now resupply their trades up to two times a day, if they get to work at a job site block.
+Added the mason profession, which uses a stonecutter as a job site block.
+The trading UI has been updated.
+The villager now gains experience as it trades with the player, and the experience is visible in a bar on top of the trading UI.
+19w13b	All available trades are now listed in a sidebar on the left of the trading interface.
+When the player has the required materials, clicking on an available trade puts the items into the slots automatically.
+1.15	19w45a	Librarians now sell one bookshelf for nine emeralds, instead of three bookshelves for six emeralds.
+1.17	21w05a	Wandering traders now can sell small dripleaf.
+21w13a	Wandering traders now can sell pointed dripstone, rooted dirt and moss block.
+Masons now can sell dripstone blocks.
+1.19	22w15a	Wandering traders now can sell mangrove propagules.
+1.19.4
+Experiment
+Update 1.20	23w07a	Wandering traders now can sell cherry saplings.
+1.20.2	23w31a	A villager now only gives a big discount the first time it is cured from a zombie villager. There are no longer multiple stacked discounts if a villager is zombified and cured multiple times.[2]
+Existing villagers with multiple curing discounts keep their lowered prices when updated to this snapshot.
+1.20.2 Pre-release 1	When villagers unlock new trades, the order of those trades in the UI is now always random instead of sometimes being deterministic.
+1.20.2
+Experiment
+Villager Trade Rebalance	23w31a	Librarians from different biomes now sell different enchanted books.
+Each village biome has one special enchantment that is only available from master-level librarians, and players must visit all seven village biomes to get all the enchanted books available from trading.
+Some enchanted book trades are exclusive to jungle and swamp villagers, which do not spawn naturally, unless villagers are brought to and bred in jungle and swamp biomes.
+Enchantments for tridents, crossbows and fishing rods are no longer obtainable from trading, and must be acquired by other means.
+Wandering traders now sell more items, and buy certain items from the player.
+Some of the existing trades from wandering traders have reduced prices.
+1.20.2 Pre-release 1	Added seven new maps which cartographers can sell.
+Buying diamond armor from armorers now also requires a small amount of diamonds.
+Most master-level armorers buy iron blocks and pay 4 emeralds for them.
+Chainmail armor is exclusively sold by jungle and swamp armorers.
+The savanna armorer sells cursed diamond armor at reduced prices.
+The taiga armorer can swap one piece of diamond armor for another.
+1.20.5
+Experiment
+Villager Trade Rebalance	24w03a	Villagers who buy armor now ignore durability and can buy damaged armor.
+1.20.5
+Experiment
+Update 1.21	24w12a	Added the trial chambers maps, sold by journeyman-level cartographers.
+1.21.5	25w07a	Updated trades for cartographers and wandering traders are no longer behind the "Villager Trade Rebalance" experimental toggle.
+Decreased the maximum uses of paper and glass pane cartographer trades from 16 to 12.
+Bedrock Edition
+[]Pocket Edition
+1.0.4	alpha 1.0.4.0	Added villager trading.
+1.1.0	alpha 1.1.0.3	Added new trades through the cartographer career.
+[]Bedrock Edition
+1.2.13	beta 1.2.13.5	Added Curse of Binding and Curse of Vanishing enchantments, which at this time can be obtained only via trading with librarians.
+1.4.0	beta 1.2.20.2	Removed the curse enchantments in enchanted books from librarian trading.
+1.10.0	beta 1.10.0.3	Added new trades through the stone mason villager profession and wandering trader.
+1.11.0	beta 1.11.0.1	Added economic trades, where players can unlock multiple tiers at once by leveling up villagers.
+Villagers now have a demand in which their emerald cost can change higher or lower than usual.
+beta 1.11.0.4	Changed trading for villagers.
+Villager no longer instantly resupply their trades when disabled, as now they need to work at a job site block to resupply themselves.
+Hero of the Village now gives a trading price discount, except for one emerald trades (as it already costs one emerald).
+beta 1.11.0.7	Pressing use on a trade now auto-trades items.
+Reverted cake trade from farmer villagers, increased max amount of some trade until disabled for master level stone mason and wandering trader.
+1.12.0	beta 1.12.0.3	Changed some trades for both villager and wandering trader.
+beta 1.12.0.4	Removed regular sand from the wandering trader trades and adjusted the cost of a diamond hoe on the toolsmith.
+1.13.0	beta 1.13.0.1	Cartographer villager now buy 11 glass panes, rather than 10.
+beta 1.13.0.15	Farmer villagers now sell suspicious stew.
+1.16.0	beta 1.16.0.57	Villager trade values have been changed to closely match Java Edition.
+?	Enchanted items now cost in a range.
+1.17.0	beta 1.16.230.54	Wandering traders can sell small dripleaf, pointed dripstone, rooted dirt, and moss blocks.
+Stone masons can now sell dripstone blocks.
+1.18.10	beta 1.18.10.26	Butcher, cartographer, librarian, and wandering trader trades have been changed to match Java Edition.
+Removed the emerald icon above a villager's head when trading.
+1.18.30	beta 1.18.20.21	Armorer, cleric, fisherman, shepherd, toolsmith, and weaponsmith villager trades have been changed to match Java Edition.
+1.20.30
+Experiment
+Villager Trade Rebalancing	Preview 1.20.30.20	Librarians from different biomes now sell different enchanted books.
+Librarians now sell, as their only master-level trade, enchanted books with a special enchantment that depends on the biome they spawned in (as shown by their garments). This is the only way to obtain these enchantments via trading.
+Since jungle and swamp villagers do not spawn naturally, the only way to obtain the special enchanted books from these librarians is to bring in villagers from outside, get them to mate, and arrange for their babies to become librarians.
+Enchantments for tridents, crossbows and fishing rods are no longer obtainable from trading, and must be acquired by other means.
+Wandering traders now sell more items, and buy certain items from the player.
+Some of the existing trades from wandering traders have reduced prices.
+1.20.30	Preview 1.20.30.21	A villager now only gives a big discount the first time it is cured from a zombie villager. There are no longer multiple stacked discounts if a villager is zombified and cured multiple times.
+1.21.70	Preview 1.21.70.23	Updated trades for cartographers and wandering traders are no longer behind the "Villager Trade Rebalancing" experimental toggle.
+Decreased the maximum uses of paper and glass pane cartographer trades from 16 to 12.
+1.20.80
+Experiment
+Update 1.21	Preview 1.20.80.23	Added the trial chambers maps, sold by journeyman-level cartographers.
+Legacy Console Edition
+[]Legacy Console Edition
+Xbox 360	Xbox One	PS3	PS4	PS Vita	Wii U	Switch	
+TU14	CU1	1.04	1.00	1.00	Patch 1	1.0.1	Added villager trading.
+TU20	CU8	1.13	1.13	1.13	Librarian villagers now may offer name tags for sale.
+TU31	CU19	1.22	1.22	1.22	Patch 3	Changed villager trades to offers as of Java Edition 1.8.
+TU46	CU36	1.38	1.38	1.38	Patch 15	Clerics no longer sell eyes of ender.
+Clerics now sell ender pearls. Prices range from 4 to 7 emeralds each.
+Librarians charge double for books with treasure enchantments.[is this the correct version?]
+TU54	CU44	1.52	1.52	1.52	Patch 24	1.0.4	Farmers now sell 5 to 7 apples and 6 to 10 cookies for an emerald instead of just 5 and 6 respectively.[is this the correct version?]
+Added new trades through the cartographer career.
+TU69		1.76	1.76	1.76	Patch 38		When trading with a villager, an emerald icon is now shown above it as long as the UI is open.
+1.91			The trading interface shows the new career level for villagers and which trades are locked.
+Villager trading prices now depend on the player's popularity in the village.
+Villagers now resupply their trades up to two times a day, if they get to work at a job site block.
+Added new trades through the stone mason villager profession and wandering trader.
+1.95	Stone mason villagers now sell 4 chiseled stone bricks for 1 emerald instead of 1 for 20 emeralds.
+Stone mason villagers now sell 12 glazed terracotta for 1 emerald instead of buying it.
+Issues
+Issues relating to "Trading", "Trades", or "Trade system" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+Java Edition
+
+MC-186844 – Librarian and cartographer trade loop
+MC-168451 – Infinite Emerald Cycle via Cleric and Librarian trades
+MC-176206 – Able to trade villagers lodestone compass
+MC-186849 – Librarian trading output has functional clocks and compasses
+MC-245686 – Villagers can't restock trades when doDaylightCycle is false
+MC-261754 – Villagers use their workstation while trading
+MC-262573 – Villager trades use high contrast buttons when high contrast pack is enabled
+MC-264554 – Trade button select highlight scrolls with the scrollbar
+MC-264555 – Wandering Trader in the Villager Trade Rebalance experiment doesn't sell Mangrove Log
+MC-269858 – Experience orbs generated from trading with villagers or wandering traders quickly alter their facing direction after a few seconds
+Bedrock Edition
+
+MCPE-49853 – Villagers lock profession without being traded with (do not become unemployed when you break their workstation)
+MCPE-117852 – Villager changes profession or trades after being traded with
+MCPE-152917 – Experience bar in trading GUI is not retextured in the Adventure Time and Steven Universe resource packs
+MCPE-174913 – The trades of cartographers after villager trade rebalancing aren't in parity with Java Edition
+MCPE-86308 – Cured villager does not offer any trade discount.
+MCPE-98695 – Villager trades sometimes appear enabled (gray) when they should be disabled (red)
+MCPE-113983 – Wandering trader ink sacs obtained prior to 1.16.210.54 still cannot be used for crafting and trading or be stacked with ones from squids
+MCPE-128486 – Holding output slot don't continuously trade on touch screen
+MCPE-129186 – Cartographer Villager's empty map trade is not a locator map
+MCPE-134483 – Suspicious Stew Trade not Randomized for Farmer
+Trivia
+While diamonds are not renewable (except via vault, which is impractical in normal gameplay), many of their products (armor, tools, and weapons) are renewable via trading.
+Gallery
+Renders
+An unemployed villager refuses a player trying to trade.
+An unemployed villager refuses a player trying to trade.
+ 
+A nitwit villager refuses a player trying to trade.
+A nitwit villager refuses a player trying to trade.
+ 
+A Villager presenting the emeralds.
+A Villager presenting the emeralds.
+Screenshots
+The trading menu before Bedrock Edition 1.11.0.
+The trading menu before Bedrock Edition 1.11.0.
+ 
+Trading options of a master-level weaponsmith.
+Trading options of a master-level weaponsmith.
+Development images
+The first image of the trading system released by Jeb. The currency item (later updated to the emerald) can be seen in the inventory.
+The first image of the trading system released by Jeb. The currency item (later updated to the emerald) can be seen in the inventory.
+ 
+An enhanced version of Jeb's screenshot showing the original ore texture more clearly.
+An enhanced version of Jeb's screenshot showing the original ore texture more clearly.

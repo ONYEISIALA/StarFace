@@ -1,0 +1,1013 @@
+A mob (short for mobile, mobile entity, or mobile object)[1] is an AI-driven game entity. All mobs can be attacked or hurt (from falling, attacked by a player or another mob, falling into the void, hit by an arrow, etc, with the exception of protected creakings), and have some form of voluntary movement. Different types of mobs often have unique AI and loot.
+
+
+Contents
+1	Spawning
+1.1	Despawning
+2	Behavior
+3	List of mobs
+3.1	Passive mobs
+3.1.1	Education mobs
+3.2	Neutral mobs
+3.3	Hostile mobs
+3.3.1	Boss mobs
+3.4	Upcoming mobs
+3.5	Unused mobs
+3.6	Similar entities
+3.7	Removed mobs
+3.8	Joke mobs
+3.9	Unimplemented mobs
+3.10	Mentioned mobs
+4	Classification
+4.1	Weaknesses and immunities
+4.2	Undead mobs
+4.3	Aquatic mobs
+4.4	Arthropods
+4.5	Illagers
+4.6	Knockback resistance
+5	Platform availability
+6	Damage dealt by mobs
+7	Achievements
+8	Advancements
+9	Videos
+10	History
+11	Issues
+12	Trivia
+13	Gallery
+13.1	In other media
+14	References
+15	External links
+16	Navigation
+Spawning
+Main article: Spawn cycle
+Most monsters are found in dark areas such as caves, while most animals are found commonly in bright light levels. Most other mobs are also found in different biomes/structures.
+Different mobs spawn in diverse habitats, depending on the light level, biome, and surface material.
+
+Some of the many monsters that can spawn in the Overworld. From left to right: zombie, spider, enderman, creeper, skeleton, drowned, witch, and slime.
+Mobs spawn in various ways. Most mobs spawn naturally, depending on the light level, biome, and their surroundings. For example, most animals are found in bright areas on the surface, while hostile monsters are commonly found in the dark (whether it's a cave, monster room, mansion, or at night). Animals usually spawn upon chunk generation, while hostile monsters spawn and despawn in a certain radius around the player.
+
+Some mobs, including passive and neutral animals, and even hoglins, have the ability to be bred by the player, creating offspring. Villagers cannot be directly bred by the player, instead randomly breeding depending on the time of day and the number of beds, which allows players to manipulate their likelihood of breeding.
+
+Most mobs never spawn on transparent blocks, in water (except fish, dolphins, turtles, and other aquatic creatures), in lava (except for striders), on bedrock, or on blocks less than a full block tall (such as slabs placed on the bottom half). The exception is monster spawners, from which monsters can spawn naturally on any block including air.
+
+Some mobs (like the snow golem and the wither) require that the player "construct" them before being able to spawn. The iron golem can spawn naturally and can also be constructed. The ender dragon can be respawned with four end crystals. A rare occurrence of spawning are the jockey mobs, which is a mob riding another mob.
+
+Players can also spawn mobs easily by using spawn eggs in Creative mode or the /summon command.
+
+Despawning
+Main article: Mob spawning § Despawning
+Many mobs despawn (cease to exist) after a certain amount of time if far enough from the player. In Java Edition, most passive mobs do not despawn, while most monsters do. In Bedrock Edition, almost all mobs despawn. Mobs can be prevented from despawning if they are named with a name tag, and in Java Edition[verify], also in a boat.
+
+Behavior
+"Pathfinding" redirects here. For detailed mechanic of pathfinding, see Mob AI § Pathfinding.
+
+A pig emitting smoke particles upon death.
+Mobs are affected by the environment in the same ways as the player; they are subject to physics, and they can be hurt by the same things that harm the player (catching on fire, falling, drowning, attacks from weapons, the /kill command, etc.). Some mobs may be resistant or immune to certain hazards, such as some Nether mobs, which are immune to fire. All aquatic mobs except dolphins are immune to drowning. Mobs can ride minecarts and other mobs can climb up ladders. When mobs are killed, they turn to smoke particles and drop items that may be useful resources.
+
+Each type of mob in Minecraft has a certain AI (artificial intelligence) system with different behaviors and mechanics. Mobs ordinarily wander around at random if there is a player within 32 blocks and usually avoid walking off blocks high enough to cause falling damage. Many mobs have an advanced path-finding system that allows them to navigate through obstacles to get to a desired object or destination. Passive mobs flee in random directions after being hurt, while hostile mobs face and chase/attack the player as soon as the player comes close. Neutral mobs remain neutral until a player or mob provokes it (usually by attacking), at which point the neutral mob becomes hostile toward and attacks the entity that hit it. Most mobs are aware of players within (a Euclidian distance) 16 blocks of them, but some can see farther. Conversely, most mobs can be heard by players up to 16 blocks away. Mobs are harmless to players in Creative mode.
+
+Most mobs cannot see through most solid blocks, including semi-transparent blocks such as ice, glass, tall grass, or glass panes. In Java Edition, all mobs (except for wardens[2]) try to avoid walking over rails unless pushed onto the rails by other mobs.
+
+Using specific name tags on mobs can result in unusual behavior or rendering. See Name Tag § Easter eggs for details.
+
+List of mobs
+Mobs are listed and classified by their nature from the player's perspective. For more details on a particular mob, click on them to view their individual page.
+
+Passive mobs
+Passive mobs are harmless mobs (except for pufferfish) that do not attempt to attack the player, even when provoked or attacked, though some of them may attack other mobs. Most of them can be bred or tamed.
+
+
+Allay
+
+Armadillo
+
+Axolotl
+
+Bat
+
+Camel
+
+Cat
+
+Chicken
+
+Cod
+
+Cow
+
+Donkey
+
+Frog
+
+Glow Squid
+
+Happy Ghast
+
+Horse
+
+Mooshroom
+
+Mule
+
+Ocelot
+
+Parrot
+
+Pig
+
+Pufferfish
+(defensive)
+
+Rabbit
+
+Salmon
+
+Sheep
+
+Skeleton Horse
+
+Sniffer
+
+Snow Golem
+
+Squid
+
+Strider
+
+Tadpole
+
+Tropical Fish
+
+Turtle
+
+Villager
+
+Wandering Trader
+
+
+Education mobs
+See also: Minecraft Education exclusive features
+These passive mobs are designed primarily for coding, education, or interactive learning rather than regular gameplay.
+
+
+Agent
+[e 1]
+
+NPC
+[e 1]
+ Unused in Bedrock Edition
+Neutral mobs
+Neutral mobs are sometimes passive and sometimes hostile toward the player. These mobs usually require provocation from the player in one way or another to attack or become hostile, while some can be naturally-hostile and have a way to be pacified.
+
+
+Bee
+
+Cave Spider
+
+Dolphin
+
+Drowned
+
+Enderman
+
+Fox
+
+Goat
+
+Iron Golem
+
+Llama
+
+Panda
+
+Piglin
+
+Polar Bear
+
+Spider
+
+Trader Llama
+
+Wolf
+
+Zombified Piglin
+
+
+Hostile mobs
+Hostile mobs are dangerous, aggressive mobs that always attack the player within their respective detection ranges. Certain non-hostile mobs such as chickens, skeleton horses and spiders can be mounted by hostile mobs on rare occasions, and become hostile.
+
+
+Blaze
+
+Bogged
+
+Breeze
+
+Creaking
+
+Creeper
+
+Elder Guardian
+
+Endermite
+
+Evoker
+
+Ghast
+
+Guardian
+
+Hoglin
+
+Husk
+
+Magma Cube
+
+Phantom
+
+Piglin Brute
+
+Pillager
+
+Ravager
+
+Shulker
+
+Silverfish
+
+Skeleton
+
+Slime
+
+Stray
+
+Vex
+
+Vindicator
+
+Warden
+
+Witch
+
+Wither Skeleton
+
+Zoglin
+
+Zombie
+
+Zombie Villager
+
+
+Boss mobs
+Boss mobs are special hostile mobs that are tougher and more dangerous than other mobs. They do not spawn randomly and are confronted intentionally. All boss mobs have a bossbar featuring their name and health. Boss mobs provide unique challenges and equivalent rewards, such as XP or useful items.
+
+
+Ender Dragon
+
+Wither
+
+
+Upcoming mobs
+These mobs are planned to be added in the upcoming Third Drop 2025.
+
+
+Copper Golem[3][4]
+Unused mobs
+See also: Java Edition unused features and Bedrock Edition unused features
+These mobs can not spawn without the use of /summon or spawn eggs. Old villagers and old zombie villagers cannot be spawned at all.
+
+
+Elder Guardian Ghost[u 1]
+
+Giant[u 2]
+
+Illusioner
+[u 2]
+
+Old Villager[u 1]
+
+Old Zombie Villager[u 1]
+
+Zombie Horse
+ ‌[Bedrock Edition and Minecraft Education only]
+ ‌[Java Edition only]
+Similar entities
+These entities are grouped within the “living entities” category in the game code. In Bedrock Edition, they are all under the mob class.
+
+
+Armor Stand
+
+Camera[s 1]
+
+Player
+ Unused in Bedrock Edition
+Removed mobs
+See also: Java Edition removed features and Bedrock Edition removed features
+Removed mobs are mobs that no longer exist in current versions of the game.
+
+
+Builder
+
+MD3 Test Mob
+
+Mob[r 1]
+
+Monster
+ Removed in Java Edition, but existing with human model in Minecraft Classic (JavaScript remake)
+Joke mobs
+See also: April Fools' Day jokes
+Mobs that were added as April Fools' Day jokes in Java Edition, and cannot be found in the normal version.
+
+
+Angry Ghast
+
+Batato
+
+Diamond Chicken
+
+Love Golem
+
+Mega Spud
+
+Moon Cow
+
+Nerd Creeper
+
+Pink Wither
+
+Pet Armadillo
+
+Pet Axolotl
+
+Pet Bee
+
+Pet Cat
+
+Pet Chicken
+
+Pet Cow
+
+Pet Creeper
+
+Pet Fox
+
+Pet Frog
+
+Pet Mooshroom
+
+Pet Polar Bear
+
+Pet Slime
+
+Pet Turtle
+
+Pet Wolf
+
+Plaguewhale Slab
+
+Poisonous Potato Zombie
+
+Ray Tracing
+
+Redstone Bug
+
+Spectator Villager
+
+Spectator Witch
+
+Smiling Creeper
+
+Toxifin Slab
+
+Warden (boss)
+Unimplemented mobs
+See also: Java Edition mentioned features § Mobs
+Mobs that were announced by Mojang as potential additions to the game, but either got scrapped or shelved indefinitely.
+
+
+Alpaca[n 1]
+
+Barnacle
+[n 2][5][6]
+
+Crab[n 2]
+
+Firefly[n 3]
+
+Glare[n 2]
+
+Shade[n 2]
+
+Iceologer[n 2]
+
+Meerkat[n 4]
+
+Moobloom[n 2]
+
+Ostrich[n 4]
+
+Penguin[n 2]
+
+Pigman Bodyguard[n 2]
+
+Rascal[n 2]
+
+Red Dragon[n 1]
+
+Termite[n 4]
+
+The Great Hunger[n 2][5][6]
+
+Tuff Golem[n 2]
+
+Vulture[n 4]
+
+Wildfire[n 2][5][6]
+ Status uncertain, whether it has been scrapped or simply shelved is unknown.
+ Shelved indefinitely, may or may not come in a future update.
+ Added as a particle effect emitted from firefly bushes, no plans to add it as a mob in any future update.
+ Planned to be introduced in a currently unknown future update.
+Mentioned mobs
+See also: Mentioned features
+Mobs that were briefly mentioned by Mojang Studios on social media and other platforms.
+
+
+Beaver
+
+Burning Spider
+
+Cobble Creeper
+
+Giant Spider
+
+Glow Worm
+
+Goblin
+
+Herobrine[n 1]
+
+Lava Zombie
+
+Musician
+
+Reindeer
+
+Soul Fire Blaze
+
+Snail
+
+Troll
+ always mentioned as "removed Herobrine" in the changelogs of the updates.
+Classification
+Most of the mobs are classified into categories, such as the animals or the monsters. Some creatures are then further classified into more specific groups, based on detailed characteristics and properties they share with other members of that group. There are a total of four mob classifications that display unique characteristics from other mobs.
+
+Weaknesses and immunities
+Some mobs are weak or immune to certain type of damage. For example, aquatic creatures, such as turtles and guardians, take more damage from tridents that are enchanted with Impaling‌[Java Edition only]‌[until JE Combat Tests]. All undead mobs are healed by potions of Harming and take extra damage from weapons enchanted with Smite, along with taking damage from potions of Healing. Many of these weaknesses and immunities are a result of what category (see below) of mobs that mob falls into.
+
+Undead mobs
+
+A dying zombie.
+Main article: Undead
+This group of mobs includes bogged, drowned, old zombie villagers, husks, phantoms, skeletons, skeleton horses, strays, withers, wither skeletons, zoglins, zombies, zombie horses, zombie villagers, and zombified piglins. These mobs are damaged by potions of Healing, healed by potions of Harming, are unaffected by Regeneration and Poison, and are immune to drowning (except for husks and zombies, which transform into zombies and drowned if submerged underwater, respectively). Zombies, zombie villagers, drowned, skeletons, strays, bogged, and phantoms burn when under direct sunlight, unless they are touching water or wearing a helmet. Under the Fire Resistance effect, these undead mobs still catch fire in direct sunlight but are not damaged by it. All undead mobs except for drowned, phantoms, and withers cannot swim and sink when in water. All undead mobs take extra damage from weapons enchanted with Smite, are ignored by withers, and scare armadillos into hiding into their shells.
+
+Many undead mobs can spawn with the ability to pick up items and equipment from the ground. Some can sometimes spawn wearing armor, or holding tools or weapons.
+
+Aquatic mobs
+
+A dolphin chasing a raw cod.
+Main article: Aquatic
+This group of mobs includes axolotls, dolphins, squid, glow squid, guardians, elder guardians, tadpoles, turtles, cod, salmon, pufferfish, and tropical fish, but not drowned.[7] They take extra damage from tridents enchanted with Impaling,‌[Java Edition only]‌[until JE Combat Tests] and, except axolotls, do not cause pufferfish to inflate nor take damage from them. All aquatic mobs except dolphins are immune to drowning, and all except guardians, elder guardians, and turtles take suffocation damage if out of water for too long. Aquatic mobs have the ability to freely swim vertically, whereas other mobs simply float on the surface of the water or sink.
+
+Arthropods
+
+A spider.
+Main article: Arthropods
+This group consists of mobs based on arthropods, namely bees, cave spiders, endermites, silverfish, and spiders. They take extra damage and receive the Slowness IV effect when attacked with weapons enchanted with Bane of Arthropods .
+
+Illagers
+
+Illagers attacking villagers on a raid
+Main article: Illager
+This group includes pillagers, illusioners‌[JE only], evokers, and vindicators. They are immune to evoker fangs damage and ignored by vindicators named "Johnny". They are hostile toward adult villagers, wandering traders, iron golems and players in Survival or Adventure mode. Ravagers, witches, and vexes accompany them in raids but are not illagers themselves. Illusioners (and witches‌[Bedrock Edition only]) can see players or targets through blocks.
+
+Knockback resistance
+Main article: Knockback (mechanic)
+Some non-boss mobs resist a certain percentage of knockback from attacks.
+
+Mob	Knockback resistance
+Agent	100% (are invulnerable)
+Drowned	0%–5% (determined on spawn)
+Hoglin	60%
+Husk	0%–5% (determined on spawn)
+Glow Squid	85%
+Iron Golem	100%
+NPC	100% (are invulnerable)
+Ravager	70%‌[JE only]
+50%‌[BE only]
+Squid	85%
+Shulker	100%
+Warden	100%
+Zoglin	60%
+Zombie	0%–5% (determined on spawn)
+Zombie Villager	0%–5% (determined on spawn)
+Zombified Piglin	0%–5% (determined on spawn)
+Platform availability
+The following table also applies to Minecraft Education and the China Edition variants, with the Bedrock Edition corresponding to Minecraft Education.
+
+Mob	Java Edition	Bedrock Edition
+Agent	No	Yes
+Allay	Yes	Yes
+Armadillo	Yes	Yes
+Axolotl	Yes	Yes
+Bat	Yes	Yes
+Bee	Yes	Yes
+Blaze	Yes	Yes
+Bogged	Yes	Yes
+Breeze	Yes	Yes
+Camel	Yes	Yes
+Camera
+
+No	Unobtainable
+Cat	Yes	Yes
+Cave Spider	Yes	Yes
+Chicken	Yes	Yes
+Cod	Yes	Yes
+Cow	Yes	Yes
+Creaking	Yes	Yes
+Creeper	Yes	Yes
+Dolphin	Yes	Yes
+Donkey	Yes	Yes
+Drowned	Yes	Yes
+Elder Guardian	Yes	Yes
+Elder Guardian Ghost	No	Yes
+Ender Dragon	Yes	Yes
+Enderman	Yes	Yes
+Endermite	Yes	Yes
+Evoker	Yes	Yes
+Fox	Yes	Yes
+Frog	Yes	Yes
+Ghast	Yes	Yes
+Giant	Yes	No
+Glow Squid	Yes	Yes
+Goat	Yes	Yes
+Guardian	Yes	Yes
+Happy Ghast	Yes	Yes
+Hoglin	Yes	Yes
+Horse	Yes	Yes
+Husk	Yes	Yes
+Illusioner	Yes	No
+Iron Golem	Yes	Yes
+Llama	Yes	Yes
+Magma Cube	Yes	Yes
+Mooshroom	Yes	Yes
+Mule	Yes	Yes
+NPC	No	Yes
+Ocelot	Yes	Yes
+Old Villager	No	Unobtainable
+Old Zombie Villager	No	Unobtainable
+Panda	Yes	Yes
+Parrot	Yes	Yes
+Phantom	Yes	Yes
+Pig	Yes	Yes
+Piglin	Yes	Yes
+Piglin Brute	Yes	Yes
+Pillager	Yes	Yes
+Polar Bear	Yes	Yes
+Pufferfish	Yes	Yes
+Rabbit	Yes	Yes
+Ravager	Yes	Yes
+Salmon	Yes	Yes
+Sheep	Yes	Yes
+Shulker	Yes	Yes
+Silverfish	Yes	Yes
+Skeleton	Yes	Yes
+Skeleton Horse	Yes	Yes
+Slime	Yes	Yes
+Snow Golem	Yes	Yes
+Sniffer	Yes	Yes
+Spider	Yes	Yes
+Squid	Yes	Yes
+Stray	Yes	Yes
+Strider	Yes	Yes
+Tadpole	Yes	Yes
+Trader Llama	Yes	Yes
+Tropical Fish	Yes	Yes
+Turtle	Yes	Yes
+Vex	Yes	Yes
+Villager	Yes	Yes
+Vindicator	Yes	Yes
+Wandering Trader	Yes	Yes
+Warden	Yes	Yes
+Witch	Yes	Yes
+Wither	Yes	Yes
+Wither Skeleton	Yes	Yes
+Wolf	Yes	Yes
+Zoglin	Yes	Yes
+Zombie	Yes	Yes
+Zombie Horse	Yes	Yes
+Zombie Villager	Yes	Yes
+Zombified Piglin	Yes	Yes
+Damage dealt by mobs
+Main article: Damage § Inflicted by mobs
+Achievements
+[]
+Icon	Achievement	In-game description	Actual requirements (if different)	Gamerscore earned	Trophy type (PS)
+PS4	Other
+		Body Guard	Create an Iron Golem	—	20	Bronze
+		Cow Tipper	Harvest some leather.	Pick up leather from the ground or via fishing.	15	Bronze
+		Have a Shearful Day	Use Shears to obtain wool from a sheep.	—	15	Bronze
+		Leader of the Pack	Befriend five wolves.	Note: This does not have to be in a single game, so multiple games or reloading old saves does count toward this achievement.	20	Bronze
+		Monster Hunter	Attack and destroy a monster.	Kill a hostile mob or one of the following neutral mobs: an enderman, a piglin, a zombified piglin, a spider, or a cave spider.	15	Bronze
+		Repopulation	Breed two cows with wheat.	Breed two cows or two mooshrooms.	15	Bronze
+		Return to Sender	Destroy a Ghast with a fireball.	Kill a ghast using a ghast fireball.	30	Silver
+		Sniper Duel	Kill a Skeleton with an arrow from more than 50 meters.	Use a launched arrow to kill a skeleton, wither skeleton, or stray from 50 or more blocks away, horizontally.	30	Bronze
+		The Beginning.	Kill the Wither	Be within a 100.9×100.9×203.5 cuboid centered on the Wither when it drops the nether star.	40	Silver
+		The Beginning?	Spawn the Wither	Be within a 100.9×100.9×103.5 cuboid centered on the Wither when it is spawned.	20	Bronze
+		When Pigs Fly	Use a saddle to ride a pig, and then have the pig get hurt from fall damage while riding it.	Be riding a pig (e.g. using a saddle) when it hits the ground with a fall distance greater than 5.	40	Silver
+		Zombie Doctor	Cure a zombie villager.	Throw a splash potion of weakness at a zombie villager and give it a golden apple (by facing the zombie and pressing the use key with a golden apple in your hand).	40	Gold
+		Archer	Kill a creeper with arrows.	—	10	Bronze
+		Bee our guest	Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees.	—	15	Bronze
+		Echolocation	Feed a dolphin fish to have it lead you to treasure	Feed a dolphin cod or salmon and have it lure you to treasure.	20	Silver
+		Great View From Up Here	Levitate up 50 blocks from the attacks of a Shulker	Ascend at least 50 blocks while under the levitation effect from a shulker.	20	Bronze
+		I've got a bad feeling about this	Kill a Pillager Captain.	—	20	Bronze
+		Kill the Beast!	Defeat a Ravager.	—	30	Silver
+		Lion Hunter	Gain the trust of an Ocelot.	—	15	Bronze
+		Plethora of Cats	Befriend twenty stray cats.	Befriend and tame twenty stray cats found in villages. They do not all need to be tamed in a single world.	20	Silver
+		The Deep End	Defeat an Elder Guardian	—	30	Silver
+		The End... Again...	Respawn the Enderdragon [sic]	—	30	Silver
+		Total Beelocation	Move and place a Bee Nest, with 3 bees inside, using Silk Touch.	—	30	Silver
+		Where have you been?	Receive a gift from a tamed cat in the morning.	The gift must be picked up from the ground.	20	Bronze
+		Zoologist	Breed two pandas with bamboo.	—	40	Gold
+		Birthday Song	Have an Allay drop a cake at a noteblock	Tame an allay by giving it a cake while having dropped cake items and play a note block nearby.	10	Bronze
+		Feels Like Home	Take a Strider for a loooong [sic] ride on a lava lake in the Overworld.	In the Overworld, use a strider to ride on a lava lake for a distance of 50 meters from the point where the ride starts.	20	Silver
+		Oooh, shiny!	Distract a Piglin using gold	Give a piglin a gold item while it is aggressive toward the player.	30	Silver
+		Over-Overkill	Deal 50 hearts of damage in a single hit using the Mace	Damage can be dealt to any mob, even those that do not have 50 hearts of health overall.	20	Silver
+		Star trader	Trade with a villager at the build height limit.	—	20	Silver
+		The Healing Power of Friendship!	Team up with an axolotl and win a fight	Be near​[more information needed] to an axolotl when killing a hostile aquatic mob while the axolotl is fighting it (not playing dead).	30	Silver
+		Whatever Floats Your Goat	Get in a boat and float with a goat	Use a boat and put a goat inside that boat, then ride it.	20	Bronze
+		With Our Powers Combined!	Have all 3 froglights in your inventory	Acquire at least one of each pearlescent, verdant, and ochre froglights in your inventory at the same time.	30	Gold
+Advancements
+Advancements are made when a player accomplishes something that is either rare to accomplish or sometimes easy to do so (such as Adventure for killing or getting killed by an entity).
+
+Icon	Advancement	In-game description	Actual requirements (if different)
+	Free the End	Good luck	Kill the ender dragon.
+If multiple players are involved in the dragon fight, only the player that deals the final blow to the dragon receives the advancement.
+	How Did We Get Here?	Have every effect applied at the same time	
+Have all of these 33 status effects applied to the player at the same time:[]
+Absorption Bad Omen Blindness Conduit Power Darkness Dolphin's Grace Fire Resistance Glowing Haste Hero of the Village Hunger Infested Invisibility Jump Boost Levitation Mining Fatigue Nausea Night Vision Oozing Poison Raid Omen Regeneration Resistance Slow Falling Slowness Speed Strength Trial Omen Water Breathing Weakness Weaving Wind Charged Wither
+The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.
+
+See also: Tutorial:Advancement guide/Nether tab § How Did We Get Here?
+This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.
+	Into Fire	Relieve a Blaze of its rod	Have a blaze rod in the inventory.
+	Oh Shiny	Distract Piglins with gold	
+While aggravated, give a piglin one of these 25 gold-related items in the #piglin_loved item tag:[]
+Bell Block of Gold Block of Raw Gold Clock Enchanted Golden Apple Gilded Blackstone Glistering Melon Slice Gold Ingot Gold Ore Golden Apple Golden Axe Golden Boots Golden Carrot Golden Chestplate Golden Helmet Golden Hoe Golden Horse Armor Golden Leggings Golden Pickaxe Golden Shovel Golden Sword Light Weighted Pressure Plate Nether Gold Ore Deepslate Gold Ore Raw Gold
+The player must not be wearing any gold armor. Other gold-related items do not distract the piglin and do not trigger this advancement.
+	Return to Sender	Destroy a Ghast with a fireball	Kill a ghast by deflecting a ghast fireball back into it via hitting or shooting a projectile at the fireball.
+	Spooky Scary Skeleton	Obtain a Wither Skeleton's skull	Have a wither skeleton skull in the inventory.
+	The End... Again...	Respawn the Ender Dragon	Be within a 192 block radius from the coordinates (0.0, 128, 0.0) when an ender dragon is summoned using end crystals.
+	This Boat Has Legs	Ride a Strider with a Warped Fungus on a Stick	Use a warped fungus on a stick while riding a strider, decreasing its durability.
+	Uneasy Alliance	Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it	Kill a Ghast while being in the Overworld.
+	Withering Heights	Summon the Wither	Be within a 100.9×100.9×103.5 cuboid centered on the wither when it is spawned.
+	You Need a Mint	Collect Dragon's Breath in a Glass Bottle	Have a bottle of dragon's breath in the inventory.
+	Zombie Doctor	Weaken and then cure a Zombie Villager	Use a golden apple on a zombie villager under the Weakness effect; the advancement is granted when the zombie villager converts into a villager.
+In multiplayer, only the player that feeds the golden apple gets the advancement.
+	Adventure	Adventure, exploration and combat	Kill any mob, or be killed by any living entity.
+	Bee Our Guest	Use a Campfire to collect Honey from a Beehive using a Glass Bottle without aggravating the Bees	Use a glass bottle on a beehive or bee nest while not angering the bees inside.
+	Best Friends Forever	Tame an animal	Tame one of these 8 tameable mobs:
+Cat Donkey Horse Llama Mule Parrot Trader Llama Wolf
+Skeleton Horse and Zombie Horse can be tamed in the same way as a regular horse to gain this advancement with the ride command.
+	Great View From Up Here	Levitate up 50 blocks from the attacks of a Shulker	Move a distance of 50 blocks vertically with the Levitation effect applied, regardless of direction or whether it is caused by the effect.
+	Hired Help	Summon an Iron Golem to help defend a village	Summon an iron golem.
+	Monster Hunter	Kill any hostile monster	
+Kill one of these 37 mobs:[]
+Blaze Bogged Breeze Cave Spider Creaking (by destroying its creaking heart) Creeper Drowned Elder Guardian Ender Dragon Enderman Endermite Evoker Ghast Guardian Hoglin Husk Magma Cube Phantom Piglin Piglin Brute Pillager Ravager Shulker Silverfish Skeleton Slime Spider Stray Vex Vindicator Witch Wither Wither Skeleton Zoglin Zombie Zombie Villager Zombified Piglin
+Other mobs may be killed, but are ignored for this advancement.
+	Monsters Hunted	Kill one of every hostile monster	
+Kill each of these 37 mobs:[]
+Blaze Bogged Breeze Cave Spider Creaking (by destroying its creaking heart) Creeper Drowned Elder Guardian Ender Dragon Enderman Endermite Evoker Ghast Guardian Hoglin Husk Magma Cube Phantom Piglin Piglin Brute Pillager Ravager Shulker Silverfish Skeleton Slime Spider Stray Vex Vindicator Witch Wither Wither Skeleton Zoglin Zombie Zombie Villager Zombified Piglin
+Other mobs may be killed, but are ignored for this advancement.
+	Sniper Duel	Kill a Skeleton from at least 50 meters away	Receive kill credit for a skeleton that is at least 50 blocks away horizontally and is killed by a projectile.
+	The Parrots and the Bats	Breed two animals together	
+Breed a pair of any of these 26 mobs:[]
+Armadillo Axolotl Bee Camel Cat Chicken Cow Donkey Fox Frog Goat Hoglin Horse Llama Mooshroom Mule Ocelot Panda Pig Rabbit Sheep Sniffer Strider Trader Llama Turtle Wolf
+A mule must be the result of breeding a horse and a donkey for this advancement as they are not breedable together. Other breedable mobs are ignored for this advancement.
+	Total Beelocation	Move a Bee Nest, with 3 Bees inside, using Silk Touch	Unlike most other advancements, this advancement is granted upon breaking the nest, rather than it entering your inventory.
+	Two Birds, One Arrow	Kill two Phantoms with a piercing Arrow	Use a crossbow enchanted with Piercing to kill two phantoms with a single arrow shot.
+	Two by Two	Breed all the animals!	
+Breed a pair of each of these 25 mobs:[]
+Armadillo Axolotl Bee Camel Cat Chicken Cow Donkey Fox Frog Goat Hoglin Horse Llama Mooshroom Mule Ocelot Panda Pig Rabbit Sheep Sniffer Strider Turtle Wolf
+A trader llama does not count as a llama, and a mule must be the result of breeding a horse and a donkey for this advancement as they are not breedable together. Other breedable mobs can be bred, but are ignored for this advancement.
+	What a Deal!	Successfully trade with a Villager	Take an item from a villager or wandering trader's trading output slot.
+	Arbalistic	Kill five unique mobs with one crossbow shot	Armor Stand also counts for this advancement.
+This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.
+	Over-Overkill	Deal 50 hearts of damage in a single hit using the Mace	Damage can be dealt to any mob, even those that do not have 50 hearts of health overall.
+	Who's the Pillager Now?	Give a Pillager a taste of their own medicine	Kill a pillager with a crossbow shot.
+Videos
+
+ 
+
+ 
+
+ 
+
+History
+[]Java Edition pre-Classic
+rd-132328	Added Mobs.
+[]Java Edition Classic
+0.24_SURVIVAL_TEST	Added creepers, pigs, skeletons, and zombies.
+Mobs no longer naturally spawn.
+0.26 SURVIVAL TEST	Added spiders.
+0.28	Added sheep.
+Creepers, pigs, skeletons, and zombies no longer spawn naturally.
+[]Java Edition Indev
+0.31	20091223-0040	Removed all mobs except for Mobs due to the introduction of the MD3 format.
+20100131-2156	Removed the new MD3 format. Mobs use the default player model again.
+20100202	Readded creepers, pigs, skeletons, zombies, spiders, and sheep.
+All mobs are passive.
+20100204-1541	Mobs can now avoid huge cliffs, lava, and etc.
+All mobs home in on the player if the player gets within 24 tiles of them.
+20100204-2027	Creepers, skeletons, zombies, and spiders are hostile again.
+Mob pathfinding tweaked.
+20100205	Added giants.
+20100213	Zombies and skeletons now burn up in daylight.
+Spiders are now neutral during the daytime.
+20100218-0011	Chances of zombies and skeletons catching on fire in daylight have been tweaked.
+[]Java Edition Infdev
+20100316	Added Monsters.
+Shot arrows upon hitting blocks can now spawn mobs.
+Mobs have no movement AI.
+20100413	Arrows no longer spawn mobs.
+20100415	Mobs now spawn naturally again.
+20100420	Mob spawn rate has been decreased.
+20100607	Spawn rate for hostile mobs has been decreased, making them less common.
+[]Java Edition Alpha
+v1.0.3	Mob pathfinding has been improved on hills, except for spiders.
+Idling behavior of mobs has been made more convincing, mobs now look around at their surroundings.
+v1.0.8	Added cows.
+v1.0.11	Added slimes.
+v1.0.14	Added chickens.
+v1.2.0	Added ghasts and zombie pigmen.
+Added pigmen textures.
+Hostile mobs now spawn more the deeper the player is.
+The area has to be made brighter, the deeper the depth, to prevent hostile mobs from spawning.
+v1.2.1	Reverted hostile mob spawning code back to light level 7 or lower, regardless of height.
+v1.2.3_05	Creepers are now the only hostile mob that spawns naturally.
+v1.2.4_01	Other hostile mobs spawn once again.
+[]Java Edition Beta
+1.2	Added squid.
+Removed Mobs.
+1.4	Added wolves.
+1.6.2	Removed pigmen texture.
+1.7	Added silverfish texture.
+1.8	Pre-release	Added cave spiders, endermen, and silverfish.
+Removed Monsters.
+[]Java Edition
+1.0.0	Beta 1.9 Prerelease	Added blazes, magma cubes, mooshrooms, snow golems, and villagers.
+Beta 1.9 Prerelease 4	Added the ender dragon.
+1.2.1	12w04a	Added ocelots.
+Cats were also added, but were a retexture of the ocelot and not an individual mob.
+12w08a	Added iron golems.
+1.3.1	12w15a	The appropriate spawn egg is now given when pick blocking a mob while in Creative mode.
+12w21a	Passive mobs can now be easily pushed around by simply walking, most likely intended to help the player navigate through animal farms more easily.
+1.4.2	12w32a	Added zombie villagers.
+12w34a	Added the wither.
+12w36a	Added wither skeletons.
+12w38a	Added bats and witches.
+1.6.1	13w16a	Added horses, donkeys, mules, skeleton horses, and zombie horses.
+1.8	14w11a	Added endermites.
+14w25a	Added guardians and elder guardians.
+14w27a	Added rabbits.
+1.9	15w31a	Added shulkers.
+1.10	16w20a	Added husks, polar bears, and strays.
+1.11	16w39a	Added llamas, vindicators, evokers, and vexes.
+1.12	17w13a	Added parrots.
+17w16a	Added illusioners.
+1.13	18w07a	Added phantoms and turtles.
+18w08b	Added cod, salmon, and pufferfish.
+18w10a	Added tropical fish.
+18w11a	Added drowned.
+18w15a	Added dolphins.
+1.14	18w43a	Added pandas, pillagers, and ravagers.
+18w44a	Added cats as a separate mob from ocelots.
+19w05a	Added trader llamas and wandering traders.
+19w07a	Added foxes.
+1.15	19w34a	Added bees.
+1.16	20w06a	Added hoglins.
+20w07a	Added piglins.
+20w09a	Zombie pigmen have been renamed to “zombified piglins”.
+20w13a	Added striders.
+20w14a	Added zoglins.
+1.16.2	20w27a	Added piglin brutes.
+1.17	20w51a	Added axolotls.
+21w03a	Added glow squid.
+21w13a	Added goats.
+1.19	Deep Dark Experimental Snapshot 1	Added wardens.
+22w11a	Added frogs and tadpoles.
+22w13a	Added allays.
+1.19.3
+Experiment
+Update 1.20	22w42a	Added camels.
+1.19.4
+Experiment
+Update 1.20	23w07a	Added sniffers.
+1.20.3
+Experiment
+Update 1.21	23w45a	Added breezes.
+1.20.5	23w51a	Added armadillos.
+1.20.5
+Experiment
+Update 1.21	24w07a	Added bogged.
+1.21.2
+Experiment
+Winter Drop	24w40a	Added creakings.
+1.21.6	25w15a	Added happy ghasts.
+[]Upcoming Java Edition
+1.21.9	25w31a	Added copper golems.
+[]Pocket Edition Alpha
+v0.2.0	Added sheep, pigs, and zombies.
+v0.3.0	Added chickens and cows.
+v0.3.3	Added creepers, skeletons, and spiders.
+v0.5.0	Added zombie pigmen.
+v0.9.0	build 1	Added endermen, mooshrooms, silverfish, and villagers.
+v0.11.0	build 1	Added bats, cave spiders, ghasts, and magma cubes.
+v0.12.1	build 1	Added blazes, iron golems, ocelots, snow golems, wither skeletons, and zombie villagers.
+Cats were also added but not as an individual mob.
+v0.13.0	build 1	Added rabbits.
+v0.14.0	build 1	Added witches.
+v0.15.0	build 1	Added husks, strays, horses, donkeys, mules, skeleton horses, and zombie horses.
+v0.16.0	build 1	Added agents, NPCs, guardians, and elder guardians.
+build 2	Removed NPCs and agents.
+build 4	Added the wither.
+[]Pocket Edition
+1.0.0	alpha 0.17.0.1	Added endermites, polar bears, shulkers, and the ender dragon.
+1.1.0	alpha 0.17.0.1	Readded agents and NPCs.
+alpha 1.1.0.0	Added evokers, llamas, vexes, and vindicators.
+[]Bedrock Edition
+1.2.0	beta 1.2.0.2	Added parrots.
+1.2.13	beta 1.2.13.8	Added drowned.
+1.4.0	beta 1.2.14.2	Added cod, salmon, pufferfish, and tropical fish.
+beta 1.2.20.1	Added dolphins.
+1.5.0	beta 1.5.0.4	Added turtles.
+1.6.0	beta 1.6.0.1	Added phantoms.
+1.8.0	beta 1.8.0.8	Added pandas.
+Added cats as a separate mob from ocelots.
+1.9.0	beta 1.9.0.0	Added pillagers.
+1.10.0	beta 1.10.0.3	Added wandering traders, trader llamas, and ravagers.
+1.13.0	beta 1.13.0.1	Added foxes.
+beta 1.13.0.4	Added the elder guardian ghost.
+1.14.0	beta 1.14.0.1	Added bees.
+1.16.0	beta 1.16.0.51	Added hoglins and piglins.
+Zombie pigmen have been renamed to “zombified piglins”.
+beta 1.16.0.57	Added zoglins and striders.
+1.16.20	beta 1.16.20.50	Added piglin brutes.
+1.16.200
+Experiment
+Caves and Cliffs	beta 1.16.200.52	Added goats.
+1.16.210
+Experiment
+Caves and Cliffs	beta 1.16.210.59	Added glow squid.
+beta 1.16.210.60	Removed glow squid.
+1.16.220
+Experiment
+Caves and Cliffs	beta 1.16.220.50	Re-added glow squid.
+1.17.0
+Experiment
+Caves and Cliffs	beta 1.16.230.52	Added axolotls.
+1.18.10
+Experiment
+Wild Update	beta 1.18.10.24	Added frogs and tadpoles.
+1.18.30
+Experiment
+Wild Update	beta 1.18.30.22	Added allays.
+beta 1.18.30.32	Added wardens.
+1.19.50
+Experiment
+Next Major Update	Preview 1.19.50.21	Added camels.
+1.19.70
+Experiment
+Sniffer	Preview 1.19.70.23	Added sniffers.
+1.20.60
+Experiment
+Update 1.21	Preview 1.20.60.20	Added breezes.
+1.20.60
+Experiment
+Armadillo and Wolf Armor	Preview 1.20.60.23	Added armadillos.
+1.20.70
+Experiment
+Update 1.21	Preview 1.20.70.24	Added bogged.
+1.21.50	Preview 1.21.50.20	Added creakings.
+1.21.80
+Experiment
+Drop 2 2025	Preview 1.21.80.25	Added happy ghasts.
+[]Upcoming Bedrock Edition
+1.21.100
+Experiment
+Drop 3 2025	Preview 1.21.100.23	Added copper golems.
+[]Legacy Console Edition
+Xbox 360	Xbox One	PS3	PS4	PS Vita	Wii U	Switch	
+TU1	CU1	1.00	1.00	1.00	Patch 1	1.0.1	Added all mobs from and prior to Java Edition Beta 1.4.
+TU5	Added cave spiders, endermen, and silverfish.
+Passive mobs will now flee when hit.
+TU7	Added blazes, magma cubes, mooshrooms, and snow golems.
+In creative mode, hostile mobs don't go after the player, unless attacked.
+TU9	Added the ender dragon.
+TU12	Added ocelots and iron golems.
+Tamed ocelots become cats.
+TU14	1.04	Added zombie villagers.
+TU19	CU7	1.12	1.12	1.12	Added bats, horses, donkeys, mules, skeleton horses, and zombie horses. Skeleton and zombie horses can only be summoned by world editing, etc.
+TU31	CU19	1.22	1.22	1.22	Patch 3	Added endermites, rabbits, guardians, and elder guardians.
+TU43	CU33	1.36	1.36	1.36	Patch 13	Added polar bears.
+TU46	CU36	1.38	1.38	1.38	Patch 15	Added shulkers, strays, and husks. Skeleton horses are now available without world editing etc. due to the addition of skeleton trap horses.
+TU54	CU44	1.52	1.52	1.52	Patch 24	1.0.4	Added evokers, llamas, parrots, vexes, vindicators and illusioners. Zombie horses are now available without world editing, etc. due to the addition of the spawn egg. Illusioners are can only be summened by world editing, etc.
+TU69		1.76	1.76	1.76	Patch 38		Added cod, dolphins, drowned, phantoms, pufferfish, salmon, and tropical fish.
+1.83			Added pandas.
+Cats are added as a separate mob from ocelots.
+1.90	Added pillagers.
+1.91	Added ravagers, trader llamas, and wandering traders.
+[]New Nintendo 3DS Edition
+0.1.0	Added all mobs from and prior to Pocket Edition Alpha 0.15.0.
+1.3.12	Added guardians, elder guardians, and the wither.
+1.7.10	Added endermites, polar bears, shulkers, and the ender dragon.
+1.9.19	Added evokers, llamas, vexes, and vindicators.
+[]Minecraft Education
+1.0.0	Added all mobs from and prior to Pocket Edition Alpha 0.16.0, including NPCs.
+1.0.1	Added endermites, polar bears, shulkers, ender dragons, evokers, llamas, vexes, vindicators, and agents.
+1.0.2	Added parrots.
+1.4	Added dolphins, cod, pufferfish, salmon, and tropical fish.
+1.7	Added drowned, turtles, and phantoms.
+1.9	1.8.0	Added pandas.
+Cats are now a separate mob from ocelots.
+1.12.0	Added pillagers and wandering traders.
+1.14.31	1.14.30	Added foxes, brown mooshrooms, and bees.
+1.17.30	1.17.30.2	Added hoglins, piglins, zoglins, striders, piglin brutes, goats, glow squid, and axolotls.
+Zombie pigmen have been renamed to zombified piglin.
+1.19.52	1.19.50.0	Added frogs, tadpoles, allay and warden.
+1.20.12	1.20.10.0	Added camels and sniffers.
+1.21.03	Preview 1.21.01.0	Added armadillos, breeze and bogged.
+Issues
+For issues unique to specific mobs, see that mob's issues section.
+Issues relating to "Mob" are maintained on the bug tracker. Issues should be reported and viewed there.
+
+Java Edition
+
+MC-299126 – [Fixed] The server crashes when certain mobs ride a turtle
+MC-300267 – The miniature mobs inside spawners and trial spawners are sometimes lit incorrectly
+MC-273144 – Mobs yaw rotation does not update when standing still
+MC-191642 – Inconsistent mob melee attack rate / mobs double-attacking
+MC-266969 – Armor stands do not break when attacked by a mob's melee attack (like a zoglin)
+MC-268371 – Trial Spawners registering mobs converting as deaths
+MC-276696 – Leashed hostile mobs don't pathfind correctly to their target
+MC-297531 – Incorrect hitbox scale on first tick when mob summoned
+MC-293761 – Mobs do not consistently trigger pressure plates when falling on them from a height sufficient to be fatal
+MC-40949 – The movement_speed attribute has no effect on flying mobs
+Bedrock Edition
+
+MCPE-220557 – Player and mobs randomly disappear for a split second and reappear
+MCPE-191623 – Disappearance of mobs and armor stand that should not despawn
+MCPE-182041 – behavior.avoid_mob_type not respecting max_dist and max_flee
+MCPE-220379 – Block textures on mobs turn black or white in certain viewing angles
+MCPE-189946 – Ominous Trial mobs drop equipped armor and weapons on death
+MCPE-48587 – /summon spawnEvent bypasses entity_spawned, creating broken/corrupt mobs
+MCPE-217307 – Vibrant Visuals: Mobs that recently had their texture changed still use their old texture
+MCPE-39073 – Water mobs can't distinguish waterlogged blocks from water
+MCPE-220698 – The Smite enchantment emits the blue attack particles even if a non-undead mob is attacked
+MCPE-223962 – Mobs (including copper golem) can get stuck next to chests when it tries to move diagonally through them toward a targeted block
+Trivia
+In Java Edition, the rarest mob is a zombie villager chicken jockey wearing full enchanted diamond armor and holding an enchanted iron sword in its left hand.
+There are many blocks in the game that do not take up a full block, such as trapdoors, and mobs actually see many of these as full blocks.
+Mobs mistake some blocks for air, such as carpets, snow, and string.
+Despite the term mob being derived from mobile entity, supplementary material consistently uses it within the Minecraft universe. Characters from Minecraft Story Mode begin calling monsters mobs starting in Order Up, whereas Farnum refers to himself as a “mobologist.”
+In Bedrock Edition, due to the lack of a "living entity" class of entities, armor stands, cameras, and even players are internally represented as "mobs". This has no direct effect on how these entities behave. However, in Java Edition, the advancements and statistics classify them as mobs.
+Gallery
+In other media
+Official T-shirt artwork "Animal Totem" made by JINX.
+Official T-shirt artwork "Animal Totem" made by JINX.
+ 
+Official T-shirt artwork "Creatures" made by JINX.
+Official T-shirt artwork "Creatures" made by JINX.
+ 
+Official T-shirt artwork "Lineup" featuring hostile mobs as well as a chicken. Made by JINX.
+Official T-shirt artwork "Lineup" featuring hostile mobs as well as a chicken. Made by JINX.
+ 
+Official T-shirt artwork featuring Steve and mobs. Made by Capy.
+Official T-shirt artwork featuring Steve and mobs. Made by Capy.
+ 
+Official T-shirt artwork "Party" featuring Steve and mobs. Made by JINX.
+Official T-shirt artwork "Party" featuring Steve and mobs. Made by JINX.
+ 
+Official T-shirt artwork "Tight Spot" featuring Steve and hostile mobs. Made by JINX.
+Official T-shirt artwork "Tight Spot" featuring Steve and hostile mobs. Made by JINX.
+ 
+An image of a mysterious mob posted on twitter to promote the first mob vote.
+An image of a mysterious mob posted on twitter to promote the first mob vote.
+ 
+A slightly more detailed version of the previous image, posted later.
+A slightly more detailed version of the previous image, posted later.
+ 
+Concept art of mob gargoyles for A Minecraft Movie.
+Concept art of mob gargoyles for A Minecraft Movie.
+ 
+Artwork featuring various mobs, as well as players.
+Artwork featuring various mobs, as well as players.

@@ -1,0 +1,249 @@
+Floor Is Lava
+
+Concept: Players jump across furniture, rocks, or tiles while lava rises.
+
+Goal: Stay off the ground the longest.
+
+Core Mechanics:
+
+Platforms sink after being stepped on.
+
+Random safe zones appear.
+
+Last survivor wins.
+
+32. Chicken Run
+
+Concept: Players must cross a busy road (like Crossy Road).
+
+Goal: Get to the finish line without being hit.
+
+Core Mechanics:
+
+Moving cars, trains, and rivers.
+
+Multiplayer = first to finish or last alive.
+
+33. Whack-a-Mole Online
+
+Concept: Moles (or avatars) pop up, and players must tap quickly.
+
+Goal: Hit the most moles.
+
+Core Mechanics:
+
+Some moles give points, some reduce points.
+
+Fast-paced reaction test.
+
+34. Spy Hunt
+
+Concept: One random player is a spy who looks identical to others.
+
+Goal: Find and expose the spy before time runs out.
+
+Core Mechanics:
+
+Spy pretends to be normal.
+
+Small clues reveal who’s faking.
+
+Social deception + deduction.
+
+35. Stack Tower
+
+Concept: Players stack moving blocks on top of each other.
+
+Goal: Build the tallest tower.
+
+Core Mechanics:
+
+If block is misplaced, tower shrinks.
+
+Multiplayer = tallest tower wins after time.
+
+36. Paint the Map
+
+Concept: Each player runs around spreading their color on tiles.
+
+Goal: Cover the largest area before time ends.
+
+Core Mechanics:
+
+Players can paint over others’ colors.
+
+Power-ups: double paint, erase tool.
+
+37. One Shot Sniper
+
+Concept: Each round, players get one bullet to shoot.
+
+Goal: Hit the target or eliminate an opponent.
+
+Core Mechanics:
+
+Miss = out.
+
+Trick shots and moving targets as difficulty rises.
+
+38. Bridge Builders
+
+Concept: Players collect materials and build a bridge across a gap.
+
+Goal: Finish crossing first.
+
+Core Mechanics:
+
+Materials (wood, stone) spawn randomly.
+
+Risky shortcuts vs safe long paths.
+
+39. Fruit Slice Battle
+
+Concept: Like Fruit Ninja, but PvP.
+
+Goal: Slice the most fruit.
+
+Core Mechanics:
+
+Bombs mixed with fruits.
+
+Multiplayer = whoever scores highest in 60 seconds wins.
+
+40. Maze Runner Tag
+
+Concept: Randomly generated maze. One “hunter,” rest are runners.
+
+Goal: Runners survive until timer ends or escape through exit.
+
+Core Mechanics:
+
+Hunter has speed boost.
+
+Maze reshuffles mid-game to keep suspense.
+
+41. Snowball Fight
+
+Concept: Winter battlefield. Players throw snowballs to knock each other out.
+
+Goal: Be last standing or highest score.
+
+Core Mechanics:
+
+Charge snowballs = stronger hit.
+
+Shields and forts can be built.
+
+42. Tower Defense Royale
+
+Concept: Each player defends their base from waves of enemies.
+
+Goal: Last base standing wins.
+
+Core Mechanics:
+
+Build defenses (turrets, traps).
+
+Enemies get stronger each wave.
+
+Players can sabotage others.
+
+43. Shadow Chase
+
+Concept: Players’ shadows start chasing them.
+
+Goal: Survive the longest without being caught.
+
+Core Mechanics:
+
+Shadows copy moves after a delay.
+
+Arena shrinks, shadows get faster.
+
+44. Knife Circle
+
+Concept: Players stand in a circle. A spinning knife points randomly.
+
+Goal: Dodge when it lands on you.
+
+Core Mechanics:
+
+Must tap to dodge in time.
+
+Miss = eliminated.
+
+Last survivor = winner.
+
+45. Lightning Reaction
+
+Concept: A light flashes at random times.
+
+Goal: Be the first to react correctly.
+
+Core Mechanics:
+
+Wrong tap = penalty.
+
+Speed gets faster each round.
+
+46. Fake Doors (Guess the Right Path)
+
+Concept: Multiple doors, but only one is safe.
+
+Goal: Get through all levels.
+
+Core Mechanics:
+
+Wrong door = fall or reset.
+
+Race = who reaches the end first.
+
+47. Airplane Dogfight
+
+Concept: Players control planes in the sky.
+
+Goal: Shoot down others.
+
+Core Mechanics:
+
+Fuel + ammo limited.
+
+Clouds hide enemies.
+
+Last plane flying wins.
+
+48. Boxing Royale
+
+Concept: Arena fight with punches only.
+
+Goal: Knock out others.
+
+Core Mechanics:
+
+Simple moves: jab, block, dodge.
+
+Power-ups: super punch, heal.
+
+49. Rocket Jump
+
+Concept: Players ride rockets and must jump between them.
+
+Goal: Stay alive by timing jumps.
+
+Core Mechanics:
+
+Rockets move at different speeds.
+
+Miss jump = eliminated.
+
+50. Time Bomb Escape
+
+Concept: A bomb spawns in the middle. Timer counts down.
+
+Goal: Disable bomb before it explodes.
+
+Core Mechanics:
+
+Players solve quick puzzles to defuse.
+
+If no one succeeds, all lose.

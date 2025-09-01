@@ -1,0 +1,48 @@
+Effect ingredients
+Name	Icon	Effect	Effect when corrupted
+Sugar	
+Invicon Sugar.png: Inventory sprite for Sugar in Minecraft as shown in-game linking to Sugar with description: Sugar
+Speed	Slowness
+Rabbit's foot	
+Invicon Rabbit's Foot.png: Inventory sprite for Rabbit's Foot in Minecraft as shown in-game linking to Rabbit's Foot with description: Rabbit's Foot
+Jump Boost
+Glistering melon slice	
+Invicon Glistering Melon Slice.png: Inventory sprite for Glistering Melon Slice in Minecraft as shown in-game linking to Glistering Melon Slice with description: Glistering Melon Slice
+Instant Health	Instant Damage
+Spider eye	
+Invicon Spider Eye.png: Inventory sprite for Spider Eye in Minecraft as shown in-game linking to Spider Eye with description: Spider Eye
+Poison
+Pufferfish	
+Invicon Pufferfish.png: Inventory sprite for Pufferfish in Minecraft as shown in-game linking to Pufferfish with description: Pufferfish
+Water Breathing	None
+Magma cream	
+Invicon Magma Cream.png: Inventory sprite for Magma Cream in Minecraft as shown in-game linking to Magma Cream with description: Magma Cream
+Fire Resistance
+Golden carrot	
+Invicon Golden Carrot.png: Inventory sprite for Golden Carrot in Minecraft as shown in-game linking to Golden Carrot with description: Golden Carrot
+Night Vision	Invisibility
+Blaze powder	
+Invicon Blaze Powder.png: Inventory sprite for Blaze Powder in Minecraft as shown in-game linking to Blaze Powder with description: Blaze Powder
+Strength	None‌[JE only]
+Weakness‌[BE only]
+Ghast tear	
+Invicon Ghast Tear.png: Inventory sprite for Ghast Tear in Minecraft as shown in-game linking to Ghast Tear with description: Ghast Tear
+Regeneration	None
+Turtle shell	
+Invicon Turtle Shell.png: Inventory sprite for Turtle Shell in Minecraft as shown in-game linking to Turtle Shell with description: Turtle Shell When on Head: +2 Armor
+Slowness + Resistance
+Phantom membrane	
+Invicon Phantom Membrane.png: Inventory sprite for Phantom Membrane in Minecraft as shown in-game linking to Phantom Membrane with description: Phantom Membrane
+Slow Falling
+Breeze rod	
+Invicon Breeze Rod.png: Inventory sprite for Breeze Rod in Minecraft as shown in-game linking to Breeze Rod with description: Breeze Rod
+Wind Charged
+Stone	
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+Infested
+Cobweb	
+Invicon Cobweb.png: Inventory sprite for Cobweb in Minecraft as shown in-game linking to Cobweb with description: Cobweb
+Weaving
+Slime block	
+Invicon Slime Block.png: Inventory sprite for Slime Block in Minecraft as shown in-game linking to Slime Block with description: Slime Block
+Oozing

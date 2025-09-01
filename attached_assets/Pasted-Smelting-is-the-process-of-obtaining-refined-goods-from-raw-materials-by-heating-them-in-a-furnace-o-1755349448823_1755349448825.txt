@@ -1,0 +1,811 @@
+Smelting is the process of obtaining refined goods from raw materials by heating them in a furnace or blast furnace. When items are smelted in either type of furnace, experience is dropped. Like crafting, smelting uses recipes to determine what item is produced. Smelting is one of the two functions of a furnace (the second being cooking food) and the sole function of a blast furnace.
+
+
+Contents
+1	Methods
+1.1	Furnace
+1.2	Blast furnace and smoker
+2	Recipes
+2.1	Food
+2.2	Ores
+2.3	Gear
+2.4	Furnace-only
+3	Fuel
+4	Hopper automation
+5	Achievements
+6	Advancements
+7	History
+8	Issues
+9	Trivia
+10	Gallery
+10.1	Screenshots
+11	See also
+12	References
+13	Navigation
+Methods
+Furnace
+The furnace interface contains three item slots: the upper left slot for the item that needs to be smelted, the lower left slot for fuel, and the right slot where output items accumulate and can be retrieved by the player. Flames above the fuel slot act as a gauge showing the amount of fuel left of the current fuel item. An arrow in the middle shows the progress of smelting the current item.
+
+The furnace takes 10 seconds (200 in-game ticks) to smelt an item. It begins to smelt if both input item and fuel are placed into the corresponding slots, and there is space in the output slot.
+
+When starting, a fuel item is consumed immediately, filling the fuel gauge. Different fuels will fuel the furnace for different amounts of time. The fuel gauge indicates how much of that fuel's burn time remains, and gradually decreases even if the input slot becomes empty. When a fuel item is fully consumed and the input slot is not empty, another one is taken from the fuel slot, and the gauge resets.
+
+The furnace processes one input item at a time, which remains in the input slot during the 10-second process. So if multiple types of items or more than one stack of item need to be smelted, the player need to move in the item manually or using hoppers.
+
+The arrow indicates the progress on how much the input has been smelted and how much more it needs to be smelted. When the arrow is full, the input item is removed from the input stack and an output item is added to the output stack. Smelting of the next input item then begins immediately.
+
+Furnaces stop smelting under any of four conditions:
+
+When the furnace runs out of smeltable items: The input slot becomes empty or contains item that cannot be smelted.
+The furnace runs out of fuel: The fuel input slot is empty, and the current fuel item is fully consumed (that is, the fuel gauge becomes empty).
+The output slot becomes full: Either the slot has a full stack of the output, or the output contains the wrong output item for the current input item (for example, if the output contains iron ingots, but the input contains raw beef). In this case, smelting (but not fuel consumption) is paused until the output slot becomes available (usually because items were removed by either a player or a hopper). If a fuel item burns out in this condition, a new one is not used until the output slot is again available.
+The furnace is broken: The contents of all the slots, any accumulated experience, and the furnace itself are dropped. The currently-burning fuel item is lost since it is removed from the fuel slot before burning begins. The furnace block itself may not be dropped if it was destroyed by an explosion.
+If smelting stops while a fuel item is still burning, the furnace continues to run visually, but no more input items are processed. If the fuel has been exhausted when an item has been partly smelted, the smelting progress is undone at double speed, and the item remains in the input stack.
+
+Smelting is suspended if the chunk the furnace is in becomes unloaded. It resumes when the chunk is loaded again.
+
+Blast furnace and smoker
+Smokers and blast furnaces use the same GUI interface as regular furnaces and function similarly to regular furnaces. They smelt twice as quickly as furnaces, requiring only 5 seconds (100 game ticks) to smelt 1 item; they consume the same amount of fuel as regular furnaces per item smelted. Blast furnaces can only smelt ores, while smokers can only cook food; any other item can be smelted only in regular furnaces.
+
+Recipes
+All smelting recipes can be used in the furnace, but only subsets are available in the blast furnace and smoker.
+
+The furnace, blast furnace and smoker keep track of experience for each item as smelting is completed for them, accumulating it in a hidden counter. The counter remembers the total earned experience even if a hopper is used to remove the items from the output slot. Experience is awarded to the player who uses the interface to remove items manually, after which the counter is reset. If the player takes some of the output but leaves some in the slot, the experience corresponding to items left in the furnace is retained and not awarded to the player. For fractional experience values, first multiply this value by the number of smelted items removed from the furnace, then award the player the integer part, and if there is a fractional part remaining, this represents the chance of an additional experience point.
+
+For example, when smelting 1 coal ore and removing the coal, the value is 0.1, so every ten coal removed grants one experience point on average.
+When smelting 6 sea pickles and removing all 6 lime dye, the value is 0.2×6 = 1.2, so this grants 1 point, plus a 20% chance of another 1 point.
+The fractional experience stays within the furnace when the final total is not an integer, so the leftover experience is attributed to the next round of smelting.
+Food
+All food recipes can be used in a furnace or smoker. Food can alternatively be cooked on a campfire.
+
+Food
+Product	Ingredient	Exp	Usage
+Invicon Baked Potato.png: Inventory sprite for Baked Potato in Minecraft as shown in-game linking to Baked Potato with description: Baked Potato
+
+Baked Potato	
+Invicon Potato.png: Inventory sprite for Potato in Minecraft as shown in-game linking to Potato with description: Potato
+
+Potato	0.35	Fills 5 (🍖🍗🍗), while raw fills 1 (🍖).
+Invicon Dried Kelp.png: Inventory sprite for Dried Kelp in Minecraft as shown in-game linking to Dried Kelp with description: Dried Kelp
+
+Dried Kelp	
+Invicon Kelp.png: Inventory sprite for Kelp in Minecraft as shown in-game linking to Kelp with description: Kelp
+
+Kelp	0.1	Fills 1 (🍖) and can be eaten faster than other foods; while uncooked kelp is inedible. Can also be used to craft dried kelp block.
+Invicon Steak.png: Inventory sprite for Steak in Minecraft as shown in-game linking to Steak with description: Steak
+
+Steak	
+Invicon Raw Beef.png: Inventory sprite for Raw Beef in Minecraft as shown in-game linking to Raw Beef with description: Raw Beef
+
+Raw Beef	0.35	Fills 8 (🍗🍗🍗🍗), while raw fills 3 (🍖🍗).
+Invicon Cooked Porkchop.png: Inventory sprite for Cooked Porkchop in Minecraft as shown in-game linking to Cooked Porkchop with description: Cooked Porkchop
+
+Cooked Porkchop	
+Invicon Raw Porkchop.png: Inventory sprite for Raw Porkchop in Minecraft as shown in-game linking to Raw Porkchop with description: Raw Porkchop
+
+Raw Porkchop	0.35	Fills 8 (🍗🍗🍗🍗), while raw fills 3 (🍖🍗).
+Invicon Cooked Mutton.png: Inventory sprite for Cooked Mutton in Minecraft as shown in-game linking to Cooked Mutton with description: Cooked Mutton
+
+Cooked Mutton	
+Invicon Raw Mutton.png: Inventory sprite for Raw Mutton in Minecraft as shown in-game linking to Raw Mutton with description: Raw Mutton
+
+Raw Mutton	0.35	Fills 6 (🍗🍗🍗), while raw fills 2 (🍗).
+Invicon Cooked Chicken.png: Inventory sprite for Cooked Chicken in Minecraft as shown in-game linking to Cooked Chicken with description: Cooked Chicken
+
+Cooked Chicken	
+Invicon Raw Chicken.png: Inventory sprite for Raw Chicken in Minecraft as shown in-game linking to Raw Chicken with description: Raw Chicken
+
+Raw Chicken	0.35	Fills 6 (🍗🍗🍗), while raw fills 2 (🍗) and has a 30% chance to give the Hunger status effect.
+Invicon Cooked Rabbit.png: Inventory sprite for Cooked Rabbit in Minecraft as shown in-game linking to Cooked Rabbit with description: Cooked Rabbit
+
+Cooked Rabbit	
+Invicon Raw Rabbit.png: Inventory sprite for Raw Rabbit in Minecraft as shown in-game linking to Raw Rabbit with description: Raw Rabbit
+
+Raw Rabbit	0.35	Fills 5 (🍖🍗🍗), while raw fills 3 (🍖🍗).
+Invicon Cooked Cod.png: Inventory sprite for Cooked Cod in Minecraft as shown in-game linking to Cooked Cod with description: Cooked Cod
+
+Cooked Cod	
+Invicon Raw Cod.png: Inventory sprite for Raw Cod in Minecraft as shown in-game linking to Raw Cod with description: Raw Cod
+
+Raw Cod	0.35	Fills 5 (🍖🍗🍗), while raw fills 2 (🍗).
+Invicon Cooked Salmon.png: Inventory sprite for Cooked Salmon in Minecraft as shown in-game linking to Cooked Salmon with description: Cooked Salmon
+
+Cooked Salmon	
+Invicon Raw Salmon.png: Inventory sprite for Raw Salmon in Minecraft as shown in-game linking to Raw Salmon with description: Raw Salmon
+
+Raw Salmon	0.35	Fills 6 (🍗🍗🍗), while raw fills 2 (🍗).
+Ores
+All ore recipes can be used in a furnace or blast furnace.
+
+Product	Ingredient	Exp	Usage
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+
+Iron Ingot	
+Invicon Raw Iron.png: Inventory sprite for Raw Iron in Minecraft as shown in-game linking to Raw Iron with description: Raw Iron
+
+Raw Iron	0.7	Used to craft various items, including blast furnaces, anvils, iron blocks, iron nuggets, rails, buckets, cauldrons, chains, compasses, crossbows, flint and steels, heavy weighted pressure plates, hoppers, iron trapdoors, minecarts, pistons, shears, shields, iron armor, iron tools, stonecutters, tripwire hooks, and lodestones.
+Invicon Copper Ingot.png: Inventory sprite for Copper Ingot in Minecraft as shown in-game linking to Copper Ingot with description: Copper Ingot
+
+Copper Ingot	
+Invicon Raw Copper.png: Inventory sprite for Raw Copper in Minecraft as shown in-game linking to Raw Copper with description: Raw Copper
+
+Raw Copper	0.7	Used to craft various items, including spyglasses, lightning rods, brushes, and blocks of copper.
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+
+Gold Ingot	
+Invicon Raw Gold.png: Inventory sprite for Raw Gold in Minecraft as shown in-game linking to Raw Gold with description: Raw Gold
+
+Raw Gold	1	Used to craft various items, including netherite ingots, gold blocks, golden apples, gold nuggets, clocks, golden armor, golden tools, powered rails and light weighted pressure plates. Also used as a currency for bartering.
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+
+Gold Ingot	
+Invicon Nether Gold Ore.png: Inventory sprite for Nether Gold Ore in Minecraft as shown in-game linking to Nether Gold Ore with description: Nether Gold Ore
+
+Nether Gold Ore	1	Used to craft various items, and as a currency for bartering with piglins.
+When normally mined drops 2–6 gold nuggets and 0–1XP.
+Invicon Netherite Scrap.png: Inventory sprite for Netherite Scrap in Minecraft as shown in-game linking to Netherite Scrap with description: Netherite Scrap
+
+Netherite Scrap	
+Invicon Ancient Debris.png: Inventory sprite for Ancient Debris in Minecraft as shown in-game linking to Ancient Debris with description: Ancient Debris
+
+Ancient Debris	2	Used to craft netherite ingots, which can be used to upgrade diamond gear and craft netherite blocks.
+The following additional ores can be smelted, but it's more efficient to mine them with an appropriate pickaxe. In most cases mining them saves fuel and yields more product and experience, especially if the pickaxe has a Fortune enchantment. Smelting them, though, allows obtaining them from an automatic device. The ore blocks themselves can be obtained only with the Silk Touch enchantment.
+
+Product	Ingredient	Exp	Usage
+Invicon Redstone Dust.png: Inventory sprite for Redstone Dust in Minecraft as shown in-game linking to Redstone Dust with description: Redstone Dust
+
+Redstone Dust	
+Invicon Redstone Ore.png: Inventory sprite for Redstone Ore in Minecraft as shown in-game linking to Redstone Ore with description: Redstone Ore
+Invicon Deepslate Redstone Ore.png: Inventory sprite for Deepslate Redstone Ore in Minecraft as shown in-game linking to Deepslate Redstone Ore with description: Deepslate Redstone Ore
+
+Redstone Ore	0.7	Used to craft various items and redstone blocks, brewing, or placed as redstone wire.
+When normally mined drops 4–5 redstone and 1–5XP.
+Invicon Coal.png: Inventory sprite for Coal in Minecraft as shown in-game linking to Coal with description: Coal
+
+Coal	
+Invicon Coal Ore.png: Inventory sprite for Coal Ore in Minecraft as shown in-game linking to Coal Ore with description: Coal Ore
+Invicon Deepslate Coal Ore.png: Inventory sprite for Deepslate Coal Ore in Minecraft as shown in-game linking to Deepslate Coal Ore with description: Deepslate Coal Ore
+
+Coal Ore	0.1	Used as a fuel, and to craft torches, campfires and blocks of coal.
+When normally mined drops 1 coal and 0–2XP.
+Invicon Emerald.png: Inventory sprite for Emerald in Minecraft as shown in-game linking to Emerald with description: Emerald
+
+Emerald	
+Invicon Emerald Ore.png: Inventory sprite for Emerald Ore in Minecraft as shown in-game linking to Emerald Ore with description: Emerald Ore
+Invicon Deepslate Emerald Ore.png: Inventory sprite for Deepslate Emerald Ore in Minecraft as shown in-game linking to Deepslate Emerald Ore with description: Deepslate Emerald Ore
+
+Emerald Ore	1	Used for trading, and to craft blocks of emerald.
+When normally mined drops 1 emerald and 3–7XP.
+Invicon Lapis Lazuli.png: Inventory sprite for Lapis Lazuli in Minecraft as shown in-game linking to Lapis Lazuli with description: Lapis Lazuli
+
+Lapis Lazuli	
+Invicon Lapis Lazuli Ore.png: Inventory sprite for Lapis Lazuli Ore in Minecraft as shown in-game linking to Lapis Lazuli Ore with description: Lapis Lazuli Ore
+Invicon Deepslate Lapis Lazuli Ore.png: Inventory sprite for Deepslate Lapis Lazuli Ore in Minecraft as shown in-game linking to Deepslate Lapis Lazuli Ore with description: Deepslate Lapis Lazuli Ore
+
+Lapis Lazuli Ore	0.2	Used for enchanting and for crafting blue dyes and blocks of lapis lazuli.
+When normally mined drops 4–9 lapis lazuli and 2–5XP.
+Invicon Diamond.png: Inventory sprite for Diamond in Minecraft as shown in-game linking to Diamond with description: Diamond
+
+Diamond	
+Invicon Diamond Ore.png: Inventory sprite for Diamond Ore in Minecraft as shown in-game linking to Diamond Ore with description: Diamond Ore
+Invicon Deepslate Diamond Ore.png: Inventory sprite for Deepslate Diamond Ore in Minecraft as shown in-game linking to Deepslate Diamond Ore with description: Deepslate Diamond Ore
+
+Diamond Ore	1	Used to craft various items, enchanting tables, jukeboxes and blocks of diamond.
+When normally mined drops 1 diamond and 3–7XP.
+Invicon Nether Quartz.png: Inventory sprite for Nether Quartz in Minecraft as shown in-game linking to Nether Quartz with description: Nether Quartz
+
+Nether Quartz	
+Invicon Nether Quartz Ore.png: Inventory sprite for Nether Quartz Ore in Minecraft as shown in-game linking to Nether Quartz Ore with description: Nether Quartz Ore
+
+Nether Quartz Ore	0.2	Used to craft various items and quartz blocks.
+When normally mined drops 1 Nether quartz and 2–5XP.
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+
+Iron Ingot	
+Invicon Iron Ore.png: Inventory sprite for Iron Ore in Minecraft as shown in-game linking to Iron Ore with description: Iron Ore
+Invicon Deepslate Iron Ore.png: Inventory sprite for Deepslate Iron Ore in Minecraft as shown in-game linking to Deepslate Iron Ore with description: Deepslate Iron Ore
+
+Iron Ore	0.7	Used to craft various items.
+Invicon Copper Ingot.png: Inventory sprite for Copper Ingot in Minecraft as shown in-game linking to Copper Ingot with description: Copper Ingot
+
+Copper Ingot	
+Invicon Copper Ore.png: Inventory sprite for Copper Ore in Minecraft as shown in-game linking to Copper Ore with description: Copper Ore
+Invicon Deepslate Copper Ore.png: Inventory sprite for Deepslate Copper Ore in Minecraft as shown in-game linking to Deepslate Copper Ore with description: Deepslate Copper Ore
+
+Copper Ore	0.7	Used to craft various items.
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+
+Gold Ingot	
+Invicon Gold Ore.png: Inventory sprite for Gold Ore in Minecraft as shown in-game linking to Gold Ore with description: Gold Ore
+Invicon Deepslate Gold Ore.png: Inventory sprite for Deepslate Gold Ore in Minecraft as shown in-game linking to Deepslate Gold Ore with description: Deepslate Gold Ore
+
+Gold Ore	1	Used to craft various items, and as a currency for bartering with piglins.
+Gear
+These recipes can be used in a furnace or blast furnace to recycle unneeded gear (tools, weapons, armor and horse armor).
+
+Product	Ingredient	Exp	Usage
+Invicon Iron Nugget.png: Inventory sprite for Iron Nugget in Minecraft as shown in-game linking to Iron Nugget with description: Iron Nugget
+
+Iron Nugget	
+Invicon Iron Shovel.png: Inventory sprite for Iron Shovel in Minecraft as shown in-game linking to Iron Shovel with description: Iron Shovel When in Main Hand:  4.5 Attack Damage  1 Attack Speed
+Invicon Iron Pickaxe.png: Inventory sprite for Iron Pickaxe in Minecraft as shown in-game linking to Iron Pickaxe with description: Iron Pickaxe When in Main Hand:  4 Attack Damage  1.2 Attack Speed
+Invicon Iron Axe.png: Inventory sprite for Iron Axe in Minecraft as shown in-game linking to Iron Axe with description: Iron Axe When in Main Hand:  9 Attack Damage  0.9 Attack Speed
+Invicon Iron Hoe.png: Inventory sprite for Iron Hoe in Minecraft as shown in-game linking to Iron Hoe with description: Iron Hoe When in Main Hand:  1 Attack Damage  3 Attack Speed
+Invicon Iron Sword.png: Inventory sprite for Iron Sword in Minecraft as shown in-game linking to Iron Sword with description: Iron Sword When in Main Hand:  6 Attack Damage  1.6 Attack Speed
+Invicon Chainmail Helmet.png: Inventory sprite for Chainmail Helmet in Minecraft as shown in-game linking to Chainmail Helmet with description: Chainmail Helmet When on Head: +2 Armor
+Invicon Chainmail Chestplate.png: Inventory sprite for Chainmail Chestplate in Minecraft as shown in-game linking to Chainmail Chestplate with description: Chainmail Chestplate When on Chest: +5 Armor
+Invicon Chainmail Leggings.png: Inventory sprite for Chainmail Leggings in Minecraft as shown in-game linking to Chainmail Leggings with description: Chainmail Leggings When on Legs: +4 Armor
+Invicon Chainmail Boots.png: Inventory sprite for Chainmail Boots in Minecraft as shown in-game linking to Chainmail Boots with description: Chainmail Boots When on Feet: +1 Armor
+
+Invicon Iron Helmet.png: Inventory sprite for Iron Helmet in Minecraft as shown in-game linking to Iron Helmet with description: Iron Helmet When on Head: +2 Armor
+Invicon Iron Chestplate.png: Inventory sprite for Iron Chestplate in Minecraft as shown in-game linking to Iron Chestplate with description: Iron Chestplate When on Chest: +6 Armor
+Invicon Iron Leggings.png: Inventory sprite for Iron Leggings in Minecraft as shown in-game linking to Iron Leggings with description: Iron Leggings When on Legs: +5 Armor
+Invicon Iron Boots.png: Inventory sprite for Iron Boots in Minecraft as shown in-game linking to Iron Boots with description: Iron Boots When on Feet: +2 Armor
+Invicon Iron Horse Armor.png: Inventory sprite for Iron Horse Armor in Minecraft as shown in-game linking to Iron Horse Armor with description: Iron Horse Armor When equipped: +5 Armor
+
+Tools, armor and horse armor made from iron, chainmail armor	0.1	Can be crafted into lanterns, chains, or iron ingots.
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+
+Gold Nugget	
+Invicon Golden Shovel.png: Inventory sprite for Golden Shovel in Minecraft as shown in-game linking to Golden Shovel with description: Golden Shovel When in Main Hand:  2.5 Attack Damage  1 Attack Speed
+Invicon Golden Pickaxe.png: Inventory sprite for Golden Pickaxe in Minecraft as shown in-game linking to Golden Pickaxe with description: Golden Pickaxe When in Main Hand:  2 Attack Damage  1.2 Attack Speed
+Invicon Golden Axe.png: Inventory sprite for Golden Axe in Minecraft as shown in-game linking to Golden Axe with description: Golden Axe When in Main Hand:  7 Attack Damage  1 Attack Speed
+Invicon Golden Hoe.png: Inventory sprite for Golden Hoe in Minecraft as shown in-game linking to Golden Hoe with description: Golden Hoe When in Main Hand:  1 Attack Damage  1 Attack Speed
+Invicon Golden Sword.png: Inventory sprite for Golden Sword in Minecraft as shown in-game linking to Golden Sword with description: Golden Sword When in Main Hand:  4 Attack Damage  1.6 Attack Speed
+Invicon Golden Helmet.png: Inventory sprite for Golden Helmet in Minecraft as shown in-game linking to Golden Helmet with description: Golden Helmet When on Head: +2 Armor
+Invicon Golden Chestplate.png: Inventory sprite for Golden Chestplate in Minecraft as shown in-game linking to Golden Chestplate with description: Golden Chestplate When on Chest: +5 Armor
+Invicon Golden Leggings.png: Inventory sprite for Golden Leggings in Minecraft as shown in-game linking to Golden Leggings with description: Golden Leggings When on Legs: +3 Armor
+Invicon Golden Boots.png: Inventory sprite for Golden Boots in Minecraft as shown in-game linking to Golden Boots with description: Golden Boots When on Feet: +1 Armor
+Invicon Golden Horse Armor.png: Inventory sprite for Golden Horse Armor in Minecraft as shown in-game linking to Golden Horse Armor with description: Golden Horse Armor When equipped: +7 Armor
+
+Tools, armor and horse armor made from gold	0.1	Can be crafted into golden carrots, glistering melons, or gold ingots.
+Invicon Copper Nugget.png: Inventory sprite for Copper Nugget in Minecraft as shown in-game linking to Copper Nugget with description: Copper Nugget
+
+Copper Nugget​[upcoming]	
+Invicon Copper Shovel.png: Inventory sprite for Copper Shovel in Minecraft as shown in-game linking to Copper Shovel with description: Copper Shovel When in Main Hand:  3.5 Attack Damage  1 Attack Speed
+Invicon Copper Pickaxe.png: Inventory sprite for Copper Pickaxe in Minecraft as shown in-game linking to Copper Pickaxe with description: Copper Pickaxe When in Main Hand:  3 Attack Damage  1.2 Attack Speed
+Invicon Copper Axe.png: Inventory sprite for Copper Axe in Minecraft as shown in-game linking to Copper Axe with description: Copper Axe When in Main Hand:  9 Attack Damage  0.8 Attack Speed
+Invicon Copper Hoe.png: Inventory sprite for Copper Hoe in Minecraft as shown in-game linking to Copper Hoe with description: Copper Hoe When in Main Hand:  1 Attack Damage  2 Attack Speed
+Invicon Copper Sword.png: Inventory sprite for Copper Sword in Minecraft as shown in-game linking to Copper Sword with description: Copper Sword When in Main Hand:  5 Attack Damage  1.6 Attack Speed
+Invicon Copper Helmet.png: Inventory sprite for Copper Helmet in Minecraft as shown in-game linking to Copper Helmet with description: Copper Helmet When on Head: +2 Armor
+Invicon Copper Chestplate.png: Inventory sprite for Copper Chestplate in Minecraft as shown in-game linking to Copper Chestplate with description: Copper Chestplate When on Chest: +4 Armor
+Invicon Copper Leggings.png: Inventory sprite for Copper Leggings in Minecraft as shown in-game linking to Copper Leggings with description: Copper Leggings When on Legs: +5 Armor
+Invicon Copper Boots.png: Inventory sprite for Copper Boots in Minecraft as shown in-game linking to Copper Boots with description: Copper Boots When on Feet: +1 Armor
+Invicon Copper Horse Armor.png: Inventory sprite for Copper Horse Armor in Minecraft as shown in-game linking to Copper Horse Armor with description: Copper Horse Armor When equipped: +4 Armor
+
+Tools and armor made from copper	0.1	Can be crafted into copper ingots.
+Furnace-only
+These recipes are exclusive to the furnace.
+
+Product	Ingredient	Exp	Usage
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+
+Stone	
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+
+Cobblestone	0.1	Used as a building material. Also used for crafting stone pressure plates, stone buttons, stone bricks, stone stairs, grindstones, stonecutters, redstone repeaters and comparators. Can be smelted into smooth stone.
+Invicon Smooth Stone.png: Inventory sprite for Smooth Stone in Minecraft as shown in-game linking to Smooth Stone with description: Smooth Stone
+
+Smooth Stone	
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+
+Stone	0.1	Used as a building material. Also used for crafting smooth stone slabs, armor stands, and blast furnaces.
+Invicon Cracked Stone Bricks.png: Inventory sprite for Cracked Stone Bricks in Minecraft as shown in-game linking to Cracked Stone Bricks with description: Cracked Stone Bricks
+
+Cracked Stone Bricks	
+Invicon Stone Bricks.png: Inventory sprite for Stone Bricks in Minecraft as shown in-game linking to Stone Bricks with description: Stone Bricks
+
+Stone Bricks	0.1	Decoration block.
+Invicon Deepslate.png: Inventory sprite for Deepslate in Minecraft as shown in-game linking to Deepslate with description: Deepslate
+
+Deepslate	
+Invicon Cobbled Deepslate.png: Inventory sprite for Cobbled Deepslate in Minecraft as shown in-game linking to Cobbled Deepslate with description: Cobbled Deepslate
+
+Cobbled Deepslate	0.1	Decoration block.
+Invicon Cracked Deepslate Bricks.png: Inventory sprite for Cracked Deepslate Bricks in Minecraft as shown in-game linking to Cracked Deepslate Bricks with description: Cracked Deepslate Bricks
+
+Cracked Deepslate Bricks	
+Invicon Deepslate Bricks.png: Inventory sprite for Deepslate Bricks in Minecraft as shown in-game linking to Deepslate Bricks with description: Deepslate Bricks
+
+Deepslate Bricks	0.1	Decoration block.
+Invicon Cracked Deepslate Tiles.png: Inventory sprite for Cracked Deepslate Tiles in Minecraft as shown in-game linking to Cracked Deepslate Tiles with description: Cracked Deepslate Tiles
+
+Cracked Deepslate Tiles	
+Invicon Deepslate Tiles.png: Inventory sprite for Deepslate Tiles in Minecraft as shown in-game linking to Deepslate Tiles with description: Deepslate Tiles
+
+Deepslate Tiles	0.1	Decoration block.
+Invicon Smooth Sandstone.png: Inventory sprite for Smooth Sandstone in Minecraft as shown in-game linking to Smooth Sandstone with description: Smooth Sandstone
+
+Smooth Sandstone	
+Invicon Sandstone.png: Inventory sprite for Sandstone in Minecraft as shown in-game linking to Sandstone with description: Sandstone
+
+Sandstone	0.1	Used as a building material. Also used for crafting smooth sandstone slabs and stairs.
+Invicon Smooth Red Sandstone.png: Inventory sprite for Smooth Red Sandstone in Minecraft as shown in-game linking to Smooth Red Sandstone with description: Smooth Red Sandstone
+
+Smooth Red Sandstone	
+Invicon Red Sandstone.png: Inventory sprite for Red Sandstone in Minecraft as shown in-game linking to Red Sandstone with description: Red Sandstone
+
+Red Sandstone	0.1	Used as a building material. Also used for crafting smooth red sandstone slabs and stairs.
+Invicon Cracked Nether Bricks.png: Inventory sprite for Cracked Nether Bricks in Minecraft as shown in-game linking to Cracked Nether Bricks with description: Cracked Nether Bricks
+
+Cracked Nether Bricks	
+Invicon Nether Bricks.png: Inventory sprite for Nether Bricks in Minecraft as shown in-game linking to Nether Bricks with description: Nether Bricks
+
+Nether Bricks
+
+0.1	Decoration block.
+Invicon Smooth Basalt.png: Inventory sprite for Smooth Basalt in Minecraft as shown in-game linking to Smooth Basalt with description: Smooth Basalt
+
+Smooth Basalt	
+Invicon Basalt.png: Inventory sprite for Basalt in Minecraft as shown in-game linking to Basalt with description: Basalt
+
+Basalt
+
+0.1	Decoration block.
+Invicon Cracked Polished Blackstone Bricks.png: Inventory sprite for Cracked Polished Blackstone Bricks in Minecraft as shown in-game linking to Cracked Polished Blackstone Bricks with description: Cracked Polished Blackstone Bricks
+
+Cracked Polished Blackstone Bricks	
+Invicon Polished Blackstone Bricks.png: Inventory sprite for Polished Blackstone Bricks in Minecraft as shown in-game linking to Polished Blackstone Bricks with description: Polished Blackstone Bricks
+
+Polished Blackstone Bricks	0.1	Decoration block.
+Invicon Smooth Quartz.png: Inventory sprite for Smooth Quartz in Minecraft as shown in-game linking to Smooth Quartz with description: Smooth Quartz
+
+Smooth Quartz	
+Invicon Block of Quartz.png: Inventory sprite for Block of Quartz in Minecraft as shown in-game linking to Block of Quartz with description: Block of Quartz
+
+Block of Quartz	0.1	Used as a building material. Also used for crafting smooth quartz slabs and stairs.
+Invicon Terracotta.png: Inventory sprite for Terracotta in Minecraft as shown in-game linking to Terracotta with description: Terracotta
+
+Terracotta	
+Invicon Clay.png: Inventory sprite for Clay in Minecraft as shown in-game linking to Clay with description: Clay
+
+Clay	0.35	Decoration block. Also used for crafting stained terracotta. Can be smelted into glazed terracotta.
+Invicon Magenta Glazed Terracotta.png: Inventory sprite for Magenta Glazed Terracotta in Minecraft as shown in-game linking to Magenta Glazed Terracotta with description: Magenta Glazed Terracotta
+
+Glazed Terracotta	
+Invicon Magenta Terracotta.png: Inventory sprite for Magenta Terracotta in Minecraft as shown in-game linking to Magenta Terracotta with description: Magenta Terracotta
+
+Stained Terracotta	0.1	Decoration block. Can be pushed by pistons but does not stick.
+Invicon Glass.png: Inventory sprite for Glass in Minecraft as shown in-game linking to Glass with description: Glass
+
+Glass	
+Invicon Sand.png: Inventory sprite for Sand in Minecraft as shown in-game linking to Sand with description: Sand
+
+Sand
+
+0.1	Used to make transparent structures. Also used to craft glass panes, glass bottles, stained glass, End crystals, daylight detectors, and beacons.
+Invicon Sponge.png: Inventory sprite for Sponge in Minecraft as shown in-game linking to Sponge with description: Sponge
+
+Sponge	
+Invicon Wet Sponge.png: Inventory sprite for Wet Sponge in Minecraft as shown in-game linking to Wet Sponge with description: Wet Sponge
+
+Wet Sponge	0.15	Used to soak up water. Drying a sponge allows it to be reused. If an empty bucket is in the fuel slot when smelting finishes, it becomes a water bucket. Wet sponges can also be instantly dried when placed in the Nether.
+Invicon Charcoal.png: Inventory sprite for Charcoal in Minecraft as shown in-game linking to Charcoal with description: Charcoal
+
+Charcoal	
+Invicon Jungle Log.png: Inventory sprite for Jungle Log in Minecraft as shown in-game linking to Jungle Log with description: Jungle Log
+
+Log
+Invicon Cherry Wood.png: Inventory sprite for Cherry Wood in Minecraft as shown in-game linking to Cherry Wood with description: Cherry Wood
+
+Wood
+Invicon Stripped Pale Oak Log.png: Inventory sprite for Stripped Pale Oak Log in Minecraft as shown in-game linking to Stripped Pale Oak Log with description: Stripped Pale Oak Log
+
+Stripped Log
+Invicon Stripped Pale Oak Wood.png: Inventory sprite for Stripped Pale Oak Wood in Minecraft as shown in-game linking to Stripped Pale Oak Wood with description: Stripped Pale Oak Wood
+
+Stripped Wood	0.15	Used to craft torches, soul torches, campfires and fire charges, and as fuel for smelting or for a minecart with furnace‌[JE only]. Input must be an Overworld log or wood, not sticks, planks, or stems.
+Invicon Popped Chorus Fruit.png: Inventory sprite for Popped Chorus Fruit in Minecraft as shown in-game linking to Popped Chorus Fruit with description: Popped Chorus Fruit
+
+Popped Chorus Fruit	
+Invicon Chorus Fruit.png: Inventory sprite for Chorus Fruit in Minecraft as shown in-game linking to Chorus Fruit with description: Chorus Fruit
+
+Chorus Fruit	0.1	Used to make purpur blocks and End rods. Cannot be eaten.
+Invicon Lime Dye.png: Inventory sprite for Lime Dye in Minecraft as shown in-game linking to Lime Dye with description: Lime Dye
+
+Lime Dye	
+Invicon Sea Pickle.png: Inventory sprite for Sea Pickle in Minecraft as shown in-game linking to Sea Pickle with description: Sea Pickle
+
+Sea Pickle	JE:0.1
+BE:0.2	Used as a dye.
+Invicon Green Dye.png: Inventory sprite for Green Dye in Minecraft as shown in-game linking to Green Dye with description: Green Dye
+
+Green Dye	
+Invicon Cactus.png: Inventory sprite for Cactus in Minecraft as shown in-game linking to Cactus with description: Cactus
+
+Cactus	JE:1[1]
+BE:0.2	Used as a dye.
+Invicon Brick.png: Inventory sprite for Brick in Minecraft as shown in-game linking to Brick with description: Brick
+
+Brick	
+Invicon Clay Ball.png: Inventory sprite for Clay Ball in Minecraft as shown in-game linking to Clay Ball with description: Clay Ball
+
+Clay Ball	0.3	Used to make bricks, decorated pots and flower pots.
+Invicon Nether Brick.png: Inventory sprite for Nether Brick in Minecraft as shown in-game linking to Nether Brick with description: Nether Brick
+
+Nether Brick	
+Invicon Netherrack.png: Inventory sprite for Netherrack in Minecraft as shown in-game linking to Netherrack with description: Netherrack
+
+Netherrack	0.1	Used to make Nether bricks, Nether brick fences and red Nether bricks.
+Invicon Resin Brick.png: Inventory sprite for Resin Brick in Minecraft as shown in-game linking to Resin Brick with description: Resin Brick
+
+Resin Brick	
+Invicon Resin Clump.png: Inventory sprite for Resin Clump in Minecraft as shown in-game linking to Resin Clump with description: Resin Clump
+
+Resin Clump	0.1	Used to make resin bricks.
+Invicon Leaf Litter.png: Inventory sprite for Leaf Litter in Minecraft as shown in-game linking to Leaf Litter with description: Leaf Litter
+
+Leaf Litter	
+Invicon Spruce Leaves.png: Inventory sprite for Spruce Leaves in Minecraft as shown in-game linking to Spruce Leaves with description: Spruce Leaves
+
+Leaves	0.1	Can be used as fuel for smelting.
+Fuel
+See also: Tutorials/Smelting
+There are multiple fuels that can be used to smelt items.
+
+A single lava bucket or a block of coal can smelt more items than can fit in the furnace, a lava bucket being able to smelt 100 blocks and a block of coal being able to smelt 80 —both input and output are limited to a maximum of a stack of 64 items (with some items not being able to be stacked or being possible to stack only 16 of them).
+
+This is the specific table for all the fuels:
+
+Fuel	Burning time
+(seconds)
+[note 1]	Number of operations per fuel	Number of operations per stack (64) of fuel
+[note 2]	Seconds per log
+[note 3]	Seconds per bamboo
+[note 4]	Amount needed to smelt a stack (64) of items	[]Notes
+Invicon Lava Bucket.png: Inventory sprite for Lava Bucket in Minecraft as shown in-game linking to Lava Bucket with description: Lava Bucket
+ Lava Bucket	1000
+16:40
+20000 ticks	100	100 (6400)	None used	None used	0.64	If a lava bucket is used as fuel, an empty bucket remains in the fuel slot.
+Invicon Block of Coal.png: Inventory sprite for Block of Coal in Minecraft as shown in-game linking to Block of Coal with description: Block of Coal
+ Block of Coal	800
+13:20
+16000 ticks	80	5120	None used	None used	0.8	
+Invicon Dried Kelp Block.png: Inventory sprite for Dried Kelp Block in Minecraft as shown in-game linking to Dried Kelp Block with description: Dried Kelp Block
+ Dried Kelp Block	200
+3:20
+4000 ticks	20
+[note 5]	1280	None used	None used	3.2	
+Invicon Blaze Rod.png: Inventory sprite for Blaze Rod in Minecraft as shown in-game linking to Blaze Rod with description: Blaze Rod
+ Blaze Rod	120
+2:00
+2400 ticks	12	768	None used	None used	5 1⁄3	
+Invicon Coal.png: Inventory sprite for Coal in Minecraft as shown in-game linking to Coal with description: Coal
+ Coal	80
+1:20
+1600 ticks	8	512	None used	None used	8	
+Invicon Charcoal.png: Inventory sprite for Charcoal in Minecraft as shown in-game linking to Charcoal with description: Charcoal
+ Charcoal	80
+1:20
+1600 ticks	8	512	70
+[note 6]	None used	8	
+Invicon Acacia Boat.png: Inventory sprite for Acacia Boat in Minecraft as shown in-game linking to Acacia Boat with description: Acacia Boat
+ Any Boat	60
+1200 ticks	6	6 (384)	48	2 2⁄3	10 2⁄3	
+Invicon Acacia Boat with Chest.png: Inventory sprite for Acacia Boat with Chest in Minecraft as shown in-game linking to Acacia Boat with Chest with description: Acacia Boat with Chest
+ Any Boat with Chest	60
+1200 ticks	6	6 (384)	18 6⁄13
+(~18.46)	1 1⁄39
+(~1.03)	10 2⁄3	
+Invicon Bamboo Mosaic.png: Inventory sprite for Bamboo Mosaic in Minecraft as shown in-game linking to Bamboo Mosaic with description: Bamboo Mosaic
+ Bamboo Mosaic	15
+300 ticks	1.5	96	None used	3 1⁄3	42 2⁄3	
+Invicon Bamboo Mosaic Slab.png: Inventory sprite for Bamboo Mosaic Slab in Minecraft as shown in-game linking to Bamboo Mosaic Slab with description: Bamboo Mosaic Slab
+ Bamboo Mosaic Slab	7.5
+150 ticks	0.75	48	60	3 1⁄3	85 1⁄3	‌[Java Edition only]
+15
+300 ticks
+[note 7]	1.5	96	120
+[note 7]	6 2⁄3
+[note 7]	42 2⁄3	‌[Bedrock Edition only]
+Invicon Bamboo Mosaic Stairs.png: Inventory sprite for Bamboo Mosaic Stairs in Minecraft as shown in-game linking to Bamboo Mosaic Stairs with description: Bamboo Mosaic Stairs
+ Bamboo Mosaic Stairs	15
+300 ticks	1.5	96	None used	3 1⁄3	42 2⁄3	
+Invicon Chiseled Bookshelf.png: Inventory sprite for Chiseled Bookshelf in Minecraft as shown in-game linking to Chiseled Bookshelf with description: Chiseled Bookshelf
+ Chiseled Bookshelf	15
+300 ticks	1.5	96	2 13⁄16
+(2.8125)	4⁄9
+(0.4)	42 2⁄3	
+Invicon Block of Bamboo.png: Inventory sprite for Block of Bamboo in Minecraft as shown in-game linking to Block of Bamboo with description: Block of Bamboo
+ Block of Bamboo or Block of Stripped Bamboo	15
+300 ticks	1.5	96	None used	1 2⁄3	42 2⁄3	
+Invicon Stripped Acacia Log.png: Inventory sprite for Stripped Acacia Log in Minecraft as shown in-game linking to Stripped Acacia Log with description: Stripped Acacia Log
+ Overworld Log or Stripped Log	15
+300 ticks	1.5	96	15	None used	42 2⁄3	
+Invicon Stripped Acacia Wood.png: Inventory sprite for Stripped Acacia Wood in Minecraft as shown in-game linking to Stripped Acacia Wood with description: Stripped Acacia Wood
+ Overworld Wood or Stripped Wood	15
+300 ticks	1.5	96	11.25	None used	42 2⁄3	
+Invicon Acacia Planks.png: Inventory sprite for Acacia Planks in Minecraft as shown in-game linking to Acacia Planks with description: Acacia Planks
+ Overworld Planks	15
+300 ticks	1.5	96	60	3 1⁄3	42 2⁄3	
+Invicon Acacia Slab.png: Inventory sprite for Acacia Slab in Minecraft as shown in-game linking to Acacia Slab with description: Acacia Slab
+ Overworld Wooden Slab	7.5
+150 ticks	0.75	48	60	3 1⁄3	85 1⁄3	‌[Java Edition only]
+15
+300 ticks
+[note 7]	1.5	96	120
+[note 7]	6 2⁄3
+[note 7]	42 2⁄3	‌[Bedrock Edition only]
+Invicon Acacia Stairs.png: Inventory sprite for Acacia Stairs in Minecraft as shown in-game linking to Acacia Stairs with description: Acacia Stairs
+ Overworld Wooden Stairs	15
+300 ticks	1.5	96	40	2 2⁄9
+(2.2)	42 2⁄3	
+Invicon Acacia Pressure Plate.png: Inventory sprite for Acacia Pressure Plate in Minecraft as shown in-game linking to Acacia Pressure Plate with description: Acacia Pressure Plate
+ Overworld Wooden Pressure Plate	15
+300 ticks	1.5	96	30	1 2⁄3	42 2⁄3	
+Invicon Acacia Button.png: Inventory sprite for Acacia Button in Minecraft as shown in-game linking to Acacia Button with description: Acacia Button
+ Overworld Wooden Button	5
+100 ticks	0.5	32	20	1 1⁄9
+(1.1)	128	
+Invicon Acacia Trapdoor.png: Inventory sprite for Acacia Trapdoor in Minecraft as shown in-game linking to Acacia Trapdoor with description: Acacia Trapdoor
+ Overworld Wooden Trapdoor	15
+300 ticks	1.5	96	20	1 1⁄9
+(1.1)	42 2⁄3	
+Invicon Acacia Fence Gate.png: Inventory sprite for Acacia Fence Gate in Minecraft as shown in-game linking to Acacia Fence Gate with description: Acacia Fence Gate
+ Overworld Fence Gate	15
+300 ticks	1.5	96	15	15⁄17
+(~0.88)	42 2⁄3	
+Invicon Acacia Fence.png: Inventory sprite for Acacia Fence in Minecraft as shown in-game linking to Acacia Fence with description: Acacia Fence
+ Overworld Wooden Fence	15
+300 ticks	1.5	96	36	15⁄22
+(0.681)	42 2⁄3	
+Invicon Mangrove Roots.png: Inventory sprite for Mangrove Roots in Minecraft as shown in-game linking to Mangrove Roots with description: Mangrove Roots
+ Mangrove Roots	15
+300 ticks	1.5	96	None used	None used	42 2⁄3	
+Invicon Ladder.png: Inventory sprite for Ladder in Minecraft as shown in-game linking to Ladder with description: Ladder
+ Ladder	15
+300 ticks	1.5	96	51 3⁄7
+(~51.43)	3 3⁄14
+(~3.21)	42 2⁄3	‌[Java Edition only]
+Invicon Crafting Table.png: Inventory sprite for Crafting Table in Minecraft as shown in-game linking to Crafting Table with description: Crafting Table
+ Crafting Table	15
+300 ticks	1.5	96	15	5⁄6
+(0.83)	42 2⁄3	
+Invicon Cartography Table.png: Inventory sprite for Cartography Table in Minecraft as shown in-game linking to Cartography Table with description: Cartography Table
+ Cartography Table	15
+300 ticks	1.5	96	15	5⁄6
+(0.83)	42 2⁄3	
+Invicon Fletching Table.png: Inventory sprite for Fletching Table in Minecraft as shown in-game linking to Fletching Table with description: Fletching Table
+ Fletching Table	15
+300 ticks	1.5	96	15	5⁄6
+(0.83)	42 2⁄3	
+Invicon Smithing Table.png: Inventory sprite for Smithing Table in Minecraft as shown in-game linking to Smithing Table with description: Smithing Table
+ Smithing Table	15
+300 ticks	1.5	96	15	5⁄6
+(0.83)	42 2⁄3	
+Invicon Loom.png: Inventory sprite for Loom in Minecraft as shown in-game linking to Loom with description: Loom
+ Loom	15
+300 ticks	1.5	96	30	1 2⁄3	42 2⁄3	
+Invicon Bookshelf.png: Inventory sprite for Bookshelf in Minecraft as shown in-game linking to Bookshelf with description: Bookshelf
+ Bookshelf	15
+300 ticks	1.5	96	10	5⁄9
+(0.5)	42 2⁄3	
+Invicon Lectern.png: Inventory sprite for Lectern in Minecraft as shown in-game linking to Lectern with description: Lectern
+ Lectern	15
+300 ticks	1.5	96	7.5	5⁄12
+(0.416)	42 2⁄3	
+Invicon Composter.png: Inventory sprite for Composter in Minecraft as shown in-game linking to Composter with description: Composter
+ Composter	15
+300 ticks	1.5	96	17 1⁄7
+(~17.14)	20⁄21
+(~0.95)	42 2⁄3	
+Invicon Chest.png: Inventory sprite for Chest in Minecraft as shown in-game linking to Chest with description: Chest
+ Chest	15
+300 ticks	1.5	96	7.5	5⁄12
+(0.416)	42 2⁄3	
+Invicon Trapped Chest.png: Inventory sprite for Trapped Chest in Minecraft as shown in-game linking to Trapped Chest with description: Trapped Chest
+ Trapped Chest	15
+300 ticks	1.5	96	6 6⁄7
+(~6.86)	60⁄157
+(~0.38)	42 2⁄3	
+Invicon Barrel.png: Inventory sprite for Barrel in Minecraft as shown in-game linking to Barrel with description: Barrel
+ Barrel	15
+300 ticks	1.5	96	8 4⁄7
+(~8.57)	10⁄21
+(~0.48)	42 2⁄3	
+Invicon Daylight Detector.png: Inventory sprite for Daylight Detector in Minecraft as shown in-game linking to Daylight Detector with description: Daylight Detector
+ Daylight Detector	15
+300 ticks	1.5	96	40	2 2⁄9
+(2.2)	42 2⁄3	
+Invicon Jukebox.png: Inventory sprite for Jukebox in Minecraft as shown in-game linking to Jukebox with description: Jukebox
+ Jukebox	15
+300 ticks	1.5	96	7.5	5⁄12
+(0.416)	42 2⁄3	
+Invicon Note Block.png: Inventory sprite for Note Block in Minecraft as shown in-game linking to Note Block with description: Note Block
+ Note Block	15
+300 ticks	1.5	96	7.5	5⁄12
+(0.416)	42 2⁄3	
+Invicon Shelf.png: Inventory sprite for Shelf in Minecraft as shown in-game linking to Shelf with description: Shelf
+ Shelf	15
+300 ticks	1.5	96	7.5	5⁄12
+(0.416)	42 2⁄3	​[upcoming]
+Invicon Magenta Banner.png: Inventory sprite for Magenta Banner in Minecraft as shown in-game linking to Magenta Banner with description: Magenta Banner
+ Any Banner	15
+300 ticks	1.5	24 (96)	120	7.5	42 2⁄3	
+Invicon Crossbow.png: Inventory sprite for Crossbow in Minecraft as shown in-game linking to Crossbow with description: Crossbow
+ Crossbow	15
+300 ticks	1.5	1.5 (96)	26 2⁄3	1 23⁄37
+(1.621)	42 2⁄3	‌[Java Edition only]
+10
+200 ticks	1	1 (64)	17 7⁄9
+(17.7)	1 3⁄37
+(1.081)	64	‌[Bedrock Edition only]
+Invicon Bow.png: Inventory sprite for Bow in Minecraft as shown in-game linking to Bow with description: Bow
+ Bow	15
+300 ticks	1.5	1.5 (96)	40	2.5	42 2⁄3	‌[Java Edition only]
+10
+200 ticks	1	1 (64)	26 2⁄3	1 2⁄3	64	‌[Bedrock Edition only]
+Invicon Fishing Rod.png: Inventory sprite for Fishing Rod in Minecraft as shown in-game linking to Fishing Rod with description: Fishing Rod
+ Fishing Rod	15
+300 ticks	1.5	1.5 (96)	40	2.5	42 2⁄3	
+Invicon Acacia Door.png: Inventory sprite for Acacia Door in Minecraft as shown in-game linking to Acacia Door with description: Acacia Door
+ Overworld Wooden Door	10
+200 ticks	1	64	20	1 1⁄9
+(1.1)	64	
+Invicon Acacia Sign.png: Inventory sprite for Acacia Sign in Minecraft as shown in-game linking to Acacia Sign with description: Acacia Sign
+ Overworld Sign	10
+200 ticks	1	16 (64)	18 6⁄13
+(~18.46)	10⁄29
+(~0.34)	64	
+Invicon Spruce Hanging Sign.png: Inventory sprite for Spruce Hanging Sign in Minecraft as shown in-game linking to Spruce Hanging Sign with description: Spruce Hanging Sign
+ Overworld Hanging Sign	10
+200 ticks	1	16 (64)	10	1 1⁄9
+(1.1)	64	
+Invicon Wooden Pickaxe.png: Inventory sprite for Wooden Pickaxe in Minecraft as shown in-game linking to Wooden Pickaxe with description: Wooden Pickaxe When in Main Hand:  2 Attack Damage  1.2 Attack Speed
+ Wooden Pickaxe	10
+200 ticks	1	1 (64)	10	4⁄7
+(~0.57)	64	
+Invicon Wooden Shovel.png: Inventory sprite for Wooden Shovel in Minecraft as shown in-game linking to Wooden Shovel with description: Wooden Shovel When in Main Hand:  2.5 Attack Damage  1 Attack Speed
+ Wooden Shovel	10
+200 ticks	1	1 (64)	20	1 3⁄17
+(~1.18)	64	
+Invicon Wooden Hoe.png: Inventory sprite for Wooden Hoe in Minecraft as shown in-game linking to Wooden Hoe with description: Wooden Hoe When in Main Hand:  1 Attack Damage  1 Attack Speed
+ Wooden Hoe	10
+200 ticks	1	1 (64)	13 1⁄3	10⁄13
+(~0.77)	64	
+Invicon Wooden Axe.png: Inventory sprite for Wooden Axe in Minecraft as shown in-game linking to Wooden Axe with description: Wooden Axe When in Main Hand:  7 Attack Damage  0.8 Attack Speed
+ Wooden Axe	10
+200 ticks	1	1 (64)	10	4⁄7
+(~0.57)	64	
+Invicon Wooden Sword.png: Inventory sprite for Wooden Sword in Minecraft as shown in-game linking to Wooden Sword with description: Wooden Sword When in Main Hand:  4 Attack Damage  1.6 Attack Speed
+ Wooden Sword	10
+200 ticks	1	1 (64)	16	10⁄11
+(0.90)	64	
+Invicon Bowl.png: Inventory sprite for Bowl in Minecraft as shown in-game linking to Bowl with description: Bowl
+ Bowl	5
+100 ticks	0.5	32	26 2⁄3	1 13⁄27
+(1.481)	128	‌[Java Edition only]
+10
+200 ticks	1	64	53 1⁄3	2 26⁄27
+(2.962)	64	‌[Bedrock Edition only]
+Invicon Dark Oak Sapling.png: Inventory sprite for Dark Oak Sapling in Minecraft as shown in-game linking to Dark Oak Sapling with description: Dark Oak Sapling
+ Any Sapling/non-solid block with saplings Item Tag (e.g. propagule)	5
+100 ticks	0.5	32	None used	None used	128	
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+ Stick	5
+100 ticks	0.5	32	40	2.5	128	
+Invicon Dead Bush.png: Inventory sprite for Dead Bush in Minecraft as shown in-game linking to Dead Bush with description: Dead Bush
+ Dead Bush	5
+100 ticks	0.5	32	None used	None used	128	
+Invicon Azalea.png: Inventory sprite for Azalea in Minecraft as shown in-game linking to Azalea with description: Azalea
+ Azalea	5
+100 ticks	0.5	32	None used	None used	128	
+Invicon Leaf Litter.png: Inventory sprite for Leaf Litter in Minecraft as shown in-game linking to Leaf Litter with description: Leaf Litter
+ Leaf Litter	5
+100 ticks	0.5	32	None used	None used	128
+Invicon Short Dry Grass.png: Inventory sprite for Short Dry Grass in Minecraft as shown in-game linking to Short Dry Grass with description: Short Dry Grass
+ Short Dry Grass	5
+100 ticks	0.5	32	None used	None used	128
+Invicon Tall Dry Grass.png: Inventory sprite for Tall Dry Grass in Minecraft as shown in-game linking to Tall Dry Grass with description: Tall Dry Grass
+ Tall Dry Grass	5
+100 ticks	0.5	32	None used	None used	128
+Invicon Magenta Wool.png: Inventory sprite for Magenta Wool in Minecraft as shown in-game linking to Magenta Wool with description: Magenta Wool
+ Any Wool	5
+100 ticks	0.5	32	None used	None used	128	‌[Java Edition only]
+Invicon Magenta Carpet.png: Inventory sprite for Magenta Carpet in Minecraft as shown in-game linking to Magenta Carpet with description: Magenta Carpet
+ Any Wool Carpet	3.35
+67 ticks	0.335	21.44	None used	None used	191 3⁄67
+(~191.04)	‌[Java Edition only]
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+ Bamboo	2.5
+50 ticks	0.25	16	None used	2.5	256	
+Invicon Scaffolding.png: Inventory sprite for Scaffolding in Minecraft as shown in-game linking to Scaffolding with description: Scaffolding
+ Scaffolding	2.5
+50 ticks	0.25	16	None used	2.5	256	
+ All times given are for fuel burned in a furnace. When burned in a blast furnace or smoker, fuel is burned twice as fast but produces the same number of items.
+ Items in red are not stackable, items in yellow only stack up to 16.
+ Calculated as the burning time in seconds divided by the number of logs used to make one fuel when all wood ingredients are made from logs. Items in red are not made entirely of wood.
+ Calculated as the burning time in seconds divided by the amount of bamboo used to make one fuel when all wood ingredient are made from bamboo. Items in red are not made entirely of bamboo.
+ Requires 9 smelting operations to obtain, so net output is 11 operations.
+ 80 seconds of fuel per log, but 10 seconds are needed to smelt the charcoal, so the net time is 70 seconds.
+ Wooden slabs have the same burn time as planks due to a bug; see MCPE-94368.
+Hopper automation
+See also: Tutorials/Hopper § Automatic smelting
+
+In-game Automated furnace schematic
+Automated furnace
+The smelting process can be automated with hoppers on the top and bottom of the furnace. For larger smelting jobs, a third hopper on the side of the furnace can feed in fuel and, in case of lava being used as fuel, any empty buckets come out of the bottom hopper. This automatically feeds and empties the furnace so that different materials can be smelted in the same batch with no loss.
+
+Whenever a hopper or minecart with hopper removes items from a furnace, any experience earned from cooking or smelting the removed items is saved in the furnace and awarded to the next player who either breaks the furnace or manually removes an item from the furnace's output slot. This saved experience is in addition to that earned for the manually removed item(s).
+
+Achievements
+[]
+Icon	Achievement	In-game description	Actual requirements (if different)	Gamerscore earned	Trophy type (PS)
+PS4	Other
+		Acquire Hardware	Smelt an iron ingot	Pick up an iron ingot from a furnace output.	15	Bronze
+		Delicious Fish	Catch and cook a fish!	Pick up a cooked cod after cooking it in a furnace, smoker, campfire, or soul campfire.
+Note: This does not work if the block used is connected to a hopper underneath, as the player is not getting the item directly from the output.	15	Silver
+		Dry Spell	Dry a sponge in a furnace	—	15	Bronze
+		Pork Chop	Cook and eat a pork chop.	—	10	Bronze
+		Rabbit Season	Cook and Eat Rabbit Meat	—	15	Bronze
+		Renewable Energy	Smelt wood trunks using charcoal to make more charcoal.	Smelt a wooden log with charcoal as the fuel.	10	Bronze
+		Smelt Everything!	Connect 3 Chests to a single Furnace using 3 Hoppers.	Be within the range of three chests connected to a Furnace with 3 Hoppers.
+Note: The demonstration shown in the image would not give the achievement.	15	Bronze
+		Super Fuel	Power a Furnace with Lava	Smelt an item using a lava bucket on a furnace, blast furnace or smoker and pick up the resulting item from the output slot.	20	Bronze
+Advancements
+Icon	Advancement	In-game description	Actual requirements (if different)
+	Acquire Hardware	Smelt an Iron Ingot	Have an iron ingot in the inventory.
+History
+[]Java Edition Indev
+0.31	20100129-1447	Flint and steel can now be used to smelt ores.[2]
+20100219	Furnaces have been added to replace the cooking/smelting function of flint and steel.
+20100223	The first smeltable item has been added, cobblestone, which can be smelted into stone.
+[]Java Edition
+1.3.1	12w18a	Wooden tools now work in furnaces as one full furnace use.
+12w22a	Smelting various ores in furnaces now reward players with experience points.
+When using lava for fuel, the player can now get the bucket back.
+1.5	13w02a	Hoppers can now be used in conjunction with furnaces, allowing for automatic smelting.
+1.8	14w04a	When a furnace runs out of fuel, the smelting progress now rewinds at double speed.
+1.11	16w33a	More items can now be used as fuel: wool, carpets, ladders, wooden buttons, bows, fishing rods, signs, bowls, wooden doors and boats.
+1.13	18w06a	The smelting GUI now includes a recipe tab, which allows players to know how to smelt previously-smelted items, automatically fill in the item to be smelted and filter out the recipes to what they can make from their inventory.
+Custom recipes are now loaded from data packs in data/(namespace)/recipes/(name).json.
+Turning off the vanilla data pack now also removes all recipes.
+18w07a	Dried kelp blocks have been added as a new fuel.
+18w09a	When the output of a furnace is extracted with a hopper, the experience now accumulates inside the furnace, and is released the next time a player takes the output.[3]
+1.14	18w43a	Added bamboo, which can now be used as a fuel.
+Dead bushes can now be used as a fuel, smelting 0.5 items.
+18w45a	Added scaffolding, which can now be used as a fuel.
+18w50a	Ores can now be smelted using a blast furnace and food using a smoker.
+19w02a	Items can now be cooked using a campfire.
+?	Blast Furnaces and Smokers no longer yield half the XP.
+1.15	19w37a	Boats used as fuel now smelt 6 items instead of 1.
+Pre-release 1	Scaffolding used as fuel now smelts 2 items instead of 0.25.
+1.17	21w05a	Added azalea and flowering azalea, which can now be used as a fuel.
+1.19	22w11a	Scaffolding now smelts 0.25 items again.[4]
+Added mangrove roots and all types of mangrove, which can be used as fuel. Mangrove logs, wood, and their stripped variations can also be smelted to make charcoal.
+22w12a	Added boat with chest, which can be used as a fuel.
+Mangrove fences, fence gates, and boats can now be used as a fuel.[5]
+1.19.3
+Experiment
+Update 1.20	22w42a	Added chiseled bookshelf, Overworld hanging signs and all types of bamboo, which can be used as fuel.
+22w44a	Bamboo mosaic, fences, and fence gates can now be used as a fuel.
+22w45a	Added block of bamboo and their stripped variant, which can now be used as fuel.
+1.19.4
+Experiment
+Update 1.20	23w07a	Added all types of cherry, which can be used as fuel.
+1.19.4-pre1	Cherry logs, wood, their stripped variations, and cherry saplings can now be used as a fuel.[6]
+Cherry logs, wood, and their stripped variations can now be used to make charcoal.[7]
+[]Pocket Edition Alpha
+v0.3.2	Furnaces have been added, which means that every available block and item can now be gathered, crafted or smelted into (no more unlimited items).
+v0.8.0	build 1	Added blocks of coal, which can be used as fuel.
+Lava buckets and saplings can now be used as fuel.
+build 7	Bows, bowls, and most wooden tools (excluding axes) can now be used as fuel.
+v0.11.0	build 1	Added boats and fishing rods, which can be used as fuel.
+Wooden axes can now be used as fuel.
+v0.12.1	build 1	Added blaze rods, which can now be used as fuel.
+v0.13.0	build 1	Added note blocks and daylight sensors, which can now be used as fuel.
+v0.16.0	build 1	All three item slots in the furnace's interface are now labeled. The top-left slot is labeled "Input", the bottom-left slot is labeled "Fuel", and the right slot is labeled "Result".
+[]Pocket Edition
+1.0.0	alpha 0.17.0.1	Added new furnace UI for classic UI.
+[]Bedrock Edition
+1.2.0	beta 1.2.0.2	Added jukeboxes and banners, which can now be used as fuel.
+1.2.13	beta 1.2.13.8	Added stripped logs, which can now be used as fuel.
+1.4.0	beta 1.2.14.2	Added dried kelp blocks, which can now be used as fuel.
+1.8.0	beta 1.8.0.8	Added bamboo and scaffolding, which can now be used as fuel.
+1.10.0	beta 1.10.0.3	Dead bushes can now be used as fuel.
+1.11.0	beta 1.11.0.1	Items can now be cooked using a campfire.
+Signs can now be used as fuel.
+Ores can now be smelted using a blast furnace and food using a smoker.
+1.21.80	Preview 1.21.80.20	Mangrove roots can now be used as fuel.
+[]New Nintendo 3DS Edition
+1.1.06	Smelting various ores in furnaces now rewards players with experience points.

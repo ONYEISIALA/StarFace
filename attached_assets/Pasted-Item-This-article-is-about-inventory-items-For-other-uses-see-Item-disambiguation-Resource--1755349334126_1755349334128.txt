@@ -1,0 +1,1215 @@
+Item
+This article is about inventory items. For other uses, see Item (disambiguation).
+"Resource" redirects here. For files that change the gameplay, see Resource Pack.
+ There is a category for this topic! 
+See Category:Items for a list of pages relating to this topic.
+
+The Creative inventory in Java Edition, filled with a wide variety of items.
+An item is an object that can exist within inventories of players, mobs, or armor stands; in various storage blocks (like chests or droppers), as well as in item frames and glow item frames.
+
+
+Contents
+1	Behavior
+1.1	Thrown items
+1.2	Stacking
+2	Lists of items
+2.1	In the game
+2.1.1	Items that create blocks, fluids or entities
+2.1.2	Items with use in the world
+2.1.3	Items with indirect use in the world
+2.1.4	Spawn eggs
+2.1.5	Exclusive to Minecraft Education
+2.2	Unimplemented items
+2.3	Removed items
+2.4	Joke items
+3	Display by entities
+4	Videos
+5	History
+5.1	Item additions and removals
+5.2	Other changes
+5.3	April Fools items
+6	Issues
+7	Gallery
+7.1	Mojang images
+8	See also
+9	Notes
+10	Navigation
+Behavior
+Some items, when used, place a block (ItemBlock) or entity (minecart, spawn eggs, etc.) version of themselves into the game world. Put simply, they are an item when in the inventory, and a block when placed. For example, boats turn into an entity when placed, and beds turn into a group of blocks when placed. When selected in the hotbar, items briefly display their names above the HUD.
+
+The only method by which an item can be properly displayed within the game environment is to place it into an item frame.
+
+Thrown items
+If an item that does not become a block is dropped, it becomes an entity represented by a sprite that floats above the ground. It remains for 5 minutes in a loaded chunk before despawning (except for the nether star), unless the player walks over it to pick it up, it is picked up by a mob, hopper or minecart with hopper, or it is destroyed by fire, lava, cactus, explosion, void, or /kill.
+
+A submerged object ascends toward the water's surface. If the water is flowing, the object is pushed along with it.
+
+Hoppers draw in any items that are placed above them if they are not powered by redstone.
+
+Launch angle calculator[note 1]
+Given a target coordinate and an initial speed, calculate the thrown item launch angle to hit the target. Target is hit after 3 ticks.
+X	
+0
+ – 
+1
+Yaw	-45.000 deg
+Y	
+0
+ – 
+1
+Pitch	
+-42.179 deg
+
+Z	
+0
+ – 
+1
+Speed	
+0.6
+ m/tick
+See also: Calculators/Projectile motion
+ Yaw and pitch follow the Minecraft's convention, thus zero yaw is directed at +Z (south) and looking upwards corresponds to negative values of pitch.
+Stacking
+Items can either stack up to 64 or 16, or not stack at all:
+
+Most items can stack to 64. This includes all blocks.
+Some items, such as snowballs, empty buckets, eggs, signs and ender pearls, can stack up to a maximum of 16.
+Some other items do not stack at all, such as anything with a durability (weapons, armor, and tools), filled buckets, and potions.
+All items can technically be forced to stack up to 99‌[JE only] or 127‌[BE only] using commands.
+Lists of items
+In the game
+Items that create blocks, fluids or entities
+Items corresponding directly to blocks in name and ID are excluded from this list for the sake of brevity.
+
+Acacia Boat
+Acacia Boat with Chest
+Armor Stand
+Bamboo Raft
+Bamboo Raft with Chest
+Beetroot Seeds
+Birch Boat
+Birch Boat with Chest
+Blue Egg
+Bottle o' Enchanting
+Bow
+Brown Egg
+Bucket
+Bucket of Axolotl
+Bucket of Cod
+Bucket of Pufferfish
+Bucket of Salmon
+Bucket of Tadpole
+Bucket of Tropical Fish
+Carrot
+Cherry Boat
+Cherry Boat with Chest
+Cocoa Beans
+Crossbow
+Dark Oak Boat
+Dark Oak Boat with Chest
+Egg
+End Crystal
+Ender Pearl
+Eye of Ender
+Fire Charge
+Firework Rocket
+Fishing Rod
+Flint and Steel
+Glow Berries
+Glow Item Frame
+Item Frame
+Jungle Boat
+Jungle Boat with Chest
+Kelp
+Lava Bucket
+Lead
+Lingering Potion
+Mangrove Boat
+Mangrove Boat with Chest
+Melon Seeds
+Minecart
+Minecart with Chest
+Minecart with Command Block
+Minecart with Furnace‌[JE only]
+Minecart with Hopper
+Minecart with TNT
+Nether Wart
+Oak Boat
+Oak Boat with Chest
+Painting
+Pale Oak Boat
+Pale Oak Boat with Chest
+Pitcher Pod
+Potato
+Powder Snow Bucket
+Pumpkin Seeds
+Redstone Dust
+Snowball
+Splash Potion
+Spruce Boat
+Spruce Boat with Chest
+String
+Sweet Berries
+Torchflower Seeds
+Trident
+Water Bucket
+Wheat Seeds
+Wind Charge
+Items with use in the world
+These items, when highlighted in a player's hotbar (aka "held"), in the off hand, or equipped in an armor slot, can be used by either attack or use, or can serve a specific purpose (for example, offer the player advantage or disadvantage). Some can be used any time, others only when aiming at specific blocks or entities.
+
+Amethyst Shard
+Apple
+Armadillo Scute
+Arrow
+Baked Potato
+Beetroot
+Beetroot Soup
+Black Bundle
+Black Dye
+Black Harness
+Blue Bundle
+Blue Dye
+Blue Harness
+Bone
+Bone Meal
+Book
+Book and Quill
+Bowl
+Bread
+Brown Bundle
+Brown Dye
+Brown Harness
+Brush
+Bundle
+Carrot on a Stick
+Chainmail Boots
+Chainmail Chestplate
+Chainmail Helmet
+Chainmail Leggings
+Charcoal (to power minecart with furnace‌s)‌[JE only]
+Chorus Fruit
+Coal (to power minecart with furnace‌s)‌[JE only]
+Compass
+Cooked Chicken
+Cooked Cod
+Cooked Mutton
+Cooked Porkchop
+Cooked Rabbit
+Cooked Salmon
+Cookie
+Copper Axe ​[upcoming]
+Copper Boots ​[upcoming]
+Copper Chestplate ​[upcoming]
+Copper Helmet ​[upcoming]
+Copper Hoe ​[upcoming]
+Copper Horse Armor ​[upcoming]
+Copper Leggings ​[upcoming]
+Copper Pickaxe ​[upcoming]
+Copper Shovel ​[upcoming]
+Copper Sword ​[upcoming]
+Cyan Bundle
+Cyan Dye
+Cyan Harness
+Debug Stick‌[JE only]
+Diamond Axe
+Diamond Boots
+Diamond Chestplate
+Diamond Helmet
+Diamond Hoe
+Diamond Horse Armor
+Diamond Leggings
+Diamond Pickaxe
+Diamond Shovel
+Diamond Sword
+Dried Kelp
+Elytra
+Empty Map
+Enchanted Book
+Enchanted Golden Apple
+Glass Bottle
+Glow Ink Sac
+Goat Horn
+Gold Ingot
+Golden Apple
+Golden Axe
+Golden Boots
+Golden Carrot
+Golden Chestplate
+Golden Helmet
+Golden Hoe
+Golden Horse Armor
+Golden Leggings
+Golden Pickaxe
+Golden Shovel
+Golden Sword
+Gray Bundle
+Gray Dye
+Gray Harness
+Green Bundle
+Green Dye
+Green Harness
+Honeycomb
+Honey Bottle
+Ink Sac
+Iron Axe
+Iron Boots
+Iron Chestplate
+Iron Helmet
+Iron Hoe
+Iron Horse Armor
+Iron Ingot
+Iron Leggings
+Iron Pickaxe
+Iron Shovel
+Iron Sword
+Knowledge Book‌[JE only]
+Lapis Lazuli (as a dye)‌[BE only]
+Leather Boots
+Leather Cap
+Leather Horse Armor
+Leather Pants
+Leather Tunic
+Light Blue Bundle
+Light Blue Dye
+Light Blue Harness
+Light Gray Bundle
+Light Gray Dye
+Light Gray Harness
+Lime Bundle
+Lime Dye
+Lime Harness
+Mace
+Magenta Bundle
+Magenta Dye
+Magenta Harness
+Map or Explorer Map
+Melon Slice
+Milk Bucket
+Mushroom Stew
+Music Disc (5)
+Music Disc (11)
+Music Disc (13)
+Music Disc (blocks)
+Music Disc (cat)
+Music Disc (chirp)
+Music Disc (Creator)
+Music Disc (Creator (Music Box))
+Music Disc (far)
+Music Disc (Lava Chicken)
+Music Disc (mall)
+Music Disc (mellohi)
+Music Disc (otherside)
+Music Disc (Pigstep)
+Music Disc (Precipice)
+Music Disc (Relic)
+Music Disc (stal)
+Music Disc (strad)
+Music Disc (Tears)
+Music Disc (wait)
+Music Disc (ward)
+Name Tag
+Netherite Axe
+Netherite Boots
+Netherite Chestplate
+Netherite Helmet
+Netherite Hoe
+Netherite Leggings
+Netherite Pickaxe
+Netherite Shovel
+Netherite Sword
+Ominous Bottle
+Ominous Trial Key
+Orange Bundle
+Orange Dye
+Orange Harness
+Pink Bundle
+Pink Dye
+Pink Harness
+Poisonous Potato
+Potion
+Pufferfish
+Pumpkin Pie
+Purple Bundle
+Purple Dye
+Purple Harness
+Rabbit Stew
+Raw Beef
+Raw Chicken
+Raw Cod
+Raw Mutton
+Raw Porkchop
+Raw Rabbit
+Raw Salmon
+Red Bundle
+Red Dye
+Red Harness
+Rotten Flesh
+Saddle
+Shears
+Shield
+Slimeball
+Spectral Arrow‌[JE only]
+Spider Eye
+Spyglass
+Steak
+Stone Axe
+Stone Hoe
+Stone Pickaxe
+Stone Shovel
+Stone Sword
+Sugar
+Suspicious Stew
+Tipped Arrow
+Totem of Undying
+Trial Key
+Tropical Fish
+Turtle Shell
+Warped Fungus on a Stick
+Wheat
+White Bundle
+White Dye
+White Harness
+Wolf Armor
+Wooden Axe
+Wooden Hoe
+Wooden Pickaxe
+Wooden Shovel
+Wooden Sword
+Written Book
+Yellow Bundle
+Yellow Dye
+Yellow Harness
+Items with indirect use in the world
+The player cannot interact with or directly use these items; however, they are used for trading, brewing, enchanting, or crafting ingredients for other items that do have direct uses. Clocks and recovery compasses are exceptions, as they merely serve an informative function (although clocks also attract piglins as a dropped item entity).
+
+Angler Pottery Sherd
+Archer Pottery Sherd
+Arms Up Pottery Sherd
+Blade Pottery Sherd
+Blaze Powder
+Blaze Rod
+Bolt Armor Trim
+Bordure Indented Banner Pattern
+Breeze Rod
+Brewer Pottery Sherd
+Brick
+Burn Pottery Sherd
+Charcoal
+Clay Ball
+Clock
+Coal
+Coast Armor Trim
+Copper Ingot
+Copper Nugget ​[upcoming]
+Creeper Charge Banner Pattern
+Danger Pottery Sherd
+Diamond
+Disc Fragment
+Dragon's Breath
+Dune Armor Trim
+Echo Shard
+Emerald
+Explorer Pottery Sherd
+Eye Armor Trim
+Feather
+Fermented Spider Eye
+Field Masoned Banner Pattern
+Firework Star
+Flint
+Flow Armor Trim
+Flow Banner Pattern
+Flow Pottery Sherd
+Flower Charge Banner Pattern
+Friend Pottery Sherd
+Ghast Tear
+Glistering Melon Slice
+Globe Banner Pattern
+Glowstone Dust
+Gold Nugget
+Gunpowder
+Guster Banner Pattern
+Guster Pottery Sherd
+Heart of the Sea
+Heart Pottery Sherd
+Heartbreak Pottery Sherd
+Host Armor Trim
+Howl Pottery Sherd
+Iron Nugget
+Lapis Lazuli
+Leather
+Lodestone Compass[note 1]
+Magma Cream
+Miner Pottery Sherd
+Mourner Pottery Sherd
+Nautilus Shell
+Nether Brick
+Nether Quartz
+Nether Star
+Netherite Ingot
+Netherite Scrap
+Netherite Upgrade
+Paper
+Phantom Membrane
+Plenty Pottery Sherd
+Popped Chorus Fruit
+Prismarine Crystals
+Prismarine Shard
+Prize Pottery Sherd
+Rabbit Hide
+Rabbit's Foot
+Raiser Armor Trim
+Raw Copper
+Raw Gold
+Raw Iron
+Recovery Compass
+Resin Brick
+Rib Armor Trim
+Scrape Pottery Sherd
+Sentry Armor Trim
+Shaper Armor Trim
+Sheaf Pottery Sherd
+Shelter Pottery Sherd
+Shulker Shell
+Silence Armor Trim
+Skull Charge Banner Pattern
+Skull Pottery Sherd
+Snort Pottery Sherd
+Snout Armor Trim
+Snout Banner Pattern
+Spire Armor Trim
+Stick
+Thing Banner Pattern
+Tide Armor Trim
+Turtle Scute
+Vex Armor Trim
+Ward Armor Trim
+Wayfinder Armor Trim
+Wild Armor Trim
+Spawn eggs
+Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mode.
+
+Armadillo Spawn Egg
+Allay Spawn Egg
+Axolotl Spawn Egg
+Bat Spawn Egg
+Bee Spawn Egg
+Blaze Spawn Egg
+Bogged Spawn Egg
+Breeze Spawn Egg
+Camel Spawn Egg
+Cat Spawn Egg
+Cave Spider Spawn Egg
+Chicken Spawn Egg
+Cod Spawn Egg
+Copper Golem Spawn Egg ​[upcoming]
+Cow Spawn Egg
+Creeper Spawn Egg
+Creaking Spawn Egg
+Dolphin Spawn Egg
+Donkey Spawn Egg
+Drowned Spawn Egg
+Elder Guardian Spawn Egg
+Ender Dragon Spawn Egg
+Enderman Spawn Egg
+Endermite Spawn Egg
+Evoker Spawn Egg
+Fox Spawn Egg
+Frog Spawn Egg
+Ghast Spawn Egg
+Glow Squid Spawn Egg
+Goat Spawn Egg
+Guardian Spawn Egg
+Happy Ghast Spawn Egg
+Hoglin Spawn Egg
+Horse Spawn Egg
+Husk Spawn Egg
+Iron Golem Spawn Egg
+Llama Spawn Egg
+Magma Cube Spawn Egg
+Mooshroom Spawn Egg
+Mule Spawn Egg
+Spawn NPC‌[BE & edu only]
+Ocelot Spawn Egg
+Panda Spawn Egg
+Parrot Spawn Egg
+Phantom Spawn Egg
+Pig Spawn Egg
+Piglin Spawn Egg
+Piglin Brute Spawn Egg
+Pillager Spawn Egg
+Polar Bear Spawn Egg
+Pufferfish Spawn Egg
+Rabbit Spawn Egg
+Ravager Spawn Egg
+Salmon Spawn Egg
+Sheep Spawn Egg
+Shulker Spawn Egg
+Silverfish Spawn Egg
+Skeleton Horse Spawn Egg
+Skeleton Spawn Egg
+Slime Spawn Egg
+Sniffer Spawn Egg
+Snow Golem Spawn Egg
+Spider Spawn Egg
+Squid Spawn Egg
+Stray Spawn Egg
+Strider Spawn Egg
+Tadpole Spawn Egg
+Trader Llama Spawn Egg
+Tropical Fish Spawn Egg
+Turtle Spawn Egg
+Vex Spawn Egg
+Villager Spawn Egg
+Vindicator Spawn Egg
+Wandering Trader Spawn Egg
+Warden Spawn Egg
+Witch Spawn Egg
+Wither Skeleton Spawn Egg
+Wither Spawn Egg
+Wolf Spawn Egg
+Zoglin Spawn Egg
+Zombie Horse Spawn Egg
+Zombie Spawn Egg
+Zombie Villager Spawn Egg
+Zombified Piglin Spawn Egg
+Exclusive to Minecraft Education
+These items can be accessed only in Minecraft Education. The agent spawn egg, portfolio, and camera are obtainable through Creative mode and the /give command. The garbage item is obtainable only through invalid lab table recipes or via inventory editing.
+
+Agent Spawn Egg
+Antidote
+Black Balloon
+Bleach
+Blue Balloon
+Blue Glow Stick
+Blue Sparkler
+Board
+Brown Balloon
+Brown Glow Stick
+Camera
+Compounds
+Cyan Balloon
+Cyan Glow Stick
+Elixir
+Eye Drops
+Gray Balloon
+Gray Glow Stick
+Green Balloon
+Green Glow Stick
+Green Sparkler
+Ice Bomb
+Light Blue Balloon
+Light Blue Glow Stick
+Lime Balloon
+Lime Glow Stick
+Magenta Balloon
+Magenta Glow Stick
+Orange Balloon
+Orange Glow Stick
+Orange Sparkler
+Photo
+Pink Balloon
+Pink Glow Stick
+Portfolio
+Poster
+Purple Balloon
+Purple Glow Stick
+Purple Sparkler
+Red Balloon
+Red Glow Stick
+Red Sparkler
+Silver Balloon
+Slate
+Spawn NPC
+Super Fertilizer
+Tonic
+White Balloon
+White Glow Stick
+Yellow Balloon
+Yellow Glow Stick
+Unimplemented items
+Some items are unimplemented, or have been mentioned to be implemented in the future.
+
+ItemSprite ruby.png: Sprite image for ruby in Minecraft Ruby (texture)
+Removed items
+Removed items no longer exist in current versions of the game.
+
+Copper Horn
+Block Inspector
+debug_fourj_item
+Horse Saddle
+Studded Helmet
+Studded Chestplate
+Studded Leggings
+Studded Boots
+Quiver
+Joke items
+Joke items are present only in April Fools' Day joke versions in the game.
+
+3D
+A Very Fine Item
+Amber Gem
+Ankle Monitor
+Arrow of Big
+Arrow of Small
+Batato Spawn Egg
+Blue Key
+Bit
+Bottle of Entity
+Bottle of Void
+Byte Tag
+Compound Tag
+Corrupted Potato Peels
+Dent
+Displacement Wand
+Double Tag
+Enchanted Golden Poisonous Potato
+Eye of Exit
+Fire Wand
+Float Tag
+Footprint
+Golden Poisonous Potato
+Grave
+Hash Browns
+Hot potato
+Int Tag
+La Baguette
+Le Tricolore
+Left Curly
+Left Square
+Lingering Potion of Big
+Lingering Potion of Small
+List Tag
+Long Tag
+Longer String
+minecraft:dupe_hack
+Mega Spud Spawn Egg
+Mine
+Mine Ingredient
+Moon Cow Spawn Egg
+Music Disc And Action!
+Name
+New Thing Banner Pattern
+Obsidian Boat
+Plaguewhale Slab Spawn Egg
+Poisonous Polytra
+Poisonous Pota-Toes
+Poisonous Potato Chestplate
+Poisonous Potato Chips
+Poisonous Potato Fries
+Poisonous Potato Hammer
+Poisonous Potato Oil
+Poisonous Potato Plant
+Poisonous Potato Slices
+Poisonous Potato Sticks
+Poisonous Potato Zombie Spawn Egg
+Potato Eye
+Potato of Knowledge
+Potato Oil
+Potato Oil (Potion)
+Potato Peeler
+Potato Peels
+Potatiesh, Greatstaff of the Peasant
+Potion of Big
+Potion of Small
+Reality Vision
+Red Key
+Right Curly
+Right Square
+Shimmering Key
+Short Tag
+Sky Box
+Shazboots!
+Smarter Watch
+Splash Bottle of Entity
+Splash Potion of Big
+Splash Potion of Small
+Sssyntax Error
+String Tag
+Tag
+Toxic Beam
+Toxic Resin
+Toxifin Slab Spawn Egg
+Venomous Potato
+Wind Wand
+Yellow Key
+Display by entities
+
+This section is missing information about: copper golems. 
+Please expand the section to include this information. Further details may exist on the talk page.
+Mobs and some other entities are capable of holding items as well as having them equipped in certain slots; in some cases, this results in the item being displayed visually. A table of mobs that do this is as follows.
+
+Note that this does not count equipment, which uses a separate system.
+
+Entity	Left hand	Right hand	On head	Notes
+Mobs
+Allay	thirdperson_lefthand	thirdperson_righthand	No	
+Armadillo	No	​[more information needed]	No	
+Axolotl	No	​[more information needed]	No	
+Bat	No	​[more information needed]	No	
+Bee	No	​[more information needed]	No	
+Blaze	No	​[more information needed]	No	
+Bogged	thirdperson_lefthand	thirdperson_righthand	head	
+Breeze	No	​[more information needed]	No	
+Camel	No	​[more information needed]	No	
+Cat	No	​[more information needed]	No	
+Cave Spider	No	​[more information needed]	No	
+Chicken	No	​[more information needed]	No	
+Cod	No	​[more information needed]	No	
+Cow	No	​[more information needed]	No	
+Creaking	No	​[more information needed]	No	
+Creeper	No	​[more information needed]	No	
+Dolphin	ground	​[more information needed]	No	
+Donkey	No	​[more information needed]	No	
+Drowned	thirdperson_lefthand	thirdperson_righthand	head	
+Elder Guardian	No	​[more information needed]	No	
+Ender Dragon	No	​[more information needed]	No	
+Enderman	No	​[more information needed]	No	Holds blocks, not items.
+Endermite	No	​[more information needed]	No	
+Evoker	thirdperson_lefthand	thirdperson_righthand	head	
+Fox	ground	​[more information needed]	No	
+Frog	No	​[more information needed]	No	
+Ghast	No	​[more information needed]	No	
+Giant	thirdperson_lefthand	thirdperson_righthand	No	
+Glow Squid	No	​[more information needed]	No	
+Goat	No	​[more information needed]	No	
+Guardian	No	​[more information needed]	No	
+Happy Ghast	No	​[more information needed]	No	
+Hoglin	No	​[more information needed]	No	
+Horse	No	​[more information needed]	No	
+Husk	thirdperson_lefthand	thirdperson_righthand	head	
+Illusioner	thirdperson_lefthand	thirdperson_righthand	head	
+Iron Golem	No	​[more information needed]	No	Held poppies are a block, not an item.
+Llama	No	​[more information needed]	No	
+Magma Cube	No	​[more information needed]	No	
+Mooshroom	No	​[more information needed]	No	Mushrooms on back are blocks, not items.
+Mule	No	​[more information needed]	No	
+Ocelot	No	​[more information needed]	No	
+Panda	ground	​[more information needed]	No	
+Parrot	No	​[more information needed]	No	
+Phantom	No	​[more information needed]	No	
+Pig	No	​[more information needed]	No	
+Piglin	thirdperson_lefthand	thirdperson_righthand	head	
+Piglin Brute	thirdperson_lefthand	thirdperson_righthand	head	
+Pillager	thirdperson_lefthand	thirdperson_righthand	head	
+Player	thirdperson_lefthand	thirdperson_righthand	head	
+Polar Bear	No	​[more information needed]	No	
+Pufferfish	No	​[more information needed]	No	
+Rabbit	No	​[more information needed]	No	
+Ravager	No	​[more information needed]	No	
+Salmon	No	​[more information needed]	No	
+Sheep	No	​[more information needed]	No	
+Shulker	No	​[more information needed]	No	
+Silverfish	No	​[more information needed]	No	
+Skeleton	thirdperson_lefthand	thirdperson_righthand	head	
+Skeleton Horse	No	​[more information needed]	No	
+Slime	No	​[more information needed]	No	
+Sniffer	No	​[more information needed]	No	
+Snow Golem	No	​[more information needed]	No	Unclear if the equipped pumpkin references the block or item model.​[more information needed]
+Spider	No	​[more information needed]	No	
+Squid	No	​[more information needed]	No	
+Stray	thirdperson_lefthand	thirdperson_righthand	head	
+Strider	No	​[more information needed]	No	
+Tadpole	No	​[more information needed]	No	
+Trader Llama	No	​[more information needed]	No	
+Tropical Fish	No	​[more information needed]	No	
+Turtle	No	​[more information needed]	No	
+Vex	thirdperson_lefthand	thirdperson_righthand	No	
+Villager	ground	​[more information needed]	head	
+Vindicator	thirdperson_lefthand	thirdperson_righthand	head	
+Wandering Trader	ground	​[more information needed]	head	
+Warden	No	​[more information needed]	No	
+Witch	ground	​[more information needed]	No[1]	
+Wither	No	​[more information needed]	No	
+Wither Skeleton	thirdperson_lefthand	thirdperson_righthand	head	
+Wolf	No	​[more information needed]	No	
+Zoglin	No	​[more information needed]	No	
+Zombie	thirdperson_lefthand	thirdperson_righthand	head	
+Zombie Horse	No	​[more information needed]	No	
+Zombie Villager	thirdperson_lefthand	thirdperson_righthand	head	
+Zombified Piglin	thirdperson_lefthand	thirdperson_righthand	head	
+Other entities
+Armor Stand	thirdperson_lefthand[verify]	​[more information needed]	head	
+Videos
+
+ 
+
+History
+Item additions and removals
+
+This section is a work in progress. 
+Please help expand and improve it. The talk page may contain suggestions.
+[]Java Edition Indev
+0.31	20091231-2147	Added leather, studded, chainmail, and iron armor, quiver, apple, shovel, and sword.
+20100110	Added flint and steel, axe, and pickaxe.
+20100122	Added bow and arrow.
+20100128-2200	Added coal, diamond, gold ingot, iron ingot; and wooden, stone and diamond swords, axes, pickaxes and shovels.
+20100129-1447	Added stick.
+20100130	Added golden sword, axe, pickaxe, and shovel; bowl, mushroom stew, gunpowder, string, and feather.
+20100206-2034	Added bread, hoes, wheat seeds, and wheat.
+20100212-1210	Added gold and diamond armor.
+Studded armor was removed between Indev 0.31 20100204-1541 and Indev 20100206-2034.
+20100219	Added flint, raw porkchop, and cooked porkchop.
+20100223	Added 19 types of paintings.
+[]Java Edition Infdev
+20100227-1414	Added golden apple.
+20100615	Added bucket, water bucket, and lava bucket.
+20100618	Added minecart.
+20100625-1917	Added saddle.
+[]Java Edition Alpha
+v1.0.5	Added snowball.
+v1.0.6	Added boat.
+v1.0.8	Added leather and milk bucket.
+v1.0.11	Added paper, book, clay ball, brick, and slimeball.
+v1.0.14	Added egg, two music discs, minecart with furnace, and minecart with chest.
+v1.1.0	Added compass.
+v1.1.1	Added fishing rod, Graham, Creebet, Donkey Kong, Skeleton and Pigscene paintings.
+v1.2.0	Added clock, glowstone dust, cooked fish, and raw fish.
+[]Java Edition Beta
+1.2	Added bone, bone meal, lapis lazuli, cocoa beans, ink sac, charcoal, dyes, and sugar.
+1.3	Added the Burning Skull painting.
+1.4	Added cookie.
+1.6	Added map.
+1.7	Added shears.
+1.8	Pre-release	Added raw chicken, cooked chicken, raw beef, steak, ender pearl, melon seeds, melon slice, pumpkin seeds, and rotten flesh.
+[]Java Edition
+1.0.0	Beta 1.9 Prerelease	Added blaze rod, ghast tear, gold nugget, and Nether wart.
+Beta 1.9 Prerelease 2	Added blaze powder, fermented spider eye, glass bottle, magma cream, nine music discs, and spider eye.
+Beta 1.9 Prerelease 3	Added eye of ender.
+Beta 1.9 Prerelease 4	Added glistering melon slice, potions, and splash potions.
+1.1	11w49a	Added twenty types of spawn eggs.
+1.2.1	12w04a	Added bottle o' enchanting, fire charge, and ocelot spawn egg.
+1.3.1	12w17a	Added book and quill and written book.
+12w21a	Added emerald and enchanted golden apple.
+12w22a	Added eight types of potions.
+1.4.2	12w32a	Added potion and splash potion of Night Vision.
+12w34a	Added carrot, golden carrot, potato, baked potato, poisonous potato, item frame; and potion and splash potion of Invisibility.
+12w36a	Added carrot on a stick, Nether star and the Wither painting.
+12w37a	Added pumpkin pie.
+12w38a	Added witch and bat spawn eggs.
+1.4.4	1.4.3	Added wait music disc.
+1.4.6	12w49a	Added enchanted book, firework rocket, and firework star.
+1.5	13w01a	Added Nether brick and Nether quartz.
+13w02a	Added minecart with TNT.
+13w03a	Added minecart with hopper.
+1.6.1	13w16a	Added diamond, gold, and iron horse armor, lead, horse spawn egg, and horse saddle.
+13w16b	Added name tag.
+13w18a	Removed horse saddle.
+1.7.2	13w36a	Added clownfish, raw salmon, cooked salmon, pufferfish; and potion and splash potion of Water Breathing.
+13w39a	Added minecart with command block.
+1.8	14w11a	Added endermite spawn egg.
+14w25a	Added prismarine crystals, prismarine shard, and guardian spawn egg.
+14w27a	Added raw mutton, cooked mutton, raw rabbit, cooked rabbit, potion and splash potion of Leaping, rabbit's foot, rabbit hide, rabbit spawn egg, and rabbit stew.
+1.9	15w31a	Added spectral arrow, fourteen tipped arrows, beetroot, beetroot seeds, beetroot soup, chorus fruit, popped chorus fruit, shulker spawn egg, splash water bottles, mundane, thick, and awkward splash potions.
+15w33a	Added dragon's breath and lingering potions.
+15w33c	Added shield.
+15w41a	Added elytra and 5 wood types of boats.
+15w44a	Added End crystal.
+15w44b	Added potion of Luck and uncraftable potion.
+1.10	16w20a	Added ten types of spawn eggs.
+pre2	All types of spawn eggs that were added in 16w20a have been removed, except for polar bear spawn egg.
+1.11	16w32a	All types of spawn eggs that are already added in 16w20a except the cat spawn egg are now re-added.
+Added zombie villager spawn egg.
+16w39a	Added llama, evoker, vex, and vindicator spawn eggs, shulker shell, totem of undying, and explorer map.
+1.11.1	16w50a	Added iron nugget.
+1.12	17w13a	Added knowledge book and parrot spawn egg.
+1.13	17w47a	Added debug stick.
+18w07a	Added trident, kelp, dried kelp, scute, turtle shell, potion and arrow of the Turtle Master; and turtle and phantom spawn eggs.
+18w08b	Added three fish buckets and spawn eggs for cod, salmon, and pufferfish.
+18w10a	Added spawn egg and bucket of tropical fish, and buried treasure explorer map.
+18w11a	Added drowned spawn egg.
+18w14a	Added phantom membrane, potion and arrow of Slow Falling.
+18w15a	Added heart of the sea, nautilus shell and the dolphin spawn egg.
+1.14	18w43a	Added four banner patterns, crossbow, suspicious stew, four new dyes; and illager beast, panda, and pillager spawn eggs.
+18w44a	Re-added the cat spawn egg.
+18w49a	Added sweet berries.
+19w05a	Added wandering trader and trader llama spawn eggs.
+19w07a	Added fox spawn egg.
+19w08a	Added leather horse armor.
+19w11a	Added globe banner pattern.
+1.15	19w34a	Added honey bottle, honeycomb, and bee spawn egg.
+1.16	20w06a	Added netherite armor, axe, shovel, pickaxe, and sword, netherite ingot, netherite scrap, and hoglin spawn egg.
+20w07a	Added piglin spawn egg.
+20w13a	Added warped fungus on a stick, and strider spawn egg.
+20w14a	Added zoglin spawn egg.
+20w15a	Added piglin banner pattern.
+20w16a	Added Pigstep music disc.
+1.16.2	20w27a	Added piglin brute spawn egg.
+1.17	20w45a	Added amethyst shard, bundle, copper ingot, and spyglass.
+20w46a	Added powder snow bucket.
+20w51a	Added axolotl spawn egg and bucket of axolotl.
+21w03a	Added glow item frame, glow ink sac and glow squid spawn egg.
+21w05a	Added glow berries.
+21w13a	Added goat spawn egg.
+21w14a	Added raw copper, raw iron, and raw gold.
+1.18	21w42a	Added otherside music disc.
+1.19	Deep Dark Experimental Snapshot 1	Added warden spawn egg.
+22w11a	Added frog and tadpole spawn eggs, bucket of tadpole and mangrove boat.
+Removed warden spawn egg.
+22w12a	Re-added warden spawn egg.
+Added seven types of boats with chests.
+22w13a	Added allay spawn egg.
+22w14a	Added echo shard and recovery compass.
+22w16a	Added music disc 5, disc fragment and the Earth, Wind, Fire and Water paintings.
+22w17a	Added goat horns.
+1.19.3
+Experiment
+Update 1.20	22w42a	Added bamboo raft, bamboo raft with chest, and camel spawn egg.
+1.19.3	22w44a	Added iron golem, snow golem, ender dragon, and wither spawn eggs.
+1.19.4
+Experiment
+Update 1.20	23w04a	Added twelve smithing templates.
+23w07a	Added cherry boat and boat with chest; four pottery sherds, sniffer spawn egg, torchflower seeds, and brush.
+1.20	23w12a	Added pitcher pod, sixteen pottery sherds, and five smithing templates.
+23w17a	Added Relic music disc.
+1.20.3
+Experiment
+Update 1.21	23w45a	Added trial key and breeze spawn egg.
+1.20.5	23w51a	Added armadillo spawn egg, armadillo scute and wolf armor.
+1.20.5
+Experiment
+Update 1.21	24w06a	Added wind charges.
+1.20.5
+Experiment
+Update 1.21	24w07a	Added bogged spawn egg.
+1.20.5
+Experiment
+Update 1.21	24w11a	Added mace, breeze rods, two banner patterns, three pottery sherds, and two smithing templates.
+1.20.5
+Experiment
+Update 1.21	24w12a	Added trial explorer map.
+1.20.5
+Experiment
+Update 1.21	24w13a	Added ominous bottles, ominous trial keys, and potion and arrow of Infestation, Oozing, Weaving, and Wind Charging.
+1.21	24w18a	Added Creator, Creator (Music Box), Precipice music discs and 20 types of paintings.
+1.21.2	24w33a	Added 16 colored types of bundles and field masoned and bordure indented banner patterns.
+1.21.2
+Experiment
+Winter Drop	24w40a	Added creaking spawn eggs, pale oak boat and pale oak boat with chest.
+1.21.4	24w44a	Added resin brick.
+1.21.5	25w06a	Added brown and blue eggs.
+1.21.6	25w15a	Added happy ghast spawn egg and 16 colored types of harnesses.
+25w20a	Added Tears music disc.
+1.21.7	1.21.7-rc1	Added Lava Chicken music disc and the Dennis painting.
+[]Upcoming Java Edition
+1.21.9	25w31a	Added copper golem spawn egg, copper sword, axe, pickaxe, shovel, hoe, copper armor, copper horse armor and copper nuggets.
+[]Pocket Edition Alpha
+v0.2.0	Added shears; stone shovel, pickaxe, axe, and sword.
+v0.3.0	Added snowball, stick, dandelion yellow, bowl, sugar, book, paper, coal; wooden axe, shovel, pickaxe, and sword.
+v0.3.2	Added charcoal, gold ingot, iron ingot, diamond; diamond, gold, and iron pickaxes, axes, shovels, and swords.
+v0.3.3	Added bow, arrow, bone, bone meal, flint, and feather.
+v0.4.0	Added gunpowder, flint and steel, apple, bread, mushroom stew, raw beef, steak, raw chicken, cooked chicken, raw porkchop, cooked porkchop, wheat, seeds, lapis lazuli; and ten dyes.
+v0.5.0	Added melon seeds.
+v0.6.0	Added five variants of armor, Nether brick, and Nether quartz.
+v0.7.0	Added bucket and its three other variants, egg and four spawn eggs.
+v0.8.0	build 1	Added pumpkin pie, potato, baked potato, carrot, clock, compass, and redstone.
+build 2	Added beetroot seeds, beetroot, beetroot soup, and minecart.
+v0.9.0	build 1	Added 10 spawn eggs, emerald, and slimeball.
+v0.11.0	build 1	Added rotten flesh, fishing rod, raw fish, cooked fish, raw salmon, cooked salmon, pufferfish, clownfish, magma cream; and squid, bat, cave spider, magma cube and ghast spawn eggs.
+v0.12.1	build 1	Added glass bottle, twelve potions, eleven splash potions, gold nugget, golden carrot, Nether wart, glistering melon slice, golden apple, enchanted golden apple, rabbit's foot, blaze rod, blaze powder, ghast tear, spider eye, fermented spider eye, bottle o' enchanting, poisonous potato, enchanted book; and zombie villager, ocelot and blaze spawn eggs.
+v0.13.0	build 1	Added rabbit spawn egg, raw rabbit, cooked rabbit, rabbit stew, and rabbit hide.
+v0.14.0	build 1	Added map, ender pearl, and witch spawn egg.
+v0.15.0	build 1	Added raw mutton, cooked mutton, fire charge; spawn eggs for horse, zombie horse, skeleton horse, mule, donkey, stray, husk, and wither skeleton; name tag, lead, carrot on a stick, tipped arrows, and leather horse armor.
+v0.16.0	build 1	Added prismarine crystals, prismarine shard; spawn eggs for guardian, elder guardian (unavailable in the Creative inventory), and NPC; and portfolio.
+build 4	Added Nether star, potion of Decay with its splash and arrow variant.
+Removed NPC spawn egg.
+[]Pocket Edition
+1.0.0	alpha 0.17.0.1	Added dragon's breath, elytra, End crystal, chorus fruit, ender pearl, eye of ender, popped chorus fruit; spawn eggs for shulker, endermite, and polar bear; and twelve lingering potions.
+alpha 1.0.0.1	Added shulker shell.
+1.1.0	alpha 1.1.0.0	Added totem of undying, explorer map, iron nugget; spawn eggs for llama, vindicator, evoker, and vex.
+[]Bedrock Edition
+1.2.0	beta 1.2.0.2	Added armor stand, book and quill, firework star, firework rocket, twelve music discs, and spawn eggs for parrot and zombie villager.
+1.2.13	beta 1.2.13.8	Added trident and drowned spawn egg.
+1.4.0	beta 1.2.14.2	Added four variants of bucket of fish, dried kelp; and spawn eggs for cod, pufferfish, salmon, and tropical fish.
+beta 1.2.20.1	Added heart of the sea, nautilus shell, and dolphin spawn egg.
+1.5.0	beta 1.5.0.4	Added scute, turtle shell; potion of the Turtle Master with it's splash potion, lingering potion, and tipped arrow variants; and turtle spawn egg.
+1.6.0	beta 1.6.0.1	Added phantom spawn egg.
+beta 1.6.0.5	Added phantom membrane; potion of Slow Falling with it's splash, lingering, and tipped arrow variants.
+1.8.0	beta 1.8.0.8	Added spawn eggs for cat and panda.
+beta 1.8.0.10	Added crossbow and four dyes.
+1.9.0	beta 1.9.0.0	Added pillager spawn egg.
+1.10.0	beta 1.10.0.3	Added six banner patterns, sweet berries, shield; spawn eggs for wandering trader and illager beast.
+1.13.0	beta 1.13.0.1	Added fox spawn egg.
+beta 1.13.0.9	Added suspicious stew.
+1.14.0	beta 1.14.0.1	Added honey bottle, honeycomb, and bee spawn egg.
+1.16.0	beta 1.15.0.51	Added potion of Slowness IV with it's splash, lingering, and tipped arrow variants.
+beta 1.16.0.51	Added netherite armor, netherite ingot, netherite scrap; hoglin and piglin spawn eggs; and netherite hoe, axe, pickaxe, shovel, and sword.
+beta 1.16.0.57	Added piglin banner pattern, Pigstep music disc, warped fungus on a stick; and strider and zoglin spawn eggs.
+1.16.20	beta 1.16.20.50	Added piglin brute spawn egg.
+1.16.200
+Experiment
+Caves and Cliffs	beta 1.16.200.52	Added goat spawn egg and goat horns.
+1.16.210
+Experiment
+Caves and Cliffs	beta 1.16.210.53	Added powder snow bucket.
+beta 1.16.210.57	Added copper ingot.
+beta 1.16.210.59	Added glow squid spawn egg and glow ink sac.
+beta 1.16.210.60	Removed glow squid spawn egg and glow ink sac.
+1.16.220
+Experiment
+Caves and Cliffs	beta 1.16.220.50	Re-added glow squid spawn egg and glow ink sac.
+beta 1.16.220.52	Added glow berries.
+1.17.0
+Experiment
+Caves and Cliffs	beta 1.16.230.52	Added axolotl spawn egg and bucket of axolotl.
+beta 1.17.0.50	Added amethyst shard, raw metals, and spyglass.
+1.18.0	beta 1.18.0.22	Added otherside music disc.
+1.18.10
+Experiment
+Wild Update	beta 1.18.10.24	Added spawn eggs for tadpole and frog, and bucket of tadpole.
+1.18.30
+Experiment
+Wild Update	Preview 1.18.30.23	Added allay spawn egg.
+1.18.30
+Experiment
+Vanilla Experiments	Preview 1.18.30.27	Added copper horns.
+1.18.30
+Experiment
+Wild Update	Preview 1.18.30.29	Added six boats with chests.
+Preview 1.18.30.33	Added warden spawn egg.
+1.19.0	Preview 1.19.0.21	Added mangrove boat and mangrove boat with chest.
+Preview 1.19.0.25	Added echo shard and recovery compass and removed copper horns.
+Preview 1.19.0.29	Added disc fragment and music disc 5.
+1.19.10	Preview 1.19.10.20	Added trader llama spawn egg.
+1.19.50
+Experiment
+Next Major Update	Preview 1.19.50.21	Added bamboo raft, bamboo raft with chest, and camel spawn egg.
+1.19.60	Preview 1.19.60.20	Added iron golem, snow golem, ender dragon, and wither spawn eggs.
+1.19.70
+Experiment
+Next Major Update	Preview 1.19.70.23	Added four pottery sherds and brush.
+1.19.70
+Experiment
+Sniffer	Preview 1.19.70.23	Added sniffer spawn egg and torchflower seeds.
+1.19.80
+Experiment
+Next Major Update	Preview 1.19.80.20	Added cherry boat and cherry boat with chest.
+1.19.80
+Experiment
+Next Major Update	Preview 1.19.80.21	Added twelve smithing templates.
+1.19.80
+Experiment
+Next Major Update	Preview 1.19.80.22	Added sixteen pottery sherds and five smithing templates.
+1.20.0	Preview 1.20.0.20	Added pitcher pod.
+Preview 1.20.0.22	Added Relic music disc.
+1.20.60
+Experiment
+Update 1.21	Preview 1.20.60.20	Added trial key, wind charges, and breeze spawn egg.
+1.20.60
+Experiment
+Armadillo and Wolf Armor	Preview 1.20.60.23	Added armadillo spawn egg, armadillo scute and wolf armor.
+1.20.70
+Experiment
+Update 1.21	Preview 1.20.70.24	Added bogged spawn egg.
+1.20.80
+Experiment
+Update 1.21	Preview 1.20.80.22	Added mace, breeze rods, two banner patterns, three pottery sherds, and two smithing templates.
+1.20.80
+Experiment
+Update 1.21	Preview 1.20.80.23	Added trial explorer map.
+1.21.0
+Experiment
+Update 1.21	Preview 1.21.0.20	Added ominous bottles, ominous trial keys, and potion and arrow of Infestation, Oozing, Weaving, and Wind Charging.
+1.21.0	Preview 1.21.0.24	Added Creator, Creator (Music Box), and Precipice music discs.
+1.21.30
+Experiment
+Bundles	Preview 1.21.30.23	Added bundles.
+1.21.50	Preview 1.21.50.20	Added creaking spawn eggs, pale oak boat and pale oak boat with chest.
+Preview 1.21.50.25	Added resin brick.
+1.21.70	Preview 1.21.70.22	Added brown and blue eggs.
+1.21.80
+Experiment
+Drop 2 2025	Preview 1.21.80.25	Added happy ghast spawn egg and 16 colored types of harnesses.
+1.21.90	Preview 1.21.90.25	Added Tears music disc.
+1.21.90	Added the Dennis painting.
+1.21.93	Added Lava Chicken music disc.
+1.21.100
+Experiment
+Drop 3 2025	Preview 1.21.100.23	Added copper golem spawn egg, copper tools and armor, and copper nuggets.
+[]Upcoming Bedrock Edition
+1.21.110	Preview 1.21.110.22	Added copper horse armor.
+[]Legacy Console Edition
+Xbox 360	Xbox One	PS3	PS4	PS Vita	Wii U	Switch	
+TU1	CU1	1.00	1.00	1.00	Patch 1	1.0.1	Added all items from and prior to Java Edition Beta 1.6.6.
+TU3	Added shears.
+TU5	Added melon slice, melon seeds, pumpkin seeds, raw beef, steak, raw chicken, cooked chicken, rotten flesh, ender pearls, and ten music discs.
+TU7	Added blaze rod, ghast tear, gold nugget, glass bottle, water bottle, spider eye, fermented spider eye, eye of ender, glistering melon, Nether wart, blaze powder, bottle o' enchanting, magma cream.
+TU9	Added 20 types of spawn eggs, fire charge and Nether brick.
+TU12	Added ocelot spawn egg.
+TU14	1.04	Added emerald, Nether quartz, enchanted book, enchanted golden apple, potato, baked potato, poisonous potato, carrot, golden carrot, carrot on a stick, pumpkin pie, potions of Night Vision and Invisibility.
+TU19	CU7	1.12	1.12	1.12	Added firework rockets, firework star, Nether star, lead, iron, gold and diamond horse armor, name tag, horse, donkey and mule spawn eggs.
+TU25	CU14	1.17	1.17	1.17	Added book and quill.
+TU31	CU19	1.22	1.22	1.22	Patch 3	Added raw rabbit, cooked rabbit, rabbit stew, raw mutton, cooked mutton, rabbit's foot, rabbit hide, potions of Leaping and Water Breathing, raw salmon, cooked salmon, clownfish, pufferfish, blue orchid, allium, azure bluet, four tulips, oxeye daisy, sunflower, lilac, poppy (replaces rose), rose bush, peony, prismarine crystals, prismarine shard; and spawn eggs for rabbit, endermite and guardian.
+TU43	CU33	1.36	1.36	1.36	Patch 13	Added beetroot, beetroot seeds and beetroot soup.
+TU46	CU36	1.38	1.38	1.38	Patch 15	Added chorus fruit, popped chorus fruit, dragon's breath, elytra, lingering potions, water splash potion, potion of Luck, tipped arrows and boats made from spruce, birch, jungle, acacia and dark oak wood.
+TU53	CU43	1.49	1.50	1.49	Patch 23	1.0.3	Added shulker shell and iron nugget.
+TU54	CU44	1.52	1.52	1.52	Patch 24	1.0.4	Added explorer maps, totem of undying and spawn eggs for skeleton horse, zombie horse, elder guardian, stray, wither skeleton, husk and zombie villager.
+TU60	CU51	1.64	1.64	1.64	Patch 30	1.0.11	Added leather horse armor.
+TU69		1.76	1.76	1.76	Patch 38		Added trident, dried kelp, buckets of fish, turtle shell, heart of the sea, nautilus shell, scute, phantom membrane, Slow Falling potion and tipped arrow, and buried treasure explorer map.
+1.83			Added white, blue, brown and black dyes and spawn eggs for panda and cat.
+1.90	Added crossbow, banner patterns and shield.
+1.91	Added sweet berries.
+[]New Nintendo 3DS Edition
+0.1.0	Added all items from and prior to Pocket Edition Alpha 0.15.0.
+1.3.12	Added prismarine shard, prismarine crystals, Nether star, potion of Decay and their splash, lingering and tipped arrow variants, guardian and elder guardian spawn eggs.
+1.7.10	Added ender pearl, dragon egg, chorus flower, chorus fruit, popped chorus fruit, shulker shell and spawn eggs of endermite, polar bear and shulker.
+1.9.19	Added explorer map, totem of undying, iron nugget, gold nugget, and spawn eggs for llama, evoker, vindicator and vex.
+[]MinecraftEdu
+0.1	Added all items from and prior to Java Edition Beta 1.6.
+0.9652	Added shears, melon slice, melon seeds, pumpkin seeds, raw beef, steak, raw chicken, cooked chicken, rotten flesh, ender pearl, ten music discs and chain armor.
+0.97	Added blaze rod, ghast tear, gold nugget, glass bottle, water bottle, spider eye, fermented spider eye, eye of ender, glistering melon, Nether wart, blaze powder, bottle o' enchanting, magma cream, and fire charge.
+0.98	Added 20 types of spawn eggs.
+0.982	Added ocelot spawn egg.
+0.985	Added emerald, enchanted golden apple, book and quill, written book, and eight types of potions.
+0.9847	Added carrot, golden carrot, carrot on a stick, Nether star, potato, baked potato, poisonous potato, pumpkin pie, wait music disc, enchanted book, firework rocket, firework star, and potion and splash potion of Invisibility and Night Vision.
+1.5.1	Build 1	Added block inspector, Nether brick, and Nether quartz.
+1.6.4	Build 1	Added diamond, gold, and iron horse armor, lead, horse spawn egg, and name tag.
+1.7.10	Build 1	Added clownfish, raw salmon, cooked salmon, pufferfish; and potion and splash potion of Water Breathing.
+1.8.9	Build 1	Added raw rabbit, cooked rabbit, rabbit stew, raw mutton, cooked mutton, rabbit's foot, rabbit hide, potion of leaping, blue orchid, allium, azure bluet, four tulips, oxeye daisy, sunflower, lilac, poppy, rose bush, peony, prismarine crystals, prismarine shard and spawn eggs for rabbit, endermite and guardian.
+[]Minecraft Education
+1.0.0	0.14.2	Added all items from and prior to Pocket Edition Alpha 0.16.0.
+release	Added ender pearl, dragon egg, chorus flower, chorus fruit, popped chorus fruit, shulker shell, portfolio and spawn eggs of endermite, polar bear, shulker, and NPC.
+1.0.1	Added explorer map, totem of undying, iron nugget, and spawn eggs for llama, evoker, vindicator and vex.
+1.0.21	Added armor stand, book and quill, firework star, firework rocket, twelve music discs, and spawn eggs for parrot and zombie villager.
+1.0.27	Added compounds, bleach, ice bombs, super fertilizer, medicine, sparklers and glow sticks.
+1.4	Added trident, dried kelp, four buckets of fish, heart of the sea, nautilus shell and spawn eggs for drowned, dolphin and 4 types of fish.
+1.7	Added turtle shell, scute, phantom membrane, Turtle Master and Slow Falling potions; their splash, lingering and tipped arrow variants; and spawn eggs for turtle, phantom and agent.
+1.9	1.8.0	Added crossbow, four dyes, and spawn eggs for cat and panda.
+1.12.0	Added six banner patterns, sweet berries, shield, and spawn eggs for pillager, wandering trader and ravager.
+1.14.31	1.14.30	Added suspicious stew, honeycomb, honey bottle and spawn eggs for fox and bee.
+1.17.30	1.17.30.2	Added netherite armor, tools, ingot and scrap, piglin banner pattern, Pigstep music disc, warped fungus on a stick, powder snow bucket, copper ingot, glow ink sac, glow berries, bucket of axolotl, amethyst shard, raw metal, spyglass, Slowness IV potion, and spawn eggs for hoglin, piglin, strider, zoglin, piglin brute, goat, glow squid and axolotl.
+1.18.32	1.18.10.04	Added otherside music disc.
+1.19.52	1.19.50.0	Added bucket of tadpole, mangrove boat, boats with chests, goat horns, echo shard, recovery compass, disc fragment, music disc 5, and spawn eggs for allay, frog, tadpole, trader llama, and warden.
+1.20.12	1.20.10.0	Added bamboo raft, bamboo raft with chest, cherry boat, cherry boat with chest, pottery sherds, brush, smithing templates, torchflower seeds, pitcher pod, Relic music disc, and spawn eggs for camel, sniffer, iron golem, snow golem, ender dragon, and wither.
+1.21.03	Preview 1.21.01.0	Added armadillo scute, wolf armor, trial key, wind charges, mace, breeze rods, two banner patterns, three pottery sherds, two smithing templates, ominous bottles, ominous trial keys, potion and arrow of Infestation, Oozing, Weaving, and Wind Charging, trial explorer map, Creator, Creator (Music Box), and Precipice music discs, and spawn egg for armadillo, bogged and breeze.
+Other changes
+[]Java Edition Classic
+0.24_SURVIVAL_TEST	Arrows were added as an object and were fired by pressing Tab ↹.
+[]Java Edition Indev
+0.31 20091231-1856	Added the inventory.
+0.31 20100122	Can now place blocks on resource items.
+Dropped items now experience gravity.
+0.31 20100124-2119	Can now drop a whole stack of items instead of just one at a time.
+0.31 20100128-2200	Items are now 3D.
+0.31 20100129-1447	Added crafting.
+Right-clicking drops one of a stack.
+0.31 20100130	Crafting improved; now has 36 recipes.
+[]Java Edition
+1.3.1	12w15a	Stackable items now stack outside inventory when thrown to the ground individually.
+1.8	14w25a	All items are now models, some are still generated from item icons.
+Resource packs can make models for all items.
+1.13	17w49a	Items can be "tagged" with an ID.
+18w07a	Dropped items now float in water.
+1.15	19w39a	Lighting of blocks in the inventory has been swapped from being dark on the right to being dark on the left.
+19w40a	Lighting of blocks in the inventory is once again darker on the right, as it was before 19w39a.
+[]Bedrock Edition
+1.4.0	beta 1.2.20.1	Dropped items now float in water.
+1.16.0	beta 1.15.0.51	Dropped items now turn into a 3D model and spin.
+April Fools items
+[]Java Edition
+15w14a	Added obsidian boat.
+1.RV-Pre1	Added ankle monitor, reality vision and smarter watch.
+3D Shareware v1.34	Added 3D item; blue, red, and yellow keys.
+20w14∞	Added a very fine item and footprint.
+23w13a or b	Added bottles of entity and their splash variants, bottle of void, potion of Big and Small and their splash, lingering, and arrow variants, la baguette, le tricolore, 17 tag items, new thing banner pattern, dupe hack, and longer string.
+Issues

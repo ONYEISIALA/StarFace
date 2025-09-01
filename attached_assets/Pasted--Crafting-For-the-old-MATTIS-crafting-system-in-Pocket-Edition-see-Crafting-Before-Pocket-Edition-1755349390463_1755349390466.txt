@@ -1,0 +1,1237 @@
+
+Crafting
+For the old MATTIS crafting system in Pocket Edition, see Crafting/Before Pocket Edition v0.9.0 alpha.
+
+The crafting table interface in Java Edition.
+
+Player inventory in Survival mode with 2x2 crafting grid.
+Crafting is the process of constructing tools, items, and blocks in Minecraft that can be performed via the inventory, a crafting table, or automatically using a crafter.
+
+
+Contents
+1	Crafting system
+1.1	Manual crafting
+1.2	Automated crafting
+1.3	Recipe book
+1.4	Recipe system
+2	Complete recipe list
+2.1	Building blocks
+2.2	Decoration blocks
+2.3	Redstone
+2.4	Transportation
+2.5	Foodstuffs
+2.6	Tools
+2.7	Utilities
+2.8	Combat
+2.9	Brewing
+2.10	Materials
+2.11	Miscellaneous
+2.12	Changed recipes
+2.12.1	Java Edition
+2.12.2	Bedrock Edition
+2.13	Removed recipes
+3	Video
+4	Achievements
+5	History
+6	Issues
+7	Gallery
+7.1	Development images
+8	See also
+9	Navigation
+Crafting system
+Manual crafting
+
+2×2 Crafting grid (inventory)
+Crafting table grid
+3×3 Crafting grid (crafting table)
+Players in Survival and Adventure mode, as well as Creative in Bedrock Edition and Spectator in Java Edition, have access to a 2×2 crafting grid from their inventory screen. Players craft by arranging items in the crafting grid to match a given recipe. Small crafting recipes that are at most 2×2 can be made there, including wooden planks, sticks, crafting tables, and torches.
+
+To craft more complex items, a crafting table must be created, placed, and used. This brings up an interface with a larger 3×3 crafting grid in which the player can use to craft any crafting recipe in the game. Recipes fitting the 2×2 grid can also be crafted in the crafting table's 3×3 grid. There is a recipe book button in the inventory where the player can access all of their unlocked crafting recipes.
+
+Some recipes don't require their ingredients to be arranged in a specific way on the crafting grid. These are commonly known as "shapeless" recipes. For example, players may craft a fermented spider eye by placing its ingredients anywhere within the grid.
+
+Most recipes must have their ingredients placed in the correct relative positions on the crafting grid. These are commonly known as "shaped" recipes. Ingredients in shaped recipes can be moved up, down, left, or right. They can also be flipped side-ways. For example, a 3×1 recipe, such as bread, can be made using the top, middle, or bottom row of the 3×3 grid, and a bow may be made with the strings placed on the left instead of on the right.
+
+There are recipes that may not be moved or mirrored in this way. These are commonly known as "fixed" recipes. For example, dyes in banner recipes - only available in Bedrock Edition - must be specifically placed to achieve the desired pattern. No fixed recipes exist in Java Edition, but they can be added by data packs, add-ons, or mods.
+
+Unlike other in-game actions such as smelting, brewing, and enchanting, crafting is completely silent.
+
+Automated crafting
+Crafting can be automated using the crafter.
+
+The simplest way to do this is for the player to add the items for the crafting into the crafter manually, however this process can itself be automated using hoppers. In order to control which slots the hopper puts the item into it is possible to disable certain slots to prevent the input of items. When items are put into a crafter automatically they fill every enabled slot equally from left to right and top to bottom, in that order. If all slots are disabled, then hoppers connected to it cannot put items in it.
+
+The crafter can craft anything that a normal crafting table can.
+
+Crafters require a redstone signal to activate.
+
+Automated crafting is useful in both storage systems and automated farms, as it provides a way to automatically craft items and blocks that once required manual input.
+
+Recipe book
+Main article: Recipe book
+The recipe book is a mechanic that serves as a catalog of recipes and as a crafting guide. It shows every crafting recipe that the player has unlocked.
+
+Crafting recipes are organized in several different categories. The categories differ between Java and Bedrock.
+
+In Bedrock Edition, categories consist of craftable items from each Creative inventory tab.
+
+In Java Edition, the categories are as follows:
+
+The first tab contains every unlocked recipe.
+The second tab contains utility items, tools, weapons, and armor.
+The third tab contains building materials.
+The fourth tab contains food, ingredients, and miscellaneous items.
+The fifth tab contains redstone materials.
+Recipe system
+Main article: Recipe
+Recipes, including crafting recipes, can be configured by data packs in Java Edition or add-ons in Bedrock Edition.
+
+Complete recipe list
+To save space, some recipes are animated (requires JavaScript). On this wiki, shapeless recipes are marked with a pair of intertwined arrows on the crafting table graphic, while fixed crafting recipes are marked by an exclamation point. These symbols do not appear in the game.
+
+Shaped recipes	Shapeless recipes	Fixed recipes
+
+
+
+
+
+Building blocks[][edit]
+Decoration blocks[][edit]
+Redstone[][edit]
+Transportation[][edit]
+Foodstuffs[][edit]
+Tools[][edit]
+Utilities[][edit]
+Combat[][edit]
+Brewing[][edit]
+Materials[][edit]
+Miscellaneous[][edit]
+Changed recipes
+
+This section is a work in progress. 
+Please help expand and improve it. The talk page may contain suggestions.
+Some items had different crafting recipes and have since been updated in later versions of Minecraft.
+
+Java Edition
+Original	Changed	Description	Version changed
+Ingredients	[]Crafting recipe
+Iron Ingot or
+Gold Ingot or
+Diamond	
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+
+Invicon Block of Iron.png: Inventory sprite for Block of Iron in Minecraft as shown in-game linking to Block of Iron with description: Block of Iron
+Ingredients	[]Crafting recipe
+Iron Ingot or
+Gold Ingot or
+Diamond	
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+
+Invicon Block of Iron.png: Inventory sprite for Block of Iron in Minecraft as shown in-game linking to Block of Iron with description: Block of Iron
+Indev 0.31 20100130
+
+Ingredients	[]Crafting recipe
+Oak Planks +
+Light Gray Wool	
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Light Gray Wool.png: Inventory sprite for Light Gray Wool in Minecraft as shown in-game linking to Light Gray Wool with description: Light Gray Wool
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+
+Invicon Painting.png: Inventory sprite for Painting in Minecraft as shown in-game linking to Painting with description: Painting
+Ingredients	[]Crafting recipe
+Stick +
+Light Gray Wool	
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Light Gray Wool.png: Inventory sprite for Light Gray Wool in Minecraft as shown in-game linking to Light Gray Wool with description: Light Gray Wool
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+
+Invicon Painting.png: Inventory sprite for Painting in Minecraft as shown in-game linking to Painting with description: Painting
+Infdev 20100227-1414
+
+Ingredients	[]Crafting recipe
+Iron Ingot +
+Stick +
+Feather	
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Feather.png: Inventory sprite for Feather in Minecraft as shown in-game linking to Feather with description: Feather
+
+Invicon Arrow.png: Inventory sprite for Arrow in Minecraft as shown in-game linking to Arrow with description: Arrow
+4
+Ingredients	[]Crafting recipe
+Flint +
+Stick +
+Feather	
+Invicon Flint.png: Inventory sprite for Flint in Minecraft as shown in-game linking to Flint with description: Flint
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Feather.png: Inventory sprite for Feather in Minecraft as shown in-game linking to Feather with description: Feather
+
+Invicon Arrow.png: Inventory sprite for Arrow in Minecraft as shown in-game linking to Arrow with description: Arrow
+4
+Alpha v1.0.14
+
+Ingredients	[]Crafting recipe
+Iron Ingot +
+Flint	
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Flint.png: Inventory sprite for Flint in Minecraft as shown in-game linking to Flint with description: Flint
+
+Invicon Flint and Steel.png: Inventory sprite for Flint and Steel in Minecraft as shown in-game linking to Flint and Steel with description: Flint and Steel
+Ingredients	[]Crafting recipe
+Iron Ingot +
+Flint	
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Flint.png: Inventory sprite for Flint in Minecraft as shown in-game linking to Flint with description: Flint
+
+Invicon Flint and Steel.png: Inventory sprite for Flint and Steel in Minecraft as shown in-game linking to Flint and Steel with description: Flint and Steel
+
+Recipe became shapeless.
+
+13w36a
+
+Ingredients	[]Crafting recipe
+Wheat	
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+
+Invicon Bread.png: Inventory sprite for Bread in Minecraft as shown in-game linking to Bread with description: Bread
+Ingredients	[]Crafting recipe
+Wheat	
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+Invicon Wheat.png: Inventory sprite for Wheat in Minecraft as shown in-game linking to Wheat with description: Wheat
+
+Invicon Bread.png: Inventory sprite for Bread in Minecraft as shown in-game linking to Bread with description: Bread
+Changed to 3 wheat instead of 6.
+
+Indev 20100223
+
+Ingredients	[]Crafting recipe
+Light Gray Wool	
+Invicon Light Gray Wool.png: Inventory sprite for Light Gray Wool in Minecraft as shown in-game linking to Light Gray Wool with description: Light Gray Wool
+Invicon Light Gray Wool.png: Inventory sprite for Light Gray Wool in Minecraft as shown in-game linking to Light Gray Wool with description: Light Gray Wool
+Invicon Light Gray Wool.png: Inventory sprite for Light Gray Wool in Minecraft as shown in-game linking to Light Gray Wool with description: Light Gray Wool
+Invicon Light Gray Wool.png: Inventory sprite for Light Gray Wool in Minecraft as shown in-game linking to Light Gray Wool with description: Light Gray Wool
+
+Invicon Leather Boots.png: Inventory sprite for Leather Boots in Minecraft as shown in-game linking to Leather Boots with description: Leather Boots When on Feet: +1 Armor
+Ingredients	[]Crafting recipe
+Leather	
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+
+Invicon Leather Boots.png: Inventory sprite for Leather Boots in Minecraft as shown in-game linking to Leather Boots with description: Leather Boots When on Feet: +1 Armor
+Note: Wool was called Cloth, and Leather Armor was called Cloth Armor at that time.
+
+Alpha v1.0.8
+
+Ingredients	[]Crafting recipe
+Cobblestone	
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+
+Invicon Smooth Stone Slab.png: Inventory sprite for Smooth Stone Slab in Minecraft as shown in-game linking to Smooth Stone Slab with description: Smooth Stone Slab
+3
+Ingredients	[]Crafting recipe
+Cobblestone	
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+
+Invicon Cobblestone Slab.png: Inventory sprite for Cobblestone Slab in Minecraft as shown in-game linking to Cobblestone Slab with description: Cobblestone Slab
+6
+Beta 1.3
+
+Ingredients	[]Crafting recipe
+Oak Planks or
+Stone	
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+
+Invicon Stone Pressure Plate.png: Inventory sprite for Stone Pressure Plate in Minecraft as shown in-game linking to Stone Pressure Plate with description: Stone Pressure Plate
+Ingredients	[]Crafting recipe
+Oak Planks or
+Stone	
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+
+Invicon Stone Pressure Plate.png: Inventory sprite for Stone Pressure Plate in Minecraft as shown in-game linking to Stone Pressure Plate with description: Stone Pressure Plate
+Beta 1.3
+
+Ingredients	[]Crafting recipe
+String	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+
+Invicon White Wool.png: Inventory sprite for White Wool in Minecraft as shown in-game linking to White Wool with description: White Wool
+Ingredients	[]Crafting recipe
+String	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+
+Invicon White Wool.png: Inventory sprite for White Wool in Minecraft as shown in-game linking to White Wool with description: White Wool
+Changed to 4 string instead of 9.
+
+Beta 1.6.6
+
+Ingredients	[]Crafting recipe
+Glowstone Dust	
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+
+Invicon Glowstone.png: Inventory sprite for Glowstone in Minecraft as shown in-game linking to Glowstone with description: Glowstone
+Ingredients	[]Crafting recipe
+Glowstone Dust	
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+Invicon Glowstone Dust.png: Inventory sprite for Glowstone Dust in Minecraft as shown in-game linking to Glowstone Dust with description: Glowstone Dust
+
+Invicon Glowstone.png: Inventory sprite for Glowstone in Minecraft as shown in-game linking to Glowstone with description: Glowstone
+Beta 1.6.6
+
+Ingredients	[]Crafting recipe
+Brown Mushroom or
+Red Mushroom +
+Bowl	
+Invicon Red Mushroom.png: Inventory sprite for Red Mushroom in Minecraft as shown in-game linking to Red Mushroom with description: Red Mushroom
+Invicon Brown Mushroom.png: Inventory sprite for Brown Mushroom in Minecraft as shown in-game linking to Brown Mushroom with description: Brown Mushroom
+Invicon Bowl.png: Inventory sprite for Bowl in Minecraft as shown in-game linking to Bowl with description: Bowl
+
+Invicon Mushroom Stew.png: Inventory sprite for Mushroom Stew in Minecraft as shown in-game linking to Mushroom Stew with description: Mushroom Stew
+Ingredients	[]Crafting recipe
+Brown Mushroom +
+Red Mushroom +
+Bowl	
+Invicon Brown Mushroom.png: Inventory sprite for Brown Mushroom in Minecraft as shown in-game linking to Brown Mushroom with description: Brown Mushroom
+Invicon Red Mushroom.png: Inventory sprite for Red Mushroom in Minecraft as shown in-game linking to Red Mushroom with description: Red Mushroom
+Invicon Bowl.png: Inventory sprite for Bowl in Minecraft as shown in-game linking to Bowl with description: Bowl
+
+Invicon Mushroom Stew.png: Inventory sprite for Mushroom Stew in Minecraft as shown in-game linking to Mushroom Stew with description: Mushroom Stew
+
+Recipe became shapeless.
+
+Beta 1.9 Prerelease 3
+
+Ingredients	[]Crafting recipe
+Block of Gold +
+Apple	
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Apple.png: Inventory sprite for Apple in Minecraft as shown in-game linking to Apple with description: Apple
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+
+Invicon Golden Apple.png: Inventory sprite for Golden Apple in Minecraft as shown in-game linking to Golden Apple with description: Golden Apple
+Ingredients	[]Crafting recipe
+Gold Nugget +
+Apple	
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Apple.png: Inventory sprite for Apple in Minecraft as shown in-game linking to Apple with description: Apple
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+
+Invicon Golden Apple.png: Inventory sprite for Golden Apple in Minecraft as shown in-game linking to Golden Apple with description: Golden Apple
+1.1
+
+Ingredients	[]Crafting recipe
+Gold Nugget +
+Apple	
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Apple.png: Inventory sprite for Apple in Minecraft as shown in-game linking to Apple with description: Apple
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+Invicon Gold Nugget.png: Inventory sprite for Gold Nugget in Minecraft as shown in-game linking to Gold Nugget with description: Gold Nugget
+
+Invicon Golden Apple.png: Inventory sprite for Golden Apple in Minecraft as shown in-game linking to Golden Apple with description: Golden Apple
+Ingredients	[]Crafting recipe
+Gold Ingot +
+Apple	
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+Invicon Apple.png: Inventory sprite for Apple in Minecraft as shown in-game linking to Apple with description: Apple
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+Invicon Gold Ingot.png: Inventory sprite for Gold Ingot in Minecraft as shown in-game linking to Gold Ingot with description: Gold Ingot
+
+Invicon Golden Apple.png: Inventory sprite for Golden Apple in Minecraft as shown in-game linking to Golden Apple with description: Golden Apple
+13w23a
+
+Ingredients	[]Crafting recipe
+Snowball	
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+
+Invicon Snow Block.png: Inventory sprite for Snow Block in Minecraft as shown in-game linking to Snow Block with description: Snow Block
+Ingredients	[]Crafting recipe
+Snowball	
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+Invicon Snowball.png: Inventory sprite for Snowball in Minecraft as shown in-game linking to Snowball with description: Snowball
+
+Invicon Snow Block.png: Inventory sprite for Snow Block in Minecraft as shown in-game linking to Snow Block with description: Snow Block
+Alpha v1.0.6
+
+Ingredients	[]Crafting recipe
+Paper	
+Invicon Paper.png: Inventory sprite for Paper in Minecraft as shown in-game linking to Paper with description: Paper
+Invicon Paper.png: Inventory sprite for Paper in Minecraft as shown in-game linking to Paper with description: Paper
+Invicon Paper.png: Inventory sprite for Paper in Minecraft as shown in-game linking to Paper with description: Paper
+
+Invicon Book.png: Inventory sprite for Book in Minecraft as shown in-game linking to Book with description: Book
+Ingredients	[]Crafting recipe
+Paper +
+Leather	
+Invicon Paper.png: Inventory sprite for Paper in Minecraft as shown in-game linking to Paper with description: Paper
+Invicon Paper.png: Inventory sprite for Paper in Minecraft as shown in-game linking to Paper with description: Paper
+Invicon Paper.png: Inventory sprite for Paper in Minecraft as shown in-game linking to Paper with description: Paper
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+
+Invicon Book.png: Inventory sprite for Book in Minecraft as shown in-game linking to Book with description: Book
+
+Recipe became shapeless.
+
+12w17a
+
+Ingredients	[]Crafting recipe
+Stick	
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+
+Invicon Oak Fence.png: Inventory sprite for Oak Fence in Minecraft as shown in-game linking to Oak Fence with description: Oak Fence
+2
+Ingredients	[]Crafting recipe
+Oak Planks +
+Stick	
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+
+Invicon Oak Fence.png: Inventory sprite for Oak Fence in Minecraft as shown in-game linking to Oak Fence with description: Oak Fence
+3
+14w32b
+
+Ingredients	[]Crafting recipe
+Stone	
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+
+Invicon Stone Button.png: Inventory sprite for Stone Button in Minecraft as shown in-game linking to Stone Button with description: Stone Button
+Ingredients	[]Crafting recipe
+Stone	
+Invicon Stone.png: Inventory sprite for Stone in Minecraft as shown in-game linking to Stone with description: Stone
+
+Invicon Stone Button.png: Inventory sprite for Stone Button in Minecraft as shown in-game linking to Stone Button with description: Stone Button
+12w34b
+
+Ingredients	[]Crafting recipe
+Oak Fence or
+Spruce Fence or
+Acacia Fence or
+Dark Oak Fence or
+Birch Fence or
+Jungle Fence +
+Birch Planks or
+Jungle Planks or
+Oak Planks or
+Spruce Planks or
+Acacia Planks +
+Dark Oak Planks	
+Invicon Dark Oak Fence.png: Inventory sprite for Dark Oak Fence in Minecraft as shown in-game linking to Dark Oak Fence with description: Dark Oak Fence
+Invicon Birch Fence.png: Inventory sprite for Birch Fence in Minecraft as shown in-game linking to Birch Fence with description: Birch Fence
+Invicon Oak Fence.png: Inventory sprite for Oak Fence in Minecraft as shown in-game linking to Oak Fence with description: Oak Fence
+Invicon Jungle Fence.png: Inventory sprite for Jungle Fence in Minecraft as shown in-game linking to Jungle Fence with description: Jungle Fence
+Invicon Spruce Planks.png: Inventory sprite for Spruce Planks in Minecraft as shown in-game linking to Spruce Planks with description: Spruce Planks
+Invicon Acacia Planks.png: Inventory sprite for Acacia Planks in Minecraft as shown in-game linking to Acacia Planks with description: Acacia Planks
+Invicon Dark Oak Planks.png: Inventory sprite for Dark Oak Planks in Minecraft as shown in-game linking to Dark Oak Planks with description: Dark Oak Planks
+
+Invicon Composter.png: Inventory sprite for Composter in Minecraft as shown in-game linking to Composter with description: Composter
+Ingredients	[]Crafting recipe
+Oak Slab or
+Spruce Slab or
+Acacia Slab or
+Dark Oak Slab or
+Birch Slab or
+Jungle Slab	
+Invicon Dark Oak Slab.png: Inventory sprite for Dark Oak Slab in Minecraft as shown in-game linking to Dark Oak Slab with description: Dark Oak Slab
+Invicon Birch Slab.png: Inventory sprite for Birch Slab in Minecraft as shown in-game linking to Birch Slab with description: Birch Slab
+Invicon Oak Slab.png: Inventory sprite for Oak Slab in Minecraft as shown in-game linking to Oak Slab with description: Oak Slab
+Invicon Jungle Slab.png: Inventory sprite for Jungle Slab in Minecraft as shown in-game linking to Jungle Slab with description: Jungle Slab
+Invicon Spruce Slab.png: Inventory sprite for Spruce Slab in Minecraft as shown in-game linking to Spruce Slab with description: Spruce Slab
+Invicon Acacia Slab.png: Inventory sprite for Acacia Slab in Minecraft as shown in-game linking to Acacia Slab with description: Acacia Slab
+Invicon Dark Oak Slab.png: Inventory sprite for Dark Oak Slab in Minecraft as shown in-game linking to Dark Oak Slab with description: Dark Oak Slab
+
+Invicon Composter.png: Inventory sprite for Composter in Minecraft as shown in-game linking to Composter with description: Composter
+19w45a
+
+Ingredients	[]Crafting recipe
+String +
+Stick	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+
+Invicon Brush.png: Inventory sprite for Brush in Minecraft as shown in-game linking to Brush with description: Brush
+Ingredients	[]Crafting recipe
+Feather +
+Copper Ingot +
+Stick	
+Invicon Feather.png: Inventory sprite for Feather in Minecraft as shown in-game linking to Feather with description: Feather
+Invicon Copper Ingot.png: Inventory sprite for Copper Ingot in Minecraft as shown in-game linking to Copper Ingot with description: Copper Ingot
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+
+Invicon Brush.png: Inventory sprite for Brush in Minecraft as shown in-game linking to Brush with description: Brush
+1.19.4-pre1
+
+Ingredients	[]Crafting recipe
+White Carpet +
+Matching Colored Dye	
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+Invicon Light Gray Dye.png: Inventory sprite for Light Gray Dye in Minecraft as shown in-game linking to Light Gray Dye with description: Light Gray Dye
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+Invicon White Carpet.png: Inventory sprite for White Carpet in Minecraft as shown in-game linking to White Carpet with description: White Carpet
+
+Invicon Light Gray Carpet.png: Inventory sprite for Light Gray Carpet in Minecraft as shown in-game linking to Light Gray Carpet with description: Light Gray Carpet
+8
+Ingredients	[]Crafting recipe
+Any Carpet +
+Matching Dye	
+Invicon Green Carpet.png: Inventory sprite for Green Carpet in Minecraft as shown in-game linking to Green Carpet with description: Green Carpet
+Invicon Pink Dye.png: Inventory sprite for Pink Dye in Minecraft as shown in-game linking to Pink Dye with description: Pink Dye
+
+Invicon Pink Carpet.png: Inventory sprite for Pink Carpet in Minecraft as shown in-game linking to Pink Carpet with description: Pink Carpet
+
+1.20-pre1
+
+Ingredients	[]Crafting recipe
+Bamboo	
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Ingredients	[]Crafting recipe
+Block of Bamboo or
+Block of Stripped Bamboo	
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+2
+22w45a
+
+Ingredients	[]Crafting recipe
+Chain +
+Bamboo Planks	
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+
+Invicon Bamboo Hanging Sign.png: Inventory sprite for Bamboo Hanging Sign in Minecraft as shown in-game linking to Bamboo Hanging Sign with description: Bamboo Hanging Sign
+2
+Ingredients	[]Crafting recipe
+Chain +
+Block of Stripped Bamboo	
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+
+Invicon Bamboo Hanging Sign.png: Inventory sprite for Bamboo Hanging Sign in Minecraft as shown in-game linking to Bamboo Hanging Sign with description: Bamboo Hanging Sign
+6
+22w45a
+
+Ingredients	[]Crafting recipe
+String +
+Rabbit Hide	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon Rabbit Hide.png: Inventory sprite for Rabbit Hide in Minecraft as shown in-game linking to Rabbit Hide with description: Rabbit Hide
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon Rabbit Hide.png: Inventory sprite for Rabbit Hide in Minecraft as shown in-game linking to Rabbit Hide with description: Rabbit Hide
+Invicon Rabbit Hide.png: Inventory sprite for Rabbit Hide in Minecraft as shown in-game linking to Rabbit Hide with description: Rabbit Hide
+Invicon Rabbit Hide.png: Inventory sprite for Rabbit Hide in Minecraft as shown in-game linking to Rabbit Hide with description: Rabbit Hide
+Invicon Rabbit Hide.png: Inventory sprite for Rabbit Hide in Minecraft as shown in-game linking to Rabbit Hide with description: Rabbit Hide
+Invicon Rabbit Hide.png: Inventory sprite for Rabbit Hide in Minecraft as shown in-game linking to Rabbit Hide with description: Rabbit Hide
+
+Invicon Bundle.png: Inventory sprite for Bundle in Minecraft as shown in-game linking to Bundle with description: Bundle
+Ingredients	[]Crafting recipe
+String +
+Leather	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+
+Invicon Bundle.png: Inventory sprite for Bundle in Minecraft as shown in-game linking to Bundle with description: Bundle
+24w33a
+
+Ingredients	[]Crafting recipe
+Chiseled Stone Bricks +
+Netherite Ingot	
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Netherite Ingot.png: Inventory sprite for Netherite Ingot in Minecraft as shown in-game linking to Netherite Ingot with description: Netherite Ingot
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+
+Invicon Lodestone.png: Inventory sprite for Lodestone in Minecraft as shown in-game linking to Lodestone with description: Lodestone
+Ingredients	[]Crafting recipe
+Chiseled Stone Bricks +
+Iron Ingot	
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+
+Invicon Lodestone.png: Inventory sprite for Lodestone in Minecraft as shown in-game linking to Lodestone with description: Lodestone
+25w02a
+
+Ingredients	[]Crafting recipe
+String +
+Slimeball	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon Slimeball.png: Inventory sprite for Slimeball in Minecraft as shown in-game linking to Slimeball with description: Slimeball
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+
+Invicon Lead.png: Inventory sprite for Lead in Minecraft as shown in-game linking to Lead with description: Lead
+Ingredients	[]Crafting recipe
+String	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+
+Invicon Lead.png: Inventory sprite for Lead in Minecraft as shown in-game linking to Lead with description: Lead
+25w18a
+
+Bedrock Edition
+Original	Changed	Description	Version changed
+Ingredients	[]Crafting recipe
+Honeycomb	
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+
+Invicon Honeycomb Block.png: Inventory sprite for Honeycomb Block in Minecraft as shown in-game linking to Honeycomb Block with description: Honeycomb Block
+Ingredients	[]Crafting recipe
+Honeycomb	
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+Invicon Honeycomb.png: Inventory sprite for Honeycomb in Minecraft as shown in-game linking to Honeycomb with description: Honeycomb
+
+Invicon Honeycomb Block.png: Inventory sprite for Honeycomb Block in Minecraft as shown in-game linking to Honeycomb Block with description: Honeycomb Block
+Was changed to match Java Edition.
+
+Beta 1.14.0.2
+
+Ingredients	[]Crafting recipe
+Bamboo	
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+Invicon Bamboo.png: Inventory sprite for Bamboo in Minecraft as shown in-game linking to Bamboo with description: Bamboo
+
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Ingredients	[]Crafting recipe
+Block of Bamboo or
+Block of Stripped Bamboo	
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+2
+Beta/Preview 1.19.60.20
+
+Ingredients	[]Crafting recipe
+Chain +
+Bamboo Planks	
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+
+Invicon Bamboo Hanging Sign.png: Inventory sprite for Bamboo Hanging Sign in Minecraft as shown in-game linking to Bamboo Hanging Sign with description: Bamboo Hanging Sign
+2
+Ingredients	[]Crafting recipe
+Chain +
+Block of Stripped Bamboo	
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Chain.png: Inventory sprite for Chain in Minecraft as shown in-game linking to Chain with description: Chain
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+Invicon Block of Stripped Bamboo.png: Inventory sprite for Block of Stripped Bamboo in Minecraft as shown in-game linking to Block of Stripped Bamboo with description: Block of Stripped Bamboo
+
+Invicon Bamboo Hanging Sign.png: Inventory sprite for Bamboo Hanging Sign in Minecraft as shown in-game linking to Bamboo Hanging Sign with description: Bamboo Hanging Sign
+6
+Beta/Preview 1.19.60.20
+
+Ingredients	[]Crafting recipe
+Oak Planks or
+Spruce Planks or
+Birch Planks or
+Jungle Planks or
+Acacia Planks or
+Dark Oak Planks or
+Mangrove Planks or
+Cherry Planks +
+Wooden Shovel	
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Wooden Shovel.png: Inventory sprite for Wooden Shovel in Minecraft as shown in-game linking to Wooden Shovel with description: Wooden Shovel When in Main Hand:  2.5 Attack Damage  1 Attack Speed
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+
+Invicon Cherry Boat.png: Inventory sprite for Cherry Boat in Minecraft as shown in-game linking to Cherry Boat with description: Cherry Boat
+Ingredients	[]Crafting recipe
+Oak Planks or
+Spruce Planks or
+Birch Planks or
+Jungle Planks or
+Acacia Planks or
+Dark Oak Planks or
+Mangrove Planks or
+Cherry Planks	
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+Invicon Cherry Planks.png: Inventory sprite for Cherry Planks in Minecraft as shown in-game linking to Cherry Planks with description: Cherry Planks
+
+Invicon Cherry Boat.png: Inventory sprite for Cherry Boat in Minecraft as shown in-game linking to Cherry Boat with description: Cherry Boat
+Was changed to match Java Edition.
+
+Beta/Preview 1.20.10.20
+
+Ingredients	[]Crafting recipe
+Stick +
+Oak Slab or
+Spruce Slab or
+Acacia Slab or
+Dark Oak Slab or
+Birch Slab or
+Jungle Slab	
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Dark Oak Slab.png: Inventory sprite for Dark Oak Slab in Minecraft as shown in-game linking to Dark Oak Slab with description: Dark Oak Slab
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+Invicon Oak Slab.png: Inventory sprite for Oak Slab in Minecraft as shown in-game linking to Oak Slab with description: Oak Slab
+Invicon Stick.png: Inventory sprite for Stick in Minecraft as shown in-game linking to Stick with description: Stick
+
+Invicon Barrel.png: Inventory sprite for Barrel in Minecraft as shown in-game linking to Barrel with description: Barrel
+Ingredients	[]Crafting recipe
+Oak Planks or
+Spruce Planks or
+Acacia Planks or
+Dark Oak Planks or
+Birch Planks +
+Oak Slab or
+Spruce Slab or
+Acacia Slab or
+Dark Oak Slab or
+Birch Slab or
+Jungle Slab	
+Invicon Dark Oak Planks.png: Inventory sprite for Dark Oak Planks in Minecraft as shown in-game linking to Dark Oak Planks with description: Dark Oak Planks
+Invicon Dark Oak Slab.png: Inventory sprite for Dark Oak Slab in Minecraft as shown in-game linking to Dark Oak Slab with description: Dark Oak Slab
+Invicon Oak Planks.png: Inventory sprite for Oak Planks in Minecraft as shown in-game linking to Oak Planks with description: Oak Planks
+Invicon Birch Planks.png: Inventory sprite for Birch Planks in Minecraft as shown in-game linking to Birch Planks with description: Birch Planks
+Invicon Spruce Planks.png: Inventory sprite for Spruce Planks in Minecraft as shown in-game linking to Spruce Planks with description: Spruce Planks
+Invicon Birch Planks.png: Inventory sprite for Birch Planks in Minecraft as shown in-game linking to Birch Planks with description: Birch Planks
+Invicon Oak Slab.png: Inventory sprite for Oak Slab in Minecraft as shown in-game linking to Oak Slab with description: Oak Slab
+Invicon Acacia Planks.png: Inventory sprite for Acacia Planks in Minecraft as shown in-game linking to Acacia Planks with description: Acacia Planks
+
+Invicon Barrel.png: Inventory sprite for Barrel in Minecraft as shown in-game linking to Barrel with description: Barrel
+Was changed to match Java Edition.
+
+Beta/Preview 1.20.10.20
+
+Ingredients	[]Crafting recipe
+Bamboo Planks +
+Wooden Shovel	
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Wooden Shovel.png: Inventory sprite for Wooden Shovel in Minecraft as shown in-game linking to Wooden Shovel with description: Wooden Shovel When in Main Hand:  2.5 Attack Damage  1 Attack Speed
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+
+Invicon Bamboo Raft.png: Inventory sprite for Bamboo Raft in Minecraft as shown in-game linking to Bamboo Raft with description: Bamboo Raft
+Ingredients	[]Crafting recipe
+Bamboo Planks	
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+Invicon Bamboo Planks.png: Inventory sprite for Bamboo Planks in Minecraft as shown in-game linking to Bamboo Planks with description: Bamboo Planks
+
+Invicon Bamboo Raft.png: Inventory sprite for Bamboo Raft in Minecraft as shown in-game linking to Bamboo Raft with description: Bamboo Raft
+Was changed to match Java Edition.
+
+Beta/Preview 1.20.10.21
+
+Ingredients	[]Crafting recipe
+Chiseled Stone Bricks +
+Netherite Ingot	
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Netherite Ingot.png: Inventory sprite for Netherite Ingot in Minecraft as shown in-game linking to Netherite Ingot with description: Netherite Ingot
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+
+Invicon Lodestone.png: Inventory sprite for Lodestone in Minecraft as shown in-game linking to Lodestone with description: Lodestone
+Ingredients	[]Crafting recipe
+Chiseled Stone Bricks +
+Iron Ingot	
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+Invicon Chiseled Stone Bricks.png: Inventory sprite for Chiseled Stone Bricks in Minecraft as shown in-game linking to Chiseled Stone Bricks with description: Chiseled Stone Bricks
+
+Invicon Lodestone.png: Inventory sprite for Lodestone in Minecraft as shown in-game linking to Lodestone with description: Lodestone
+Beta/Preview 1.21.60.25
+
+Ingredients	[]Crafting recipe
+String +
+Slimeball	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon Slimeball.png: Inventory sprite for Slimeball in Minecraft as shown in-game linking to Slimeball with description: Slimeball
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+
+Invicon Lead.png: Inventory sprite for Lead in Minecraft as shown in-game linking to Lead with description: Lead
+Ingredients	[]Crafting recipe
+String	
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+
+Invicon Lead.png: Inventory sprite for Lead in Minecraft as shown in-game linking to Lead with description: Lead
+Beta/Preview 1.21.90.21
+
+Removed recipes
+See also: Bedrock Edition removed recipes
+Some items could be crafted previously, but cannot be crafted in the current version of Minecraft.
+
+Name	Ingredients	Crafting recipe	[]Description
+Chainmail Helmet or
+Chainmail Chestplate or
+Chainmail Leggings or
+Chainmail Boots	Fire	
+Invicon Fire.png: Inventory sprite for Fire in Minecraft as shown in-game linking to Fire with description: Fire
+Invicon Fire.png: Inventory sprite for Fire in Minecraft as shown in-game linking to Fire with description: Fire
+Invicon Fire.png: Inventory sprite for Fire in Minecraft as shown in-game linking to Fire with description: Fire
+Invicon Fire.png: Inventory sprite for Fire in Minecraft as shown in-game linking to Fire with description: Fire
+
+Invicon Chainmail Boots.png: Inventory sprite for Chainmail Boots in Minecraft as shown in-game linking to Chainmail Boots with description: Chainmail Boots When on Feet: +1 Armor
+Version added:
+JE: Indev 20100212-1210
+Version removed:
+JE: 14w25a
+Arrow	Apple	
+Invicon Apple.png: Inventory sprite for Apple in Minecraft as shown in-game linking to Apple with description: Apple
+
+Invicon Arrow.png: Inventory sprite for Arrow in Minecraft as shown in-game linking to Arrow with description: Arrow
+Version added:
+JE: 20100128-2304
+Version removed:
+JE: 20100129-1447
+Enchanted Golden Apple	Block of Gold +
+Apple	
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Apple.png: Inventory sprite for Apple in Minecraft as shown in-game linking to Apple with description: Apple
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+Invicon Block of Gold.png: Inventory sprite for Block of Gold in Minecraft as shown in-game linking to Block of Gold with description: Block of Gold
+
+Invicon Enchanted Golden Apple.png: Inventory sprite for Enchanted Golden Apple in Minecraft as shown in-game linking to Enchanted Golden Apple with description:
+Version added:
+JE: 12w21a
+BE: 0.12.1 alpha build 4
+Version removed:
+JE: 15w44a
+BE: 1.2.13
+Iron Horse Armor or
+Golden Horse Armor or
+Diamond Horse Armor	Iron Ingot or
+Gold Ingot or
+Diamond +
+Any Wool	
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Green Wool.png: Inventory sprite for Green Wool in Minecraft as shown in-game linking to Green Wool with description: Green Wool
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+
+Invicon Iron Horse Armor.png: Inventory sprite for Iron Horse Armor in Minecraft as shown in-game linking to Iron Horse Armor with description: Iron Horse Armor When equipped: +5 Armor
+Version added:
+JE: 13w16a
+Version removed:
+JE: 13w18a
+Horse Saddle	Leather +
+Iron Ingot	
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Leather.png: Inventory sprite for Leather in Minecraft as shown in-game linking to Leather with description: Leather
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+
+Invicon Horse Saddle.png: Inventory sprite for Horse Saddle in Minecraft as shown in-game linking to Horse Saddle with description: Horse Saddle
+Version added:
+JE: 13w16a
+Version removed:
+JE: 13w18a
+Description: The horse saddle itself is removed from game.
+Netherite Axe or
+Netherite Hoe or
+Netherite Pickaxe or
+Netherite Shovel or
+Netherite Sword or
+Netherite Helmet or
+Netherite Chestplate or
+Netherite Leggings or
+Netherite Boots	Diamond Axe or
+Diamond Hoe or
+Diamond Pickaxe or
+Diamond Shovel or
+Diamond Sword or
+Diamond Helmet or
+Diamond Chestplate or
+Diamond Leggings or
+Diamond Boots +
+Netherite Ingot	
+Invicon Diamond Chestplate.png: Inventory sprite for Diamond Chestplate in Minecraft as shown in-game linking to Diamond Chestplate with description: Diamond Chestplate When on Chest: +8 Armor +2 Armor Toughness
+Invicon Netherite Ingot.png: Inventory sprite for Netherite Ingot in Minecraft as shown in-game linking to Netherite Ingot with description: Netherite Ingot
+
+Invicon Netherite Chestplate.png: Inventory sprite for Netherite Chestplate in Minecraft as shown in-game linking to Netherite Chestplate with description: Netherite Chestplate When on Chest: +8 Armor +3 Armor Toughness +1 Knockback Resistance
+
+Version added:
+JE: 20w06a
+BE: beta 1.16.0.51
+Version removed:
+JE: 20w10a
+BE: beta 1.16.0.57
+Nether Reactor Core	Iron Ingot +
+Diamond	
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Diamond.png: Inventory sprite for Diamond in Minecraft as shown in-game linking to Diamond with description: Diamond
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Diamond.png: Inventory sprite for Diamond in Minecraft as shown in-game linking to Diamond with description: Diamond
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+Invicon Diamond.png: Inventory sprite for Diamond in Minecraft as shown in-game linking to Diamond with description: Diamond
+Invicon Iron Ingot.png: Inventory sprite for Iron Ingot in Minecraft as shown in-game linking to Iron Ingot with description: Iron Ingot
+
+Invicon Nether Reactor Core.png: Inventory sprite for Nether Reactor Core in Minecraft as shown in-game linking to Nether Reactor Core with description: Nether Reactor Core
+Version added:
+BE: 0.5.0 alpha
+Version removed:
+BE: 0.12.1 alpha build 1
+Description: The nether reactor is no longer craftable but can still exist in the latest version.
+Copper Horn	Copper Ingot +
+Goat Horn	
+Invicon Copper Ingot.png: Inventory sprite for Copper Ingot in Minecraft as shown in-game linking to Copper Ingot with description: Copper Ingot
+Invicon Goat Horn.png: Inventory sprite for Goat Horn in Minecraft as shown in-game linking to Goat Horn with description:
+Invicon Copper Ingot.png: Inventory sprite for Copper Ingot in Minecraft as shown in-game linking to Copper Ingot with description: Copper Ingot
+Invicon Copper Ingot.png: Inventory sprite for Copper Ingot in Minecraft as shown in-game linking to Copper Ingot with description: Copper Ingot
+
+Invicon Copper Horn.png: Inventory sprite for Copper Horn in Minecraft as shown in-game linking to Copper Horn with description: Copper Horn
+Version added:
+BE: Bedrock Edition beta 1.18.30.26
+Version removed:
+BE: Bedrock Edition beta 1.19.0.24
+Cocoa Beans	Ink Sac +
+Rose Red or
+Orange Dye +
+Dandelion Yellow	
+Invicon Ink Sac.png: Inventory sprite for Ink Sac in Minecraft as shown in-game linking to Ink Sac with description: Ink Sac
+Invicon Orange Dye.png: Inventory sprite for Orange Dye in Minecraft as shown in-game linking to Orange Dye with description: Orange Dye
+
+Invicon Cocoa Beans.png: Inventory sprite for Cocoa Beans in Minecraft as shown in-game linking to Cocoa Beans with description: Cocoa Beans
+Version added:
+BE: 0.8.0 alpha build 2
+Version removed:
+BE: 0.16.0 alpha build 1
+"Dandelion Yellow" and "Rose Red" are the former names for Yellow dye and Red dye, respectively.
+
+Stonecutter	Cobblestone	
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+Invicon Cobblestone.png: Inventory sprite for Cobblestone in Minecraft as shown in-game linking to Cobblestone with description: Cobblestone
+
+Invicon Stonecutter BE.png: Inventory sprite for Stonecutter in Minecraft as shown in-game linking to Stonecutter with description: Stonecutter
+Version added:
+BE: 0.6.0 alpha
+Version removed:
+BE: 0.13.0 alpha build 1
+Smooth Stone Slab	Any Stone	
+Invicon Polished Diorite.png: Inventory sprite for Polished Diorite in Minecraft as shown in-game linking to Polished Diorite with description: Polished Diorite
+Invicon Polished Diorite.png: Inventory sprite for Polished Diorite in Minecraft as shown in-game linking to Polished Diorite with description: Polished Diorite
+Invicon Diorite.png: Inventory sprite for Diorite in Minecraft as shown in-game linking to Diorite with description: Diorite
+
+Invicon Smooth Stone Slab.png: Inventory sprite for Smooth Stone Slab in Minecraft as shown in-game linking to Smooth Stone Slab with description: Smooth Stone Slab
+Version added:
+BE: ?
+Version removed:
+BE: ?
+Stone Bricks	Any Stone	
+Invicon Polished Andesite.png: Inventory sprite for Polished Andesite in Minecraft as shown in-game linking to Polished Andesite with description: Polished Andesite
+Invicon Granite.png: Inventory sprite for Granite in Minecraft as shown in-game linking to Granite with description: Granite
+Invicon Polished Diorite.png: Inventory sprite for Polished Diorite in Minecraft as shown in-game linking to Polished Diorite with description: Polished Diorite
+Invicon Polished Andesite.png: Inventory sprite for Polished Andesite in Minecraft as shown in-game linking to Polished Andesite with description: Polished Andesite
+
+Invicon Stone Bricks.png: Inventory sprite for Stone Bricks in Minecraft as shown in-game linking to Stone Bricks with description: Stone Bricks
+Version added:
+BE: ?
+Version removed:
+BE: 1.9
+Description: In older versions, stone bricks could be crafted using cobblestone, andesite, granite, diorite, and their polished variants. However, in 1.9, stone bricks were changed to be crafted with stone only.
+Redstone Repeater	Redstone Torch +
+Redstone Dust +
+Any Stone	
+Invicon Redstone Torch.png: Inventory sprite for Redstone Torch in Minecraft as shown in-game linking to Redstone Torch with description: Redstone Torch
+Invicon Redstone Dust.png: Inventory sprite for Redstone Dust in Minecraft as shown in-game linking to Redstone Dust with description: Redstone Dust
+Invicon Redstone Torch.png: Inventory sprite for Redstone Torch in Minecraft as shown in-game linking to Redstone Torch with description: Redstone Torch
+Invicon Polished Granite.png: Inventory sprite for Polished Granite in Minecraft as shown in-game linking to Polished Granite with description: Polished Granite
+Invicon Granite.png: Inventory sprite for Granite in Minecraft as shown in-game linking to Granite with description: Granite
+Invicon Polished Granite.png: Inventory sprite for Polished Granite in Minecraft as shown in-game linking to Polished Granite with description: Polished Granite
+
+Invicon Redstone Repeater.png: Inventory sprite for Redstone Repeater in Minecraft as shown in-game linking to Redstone Repeater with description: Redstone Repeater
+Version added:
+BE: ?
+Version removed:
+BE: ?
+Description: In older versions, redstone repeaters could be crafted using cobblestone, andesite, granite, diorite, and their polished variants. However, the recipes then changed to use only stone.
+Redstone Comparator	Redstone Torch +
+Nether Quartz +
+Any Stone	
+Invicon Redstone Torch.png: Inventory sprite for Redstone Torch in Minecraft as shown in-game linking to Redstone Torch with description: Redstone Torch
+Invicon Redstone Torch.png: Inventory sprite for Redstone Torch in Minecraft as shown in-game linking to Redstone Torch with description: Redstone Torch
+Invicon Nether Quartz.png: Inventory sprite for Nether Quartz in Minecraft as shown in-game linking to Nether Quartz with description: Nether Quartz
+Invicon Redstone Torch.png: Inventory sprite for Redstone Torch in Minecraft as shown in-game linking to Redstone Torch with description: Redstone Torch
+Invicon Polished Granite.png: Inventory sprite for Polished Granite in Minecraft as shown in-game linking to Polished Granite with description: Polished Granite
+Invicon Polished Granite.png: Inventory sprite for Polished Granite in Minecraft as shown in-game linking to Polished Granite with description: Polished Granite
+Invicon Polished Andesite.png: Inventory sprite for Polished Andesite in Minecraft as shown in-game linking to Polished Andesite with description: Polished Andesite
+
+Invicon Redstone Comparator.png: Inventory sprite for Redstone Comparator in Minecraft as shown in-game linking to Redstone Comparator with description: Redstone Comparator
+Version added:
+BE: ?
+Version removed:
+BE: ?
+Description: In older versions, redstone comparators could be crafted using stone, andesite, granite, diorite, and their polished variants. However, the recipes then changed to use only stone.
+String	Cobweb	
+Invicon Cobweb.png: Inventory sprite for Cobweb in Minecraft as shown in-game linking to Cobweb with description: Cobweb
+
+Invicon String.png: Inventory sprite for String in Minecraft as shown in-game linking to String with description: String
+9
+Version added:
+BE: alpha 1.1.0.0
+Version Removed:
+BE: beta 1.20.10.20
+Video
+
+Achievements
+[]
+Icon	Achievement	In-game description	Actual requirements (if different)	Gamerscore earned	Trophy type (PS)
+PS4	Other
+		Hot Topic	Construct a furnace out of eight cobblestone blocks.	Pick up a furnace from a crafting table output.	15	Bronze
+		Time to Farm!	Make a Hoe.	Pick up any type of hoe from a crafting table output.	10	Bronze
+		Time to Mine!	Use planks and sticks to make a pickaxe.	Pick up a wooden pickaxe from a crafting table output.	10	Bronze
+		Time to Strike!	Use planks and sticks to make a sword.	Pick up any type of sword from a crafting table output.	10	Bronze
+History
+[]Java Edition Indev
+0.31	20100128-2200	Crafting is implemented, but unobtainable in this version.
+0.31	20100128-2304	Crafting is accessed by pressing B.
+The only recipe was turning an apple into an arrow.
+20100129-1447	Removed apple to arrow recipe and replaced it with new recipes.
+Early recipes include sticks, pickaxes, torches, swords, axes, and diamond, gold and iron blocks.
+20100130	Indev was updated again with many other recipes. As new blocks and items were implemented into the game, new crafting recipes were made accordingly.
+[]Java Edition Beta
+1.2	Added shapeless recipes.
+1.6	Test Build 3	While crafting, ⇧ Shift + clicking the crafting output makes the maximum amount possible of that item and moves it straight to the inventory.
+1.6.5	⇧ Shift + clicking the crafting output performs a single crafting action, instead of the maximum possible amount.
+1.8	Pre-release 2 ;)	⇧ Shift + clicking now crafts the maximum amount possible again, reverting to the Beta 1.6 behavior.
+[]Java Edition
+1.8	14w30a	Added fixed recipes.
+1.12	17w13a	The crafting GUI now includes a recipe tab, allowing players to know how to craft previously-crafted items, automatically fill in the recipe and filter out the recipes to what they can make from their inventory. This can be used in a crafting table and without, but the inventory crafting shows only 2×2 crafted items.
+Recipes can be unlocked using a knowledge book without having to craft the item.
+Added the game rule doLimitedCrafting.
+1.13	17w48a	Custom recipes are now loaded from data packs in data/(namespace)/recipes/(name).json.
+Turning off the vanilla data pack also removes all recipes.
+17w49a	Recipes can now refer to a tag instead of an item.
+1.15	19w34a	While in a crafting table, ⇧ Shift+clicking an item or a stack in the inventory now transfers it directly to the 3×3 crafting grid.
+1.20.3
+Experiment
+Update 1.21	23w42a	Added the crafter, making automated crafting possible.
+[]Pocket Edition Alpha
+April 17, 2012	Daniel Kaplan released preview images of the Minecraft Advanced Touch Technology Interface System (MATTIS) crafting system in creative mode.
+v0.3.0	The MATTIS crafting system was implemented.
+v0.6.0	Added the stonecutter. This was used to make stone-related blocks.
+v0.9.0	build 1	Updated MATTIS crafting system and improved the layout of the crafting screen by organizing blocks and items into categories.
+The new MATTIS crafting screen shows only craftable recipes.
+In the new MATTIS, Crafting descriptions are no longer displayed.
+v0.13.0	build 1	Removed the crafting functionality of stonecutter. All recipes requiring it are available through the crafting table and inventory.
+v0.14.0	build 1	Added the ability to access the crafting system in creative mode.
+[]Pocket Edition
+1.0.0	alpha 0.17.0.1	Added classic crafting system to mobile devices, available in advanced video settings.
+[]Bedrock Edition
+1.2.0	beta 1.2.0.2	Replaced the MATTIS crafting system with the classic crafting system + recipe book.
+The creative inventory now features a 3×3 crafting grid. The output slot is only visible in the Pocket UI profile.
+beta 1.2.0.18	3×3 recipes are now displayed on the creative inventory.
+beta 1.2.0.22	The crafting grid in the creative inventory has been changed from 3×3 to 2×2, matching the survival inventory.
+1.19.40	Preview 1.19.40.22	Recipes can now refer to a tag instead of an item.
+1.20.50
+Experiment
+Update 1.21	Preview 1.20.50.21	Added the crafter, making automated crafting possible.
+[]Legacy Console Edition
+Xbox 360	Xbox One	PS3	PS4	PS Vita	Wii U	Switch	
+TU0	CU1	1.00	1.00	1.00	Patch 1	1.0.1	A simplified crafting system for the Xbox 360 was implemented with the first version release.
+TU1	Updated crafting icons.
+TU25	CU14	1.17	1.17	1.17	Added classic crafting system.
+TU43	CU33	1.36	1.36	1.36	Patch 13	Added banner crafting system.
+Replaced the "Show Description", "Show Ingredients" and "Show Inventory" tooltips in the crafting menu with "Info".
+TU46	CU36	1.38	1.38	1.38	Patch 15	Updated fireworks crafting system.
+TU54	CU44	1.52	1.52	1.52	Patch 24	1.0.4	Updated dye crafting system.
+1.91				Added the "Show Craftable Recipes" toggle.
+[]New Nintendo 3DS Edition
+0.1.0	Added crafting system with a block selection menu, identical to that of Legacy Console.
