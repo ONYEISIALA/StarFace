@@ -1,0 +1,356 @@
+
+.friends-menu {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: 'Minecraft', monospace;
+  overflow: hidden;
+}
+
+.friends-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #2c5530 0%, #4a7c59 25%, #6b8e5a 50%, #4a7c59 75%, #2c5530 100%);
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.friends-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(44, 24, 16, 0.8);
+  border-bottom: 3px solid #5D4E37;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background: linear-gradient(145deg, #8B7355, #6B5B47);
+  color: white;
+  border: 2px solid #5D4E37;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  background: linear-gradient(145deg, #A0896B, #8B7355);
+  transform: translateY(-1px);
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #5D4E37;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.friends-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #FFD700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.friends-container {
+  height: calc(100vh - 80px);
+  padding: 20px;
+}
+
+.search-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 15px;
+  background: rgba(44, 24, 16, 0.8);
+  border: 2px solid #5D4E37;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #AAA;
+}
+
+.add-friend-btn {
+  padding: 12px 20px;
+  background: linear-gradient(145deg, #4CAF50, #45A049);
+  color: white;
+  border: 2px solid #3E8E41;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.add-friend-btn:hover {
+  background: linear-gradient(145deg, #5CBF60, #4CAF50);
+  transform: translateY(-1px);
+}
+
+.friends-content {
+  display: flex;
+  gap: 20px;
+  height: calc(100% - 80px);
+}
+
+.friends-list {
+  flex: 1;
+  background: rgba(44, 24, 16, 0.8);
+  border: 3px solid #5D4E37;
+  border-radius: 12px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.no-friends {
+  text-align: center;
+  padding: 40px;
+  color: #AAA;
+  font-size: 16px;
+}
+
+.friend-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: rgba(93, 78, 55, 0.3);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.friend-item:hover {
+  background: rgba(93, 78, 55, 0.5);
+  border-color: #5D4E37;
+}
+
+.friend-item.selected {
+  background: rgba(255, 215, 0, 0.2);
+  border-color: #FFD700;
+}
+
+.friend-avatar {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(145deg, #5D4E37, #4A3B2A);
+  border: 2px solid #3C2820;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.friend-info {
+  flex: 1;
+}
+
+.friend-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFD700;
+  margin-bottom: 5px;
+}
+
+.friend-status {
+  font-size: 14px;
+  color: #CCC;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.friend-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  padding: 8px 12px;
+  background: linear-gradient(145deg, #5D4E37, #4A3B2A);
+  color: white;
+  border: 2px solid #3C2820;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+  background: linear-gradient(145deg, #6D5E47, #5D4E37);
+}
+
+.action-btn.invite {
+  background: linear-gradient(145deg, #4CAF50, #45A049);
+  border-color: #3E8E41;
+}
+
+.action-btn.invite:hover {
+  background: linear-gradient(145deg, #5CBF60, #4CAF50);
+}
+
+.friend-details {
+  width: 300px;
+  background: rgba(44, 24, 16, 0.8);
+  border: 3px solid #5D4E37;
+  border-radius: 12px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #5D4E37;
+}
+
+.detail-avatar {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(145deg, #5D4E37, #4A3B2A);
+  border: 2px solid #3C2820;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.detail-info h3 {
+  margin: 0;
+  color: #FFD700;
+  font-size: 18px;
+}
+
+.detail-status {
+  margin: 5px 0 0 0;
+  color: #CCC;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.detail-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-btn {
+  padding: 12px 15px;
+  background: linear-gradient(145deg, #5D4E37, #4A3B2A);
+  color: white;
+  border: 2px solid #3C2820;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.detail-btn:hover {
+  background: linear-gradient(145deg, #6D5E47, #5D4E37);
+}
+
+.detail-btn.primary {
+  background: linear-gradient(145deg, #4CAF50, #45A049);
+  border-color: #3E8E41;
+}
+
+.detail-btn.primary:hover {
+  background: linear-gradient(145deg, #5CBF60, #4CAF50);
+}
+
+.detail-btn.danger {
+  background: linear-gradient(145deg, #F44336, #D32F2F);
+  border-color: #C62828;
+}
+
+.detail-btn.danger:hover {
+  background: linear-gradient(145deg, #F66356, #F44336);
+}
+
+.detail-stats {
+  border-top: 2px solid #5D4E37;
+  padding-top: 20px;
+}
+
+.detail-stats h4 {
+  margin: 0 0 15px 0;
+  color: #FFD700;
+  font-size: 16px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 8px;
+  background: rgba(93, 78, 55, 0.3);
+  border-radius: 6px;
+}
+
+.stat-item span:first-child {
+  color: #CCC;
+}
+
+.stat-item span:last-child {
+  color: #FFD700;
+  font-weight: bold;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .friends-content {
+    flex-direction: column;
+  }
+  
+  .friend-details {
+    width: 100%;
+  }
+  
+  .search-section {
+    flex-direction: column;
+  }
+  
+  .friend-item {
+    flex-wrap: wrap;
+  }
+  
+  .friend-actions {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+}
